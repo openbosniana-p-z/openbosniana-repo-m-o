@@ -6,7 +6,7 @@ Label: OpenBosniana-M-O Repository
 Suite: 2024
 Codename: OpenBosniana-M-O-backports
 Version: 2024
-Date: Sun, 09 Jun 2024 19:05:15 UTC
+Date: Sun, 09 Jun 2024 19:41:20 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  0ffde429d2d8d9c39c2c4e8a1158d5221d5d19943b976b4c13b0bb039be5d678 203 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZl/OsACgkQ5Vfn9vbt
-T6oDfw//Um142CZ2S+s1C4bfCHVaiCTIE0/u8SSEGTWithD0o6sPHQOuq/kEUMzd
-lJvFcKJd0nnzSUUnZcA2ia8N68nojbeWlCS3vm3fEr2T8YV7bYantZbAiTzmzfxH
-Ekm2SvWsV1afWSEpC0Y+hurMVf1plePj3Wueqt3FQ5ydLYQWYZw2yHr5YryNK9rH
-EHJO9Sn+pslaEY2Nh5AsIZl4gwj3wa0vrkvULxKdheAoRvDUZPwJIQ5GLtP3Fft1
-CaZv6hXXbxSVu+94bIfl780X9T49VNW3seW2+Wr1Xq3Z5MjCpOox9w+qnQXBaCSO
-1ialNwpdxNin3NWQ22bV/ekRdb8E3biwyixu3cWXxwmy9Bb/B97xIl1l6dEU8hgY
-PS4VZ6zGZOgIWHZDH7Fqwa5XxvL3CvAa75qteN+nihlN5jOrg5W0b8i1OCE5nKsK
-n1Av8/DUWPjR4auNe1DxbBivhkU8B1RkTHgb70ahoCRhOo8DM9qSUAHYSdoY1mkh
-baU+WUd3bXOu3oRPvlOt2uIdxHVj2qabiwYyefAxATwVCrRp0RqW7xIZAUtRK5tU
-vGJjzQozCN/rSRdqWK4JAJX4gcPlE2CxPbBoryA1urzMS7puviiEhL1dnvWsES/O
-rpgWg1R8oiA8IYt6I1SEJXz7St6kN4IIxJl+XNo3uurLPuVN8EM=
-=1OGm
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmBWAACgkQ5Vfn9vbt
+T6p4RQ/9ESidbsCQuWsP7RjtLUg/OX+exE2SJc7VS9liCMcnqZHllTOkZKSWnrEt
+roVNruG0B0xAJHY+KzWgeukvgCbfZX92QVhG0z6mg7f/5AMYhwLNj/HD3Fqa+D5r
++b/eUJZJsNlrhj6b40I+3ozvhg5T8ed6sJPNS8WoTx2C4J3yFWBliGgqHhXysyV0
+m9bNO9lRuovfYr+FR3NqsHLbazFY0W7s7/Kddj6K+W9mvfX0013QC9r4GWY+o0vB
+17YxhCuYGEQTSmeFhJ40PNBPfeBopsjWdMHE17U1efYhidZY6E5BKJ/Npr0pjWMQ
+wCbYHZmCyd8OAkAe6u3qGkf4Ylr+zp93Ht1oe397OtWac+k2/o25xgkWmOAui7Aw
+vF7deZxpWDv7EJURkrb0KwEESbxYph0kP6tJowIhIb2g0l7cjObWJIoT98u0SmZF
+ijrl9pwnGk5H85j0k/h0Gfv3EMBDVWqOvpKFye5XgN89a20ajKEjbqQqOfD42Fj3
+e70QR8JrsVfVytsjWgunUICiZh5wCyMfgB5V1WxOQ2n3XStDrZeWGxN/BImnAA11
+Lop9vvZKHlNQXlbvCGRIvluqWrM0YmCG8KFpFSu/qjEsxKxmDxrBrMXjuONvs6Cj
+c9+eLjw4NdY0BfuZtvDdZEwJHRk3q+L1hPId6ra69J3dqU2/6AY=
+=ndNM
 -----END PGP SIGNATURE-----

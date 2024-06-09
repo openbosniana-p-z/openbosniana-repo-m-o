@@ -1,3 +1,51 @@
+Package: aspell-no
+Source: norwegian
+Version: 2.2-4
+Architecture: all
+Maintainer: Tollef Fog Heen <tfheen@debian.org>
+Installed-Size: 46971
+Depends: debconf (>= 0.5) | debconf-2.0, aspell (>= 0.60.7~20110707-1.3)
+Provides: aspell6a-dictionary
+Homepage: http://alioth.debian.org/projects/spell-norwegian/
+Priority: optional
+Section: text
+Filename: pool/main/n/norwegian/aspell-no_2.2-4_all.deb
+Size: 15623216
+SHA256: 3b3d0365e1962aabfa137768a7e8ea16a24d87cc49ffb188998055c4e5c6f87f
+SHA1: 15441bbdbd3054d2ee3659d144627c4e42724f9d
+MD5sum: 01b95ef92bb181a56735e588d81611f0
+Description: Norwegian dictionary for aspell
+ This package provides the Norwegian dictionaries to be used with
+ aspell to check and correct spelling in Norwegian texts.
+
+Package: libjs-mathjax
+Source: mathjax
+Version: 2.7.9+dfsg-1
+Architecture: all
+Maintainer: Dmitry Shachnev <mitya57@debian.org>
+Installed-Size: 41463
+Depends: fonts-mathjax (>= 2.6.0~)
+Suggests: fonts-mathjax-extras, fonts-stix, libjs-mathjax-doc
+Multi-Arch: foreign
+Homepage: https://www.mathjax.org
+Priority: optional
+Section: javascript
+Filename: pool/main/m/mathjax/libjs-mathjax_2.7.9+dfsg-1_all.deb
+Size: 5666572
+SHA256: bc709a68e532f82460fc31f6678cc8f95bbb7c357e2ac938808eeb5c9c156988
+SHA1: 94709b37ef5b3ac7db3da850cba36a49b7d61ad9
+MD5sum: 915234850f781dd01df15b222ef4bbdd
+Description: JavaScript display engine for LaTeX and MathML
+ MathJax was designed with the goal of consolidating the recent advances in web
+ technologies into a single, definitive, math-on-the-web platform supporting
+ the major browsers and operating systems.
+ .
+ It requires no setup on the part of the user (no plugins to download or
+ software to install), so the page author can write web documents that include
+ mathematics and be confident that users will be able to view it naturally and
+ easily. Simply include MathJax and some mathematics in a web page, and MathJax
+ will do the rest.
+
 Package: libmagics++-data
 Source: magics++
 Version: 4.13.0-1
@@ -19,6 +67,112 @@ Description: Data files needed for magics++ library
  as backwards-compatible as possible with the Fortran interface.
  .
  This package contains data expected by the magics++ library.
+
+Package: libmapsforge-java-doc
+Source: mapsforge
+Version: 0.17.0+dfsg.1-2
+Architecture: all
+Maintainer: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Installed-Size: 23157
+Homepage: https://wiki.openstreetmap.org/wiki/Mapsforge
+Priority: optional
+Section: doc
+Filename: pool/main/m/mapsforge/libmapsforge-java-doc_0.17.0+dfsg.1-2_all.deb
+Size: 19068060
+SHA256: 74a1120e3dc4a65c35f8cf5a566b73a4e265d0ee0bbc685315413c3d03d5683b
+SHA1: b8331f8ed94a42f7746cc456c66c31c356a2b72c
+MD5sum: 719af1ceea4559c356cce9d4b995bfd1
+Description: vector map library and writer (documentation)
+ Mapsforge project uses a compact file format for fast ad-hoc rendering of
+ OpenStreetMap data. It provide tools to compile your own maps with detailed
+ instructions and also precompiled maps. It provides simple boilerplate code
+ to build applications that display OpenStreetMap-based maps. It provides a
+ library to build standalone applications in Java.
+ .
+ Mapsforge maps can be flexibly styled with XML style files. It provide
+ tools & library for POI search and also precompiled POI.
+ .
+ This package contains the documentation of mapsforge
+
+Package: libmbedtls-doc
+Source: mbedtls
+Version: 2.28.3-1
+Architecture: all
+Maintainer: Andrea Pappacoda <andrea@pappacoda.it>
+Installed-Size: 29947
+Depends: libjs-jquery
+Suggests: libmbedtls-dev
+Multi-Arch: foreign
+Homepage: https://www.trustedfirmware.org/projects/mbed-tls/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mbedtls/libmbedtls-doc_2.28.3-1_all.deb
+Size: 9756768
+SHA256: 4b6732f0c8e54fc0d564b448ae47fbd537a6dc0fb56b278e2f8ea4dc46a51d5e
+SHA1: 31006e377393f71a9f4606e2863dd0e30c5043ca
+MD5sum: 1539943428e1f09b2957c5db38126a03
+Description: lightweight crypto and SSL/TLS library - documentation
+ mbed TLS (formerly known as PolarSSL) is a lean open source crypto library for
+ providing SSL and TLS support in your programs. It offers an intuitive API and
+ documented header files, so you can actually understand what the code does.
+ It features:
+  - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4, Camellia
+    and XTEA
+  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5
+  - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG
+  - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman, ECDSA
+    and ECDH
+  - TLS 1.0, 1.1 and 1.2
+  - Abstraction layers for ciphers, hashes, public key operations, platform
+    abstraction and threading
+ .
+ This package contains the API documentation.
+
+Package: libmed-doc
+Source: med-fichier
+Version: 4.1.0+repack-3
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 104542
+Homepage: http://www.salome-platform.org/user-section/about/med
+Priority: optional
+Section: doc
+Filename: pool/main/m/med-fichier/libmed-doc_4.1.0+repack-3_all.deb
+Size: 12198560
+SHA256: 6228fe3f926b4b032dff61d66d7158dc58ac85e6e44210699f7afe12c2a6e8a2
+SHA1: 3b6852b8b1a9e3652c9418c3ad37f70f9dd2dcff
+MD5sum: 664d99239011c0a563b84edece6d6c52
+Description: Documentation for the MED-fichier library
+ MED-fichier (Modélisation et Echanges de Données, in English Modelisation
+ and Data Exchange) is a library to store and exchange meshed data or
+ computation results. It uses the HDF5 file format to store the data.
+ .
+ This package provides the documentation for the MED-fichier library
+ (in French).
+
+Package: libmgl-data
+Source: mathgl
+Version: 8.0.1-4
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 45690
+Multi-Arch: foreign
+Homepage: http://mathgl.sourceforge.net/doc_en/Main.html
+Priority: optional
+Section: misc
+Filename: pool/main/m/mathgl/libmgl-data_8.0.1-4_all.deb
+Size: 7313800
+SHA256: 9d6452cb5e82af130ab0c21f1a344e5cacd85c164c455ab57dc7ab7c77ce14e5
+SHA1: 8df090301fbbde67937a0e8b39fb6155a07224ba
+MD5sum: 0d5fae92b04841b2e352bc47ac059b72
+Description: library for scientific graphs (data files)
+ A free cross-platform library of fast C++ routines for plotting data in up
+ to 3 dimensions. It can export plots to bitmaps and vector EPS, SVG, IDTF
+ files. There are simple window interfaces based on GLUT, FLTK and/or Qt.
+ MathGL can also be used in the console. There are interfaces to a set of
+ languages, such as, C, Fortran, Pascal, Forth, Python, Octave.
+ .
+ This package contains the MathGL data files.
 
 Package: libncarg-data
 Source: ncl
@@ -65,6 +219,30 @@ Description: C library and math library compiled for bare metal using Cortex A/R
  This package contains the newlib library compiled for Cortex-A*,
  Cortex-R4/R5/R7 and Cortex-M0/M0+/M3/M4 targets.
 
+Package: libocct-doc
+Source: opencascade
+Version: 7.6.3+dfsg1-7
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 21499
+Depends: libjs-mathjax
+Multi-Arch: foreign
+Homepage: https://www.opencascade.com/
+Priority: optional
+Section: doc
+Filename: pool/main/o/opencascade/libocct-doc_7.6.3+dfsg1-7_all.deb
+Size: 12660028
+SHA256: b51ac3d1906afc3657ea361769035096c7f65addeab7d0141c5b0fcec18ac5ab
+SHA1: 5f2ac485c94915810a20e44f077391d083b322fd
+MD5sum: 2935dc8dc3d235e496393046eb140713
+Description: Open CASCADE Technology CAE platform documentation
+ Open CASCADE Technology is a suite for 3D surface and solid modeling,
+ visualization, data exchange and rapid application development.  It is an
+ excellent platform for development of numerical simulation software including
+ CAD/CAM/CAE, AEC and GIS, as well as PDM applications.
+ .
+ This package contains documentation files.
+
 Package: libodil-doc
 Source: odil
 Version: 0.12.2-2
@@ -93,6 +271,248 @@ Description: C++11 library for the DICOM standard (documentation)
  .
  This package contains the documentation files.
 
+Package: libonnx-testdata
+Source: onnx
+Version: 1.12.0-2
+Architecture: all
+Maintainer: Debian Deep Learning Team <debian-ai@lists.debian.org>
+Installed-Size: 21279
+Multi-Arch: foreign
+Homepage: https://onnx.ai
+Priority: optional
+Section: science
+Filename: pool/main/o/onnx/libonnx-testdata_1.12.0-2_all.deb
+Size: 6062448
+SHA256: 7dc0912e02f79ece102331411a751b091bc0e191c9fb1287f8cdfbe5530f6027
+SHA1: 3781510fd5e12546b1782f56d4032541cca20a9e
+MD5sum: 41114e7909500fe6985b23464623e448
+Description: Open Neural Network Exchange (ONNX) (test data)
+ Open Neural Network Exchange (ONNX) is the first step toward an open ecosystem
+ that empowers AI developers to choose the right tools as their project evolves.
+ ONNX provides an open source format for AI models.  It defines an extensible
+ computation graph model, as well as definitions of built-in operators and
+ standard data types. Initially onnx focuses on the capabilities needed for
+ inferencing (evaluation).
+ .
+ Caffe2, PyTorch, Microsoft Cognitive Toolkit, Apache MXNet and other tools are
+ developing ONNX support. Enabling interoperability between different frameworks
+ and streamlining the path from research to production will increase the speed
+ of innovation in the AI community.
+ .
+ This package contains the test data.
+
+Package: libopenbabel-doc
+Source: openbabel
+Version: 3.1.1+dfsg-9
+Architecture: all
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 24924
+Depends: libjs-jquery
+Homepage: http://openbabel.sourceforge.net
+Priority: optional
+Section: doc
+Filename: pool/main/o/openbabel/libopenbabel-doc_3.1.1+dfsg-9_all.deb
+Size: 5088272
+SHA256: 7a435cf64a37093030de0e2607d4db3f6be6b57b95c1dff4ce705d4d38cd4b40
+SHA1: f119f656ff43f14900bc11613b38c9f0ec95b7c9
+MD5sum: 14f3d97f43eac1b8dd7fb43c4c2e224b
+Description: Chemical toolbox library (documentation)
+ Open Babel is a chemical toolbox designed to speak the many languages of
+ chemical data. It allows one to search, convert, analyze, or store data from
+ molecular modeling, chemistry, solid-state materials, biochemistry, or related
+ areas.  Features include:
+ .
+  * Hydrogen addition and deletion
+  * Support for Molecular Mechanics
+  * Support for SMARTS molecular matching syntax
+  * Automatic feature perception (rings, bonds, hybridization, aromaticity)
+  * Flexible atom typer and perception of multiple bonds from atomic coordinates
+  * Gasteiger-Marsili partial charge calculation
+ .
+ File formats Open Babel supports include PDB, XYZ, CIF, CML, SMILES, MDL
+ Molfile, ChemDraw, Gaussian, GAMESS, MOPAC and MPQC.
+ .
+ This package contains the library documentation.
+
+Package: libopenchemlib-java
+Source: openchemlib
+Version: 2023.1.1+dfsg-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 8212
+Depends: libopenjfx-java, libtablelayout-java
+Homepage: https://github.com/Actelion/openchemlib
+Priority: optional
+Section: java
+Filename: pool/main/o/openchemlib/libopenchemlib-java_2023.1.1+dfsg-1_all.deb
+Size: 8183184
+SHA256: 44091f656374c45cd9ec70375b94a6734ac6cbd52cbd63c7e63d94904b1534e1
+SHA1: 5a335aad1dcc8f4ac44bfa488f04f89404b1abe2
+MD5sum: 0d12be3f380b42bfe03dfd9d82675434
+Description: framework providing cheminformatics core functionality
+ OpenChemLib is Java based framework providing cheminformatics core
+ functionality and user interface components. Its main focus is on organics
+ chemistry and small molecules. It is built around a StereoMolecule class,
+ which represents a molecule using atom and bond tables, provides atom
+ neighbours, ring and aromaticity information, and supports MDL's concept of
+ enhanced stereo representation. Additional classes provide, 2D-depiction,
+ descriptor calculation, molecular similarity and substructure search,
+ reaction search, property prediction, conformer generation, support for
+ molfile and SMILES formats, energy minimization, ligand-protein
+ interactions, and more. OpenChemLib's idcode represents molecules,
+ fragments or reactions as canonical, very compact string that includes
+ stereo and query features.
+ .
+ Different to other cheminformatics frameworks, OpenChemLib also provides
+ user interface components that allow one to easily embed chemical functionality
+ into Java applications, e.g. to display or edit chemical structures or
+ reactions.
+
+Package: libopenjfx-java
+Source: openjfx
+Version: 11.0.11+1-3
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 9942
+Depends: libopenjfx-jni
+Suggests: openjfx
+Homepage: https://openjfx.io
+Priority: optional
+Section: java
+Filename: pool/main/o/openjfx/libopenjfx-java_11.0.11+1-3_all.deb
+Size: 8902948
+SHA256: 6d0d337909279d4cfc64620898aaa2a77906022536b677e42bb354269534c41a
+SHA1: f8fe69ba2928365c63a9c7a52f97310ba9f0f671
+MD5sum: e03632e40b72854535ee1b564f242daf
+Description: JavaFX/OpenJFX - Rich client application platform for Java (Java libraries)
+ JavaFX/OpenJFX is a set of graphics and media APIs that enables Java developers
+ to design, create, test, debug, and deploy rich client applications that
+ operate consistently across diverse platforms.
+ .
+ This package contains the Java libraries only, installing it won't add
+ the JavaFX classes to the default classpath automatically. The integration
+ with the JRE is provided by the openjfx package.
+
+Package: libopenjpa-java
+Source: openjpa
+Version: 2.4.2-8
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 12003
+Depends: libcommons-collections3-java, libcommons-dbcp-java, libcommons-jci-rhino-java, libcommons-lang-java, libcommons-logging-java, libcommons-pool-java, libderby-java, libgeronimo-jms-1.1-spec-java, libgeronimo-jpa-2.0-spec-java, libgeronimo-jta-1.2-spec-java, libgeronimo-validation-1.1-spec-java, libhsqldb-java, liblog4j1.2-java, libpostgresql-jdbc-java, libserp-java, libxbean-java
+Suggests: aspectj
+Breaks: libopenjpa-java-doc (<< 2.4.2-4)
+Replaces: libopenjpa-java-doc (<< 2.4.2-4)
+Homepage: http://openjpa.apache.org
+Priority: optional
+Section: java
+Filename: pool/main/o/openjpa/libopenjpa-java_2.4.2-8_all.deb
+Size: 5430420
+SHA256: 1ba7ac83eda2f43dfaa62763e28f9464a9d1f2a424288ab603f0a3cf860eb9b2
+SHA1: 92b9b3b8ef454a0630d80e370fc84fc223b4e153
+MD5sum: 2e147acce36e4c0137d01f64b165b6cf
+Description: Java Persistence 2.0 API (JPA) implementation library
+ OpenJPA is Apache's implementation of Sun's Java Persistence 2.0 API (JSR-317
+ JPA 2.0) specification for the transparent persistence of Java objects.
+ .
+ It is an object-relational mapping (ORM) solution for the Java language,
+ which simplifies storing objects in databases.
+
+Package: libopenmesh-doc
+Source: openmesh
+Version: 9.0-4
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 51150
+Suggests: libopenmesh-dev (= 9.0-4), libopenmesh-apps (= 9.0-4)
+Homepage: http://www.openmesh.org
+Priority: optional
+Section: doc
+Filename: pool/main/o/openmesh/libopenmesh-doc_9.0-4_all.deb
+Size: 19603656
+SHA256: 69db3db8458f373e013dcbc94bb25970dd8eb33978bcf6106b6662bc64bbdd89
+SHA1: 6d7e521eff10244f64b70e34acc34755699ff7c2
+MD5sum: d363fd2517f3c296c03aa4f64913e22c
+Description: Tools for representing and manipulating polygonal meshes
+ OpenMesh is a generic and efficient data structure for representing and
+ manipulating polygonal meshes. It was designed with the following goals in
+ mind:
+ .
+ - Flexibility: provide a basis for many different algorithms without the need
+ for adaptation.
+ .
+ - Efficiency: maximize time efficiency while keeping memory usage as low as
+ possible.
+ .
+ - Ease of use: wrap complex internal structure in an easy-to-use interface.
+ .
+ OpenMesh provides the following features:
+ .
+ - Representation of arbitrary polygonal (the general case) and pure triangle
+ meshes (providing more efficient, specialized algorithms)
+ .
+ - Explicit representation of vertices, halfedges, edges and faces.
+ .
+ - Fast neighborhood access, especially the one-ring neighborhood
+ .
+ - Highly customizable
+ .
+   - Choose your coordinate type (dimension and scalar type)
+   - Attach user-defined elements/functions to the mesh elements.
+   - Attach and check for attributes
+   - Attach data at runtime using dynamic properties.
+ .
+ This package provides the HTML documentation
+
+Package: libopenvdb-doc
+Source: openvdb
+Version: 10.0.1-2
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 102288
+Depends: doc-base
+Homepage: http://openvdb.org
+Priority: optional
+Section: doc
+Filename: pool/main/o/openvdb/libopenvdb-doc_10.0.1-2_all.deb
+Size: 5509832
+SHA256: d1b143a472c431cd71ab6e7bb94b0a531cbe45c9bd8c3f3b7117ccb707731991
+SHA1: 3fbc5ced1df5fb54ccc986405366da4c947e5052
+MD5sum: 579d618c1c3b66232738ecd6a431865e
+Description: Sparse Volume Processing toolkit - doc
+ OpenVDB is an open source C++ library comprising a novel hierarchical data
+ structure and a suite of tools for the efficient storage and manipulation of
+ sparse volumetric data discretized on three-dimensional grids. It is developed
+ and maintained by DreamWorks Animation for use in volumetric applications
+ typically encountered in feature film production.
+ .
+ This is the package for the doc files for OpenVDB
+
+Package: liboscar4-java
+Source: oscar4
+Version: 5.2.0+dfsg-2
+Architecture: all
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 14401
+Depends: libautomaton-java, libcommons-io-java (>= 2.11.0), libcommons-lang-java (>= 2.6), libcommons-math-java (>= 2.2), libguava-java, libicu4j-java, libjaxen-java (>= 1.1.6), libjregex-java, liblog4j2-java (>= 2.17.2), libopennlp-maxent-java (>= 3.0.0), libopsin-java (>= 2.7.0), libslf4j-java (>= 1.7.32), libxom-java
+Homepage: https://github.com/blueobelisk/oscar4
+Priority: optional
+Section: science
+Filename: pool/main/o/oscar4/liboscar4-java_5.2.0+dfsg-2_all.deb
+Size: 14545284
+SHA256: 10dcc7d62afc7a45f550054e22e4ada8adb68dbfe2810d216206352a3dc7bea7
+SHA1: 22f90be3c104e21fc7a78055cc1568b483703cb9
+MD5sum: 8502e062c4a8a5dba6a55babaa286a48
+Description: automated annotation of chemistry in scientific articles
+ OSCAR (Open Source Chemistry Analysis Routines) is an open source extensible
+ system for the automated annotation of chemistry in scientific articles. It can
+ be used to identify chemical names, reaction names, ontology terms, enzymes and
+ chemical prefixes and adjectives, and chemical data such as state, yield, IR,
+ NMR and mass spectra and elemental analyses. In addition, where possible, any
+ chemical names detected will be annotated with structures derived either by
+ lookup, or name-to-structure parsing using OPSIN or with identifiers from the
+ ChEBI (Chemical Entities of Biological Interest) ontology.
+
 Package: libosd-doc
 Source: opensubdiv
 Version: 3.5.0-2
@@ -118,6 +538,36 @@ Description: high performance subdivision surface (subdiv) library - documentati
  numerical precision.
  .
  This package provides the documentation.
+
+Package: libowlapi-java
+Source: owlapi
+Version: 5.1.20-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 15134
+Depends: libatinject-jsr330-api-java, libcaffeine-java (>= 2.6.2), libcommons-codec-java (>= 1.15), libcommons-io-java (>= 2.11.0), libcommons-logging-java (>= 1.2), libcommons-rdf-java (>= 0.5.0), libguava-java, libhppcrt-java (>= 0.7.5), libhttpclient-java (>= 4.5.13), libhttpcore-java (>= 4.4.14), libjackson2-annotations-java (>= 2.13.0), libjackson2-core-java (>= 2.13.0), libjackson2-databind-java, libjsr305-java, librdf4j-java (>= 3.7.4), libslf4j-java (>= 1.7.32), libxz-java (>= 1.9)
+Homepage: https://github.com/owlcs/owlapi
+Priority: optional
+Section: java
+Filename: pool/main/o/owlapi/libowlapi-java_5.1.20-1_all.deb
+Size: 11308740
+SHA256: 4fd9029311245ead061dbc6766591b8e8794f35e6e36d1ea9e1f184025c9dc98
+SHA1: 64db3d962fa6391665ae2555d0246228fd9d3fc4
+MD5sum: 1d1fef7b865d69d5a0c6f33350a0b11c
+Description: Java API for creating, manipulating and serialising OWL Ontologies
+ OWL API is a Java API for creating, manipulating and serialising OWL
+ Ontologies.
+ .
+ The following components are included:
+ .
+  * An API for OWL 2 and an in-memory reference implementation.
+  * Read and write support for RDF/XML, OWL/XML, Functional syntax, Manchester
+    syntax, Turtle, OBO.
+  * Write support for KRSS, DL syntax, LaTeX.
+  * Other formats via RIO integration (NTriples, JSON, etc.).
+  * Reasoner interfaces for working with reasoners such as FaCT++, HermiT,
+    Pellet, Racer, JFact and Chainsaw.
+  * See documentation pages on the wiki for more details.
 
 Package: macaulay2-common
 Source: macaulay2
@@ -179,6 +629,33 @@ Description: process genome alignment in the Multiple Alignment Format (example 
  .
  This package provides example data for maffilter.
 
+Package: mame-data
+Source: mame
+Version: 0.251+dfsg.1-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 113718
+Breaks: mess-data (<< 0.162)
+Replaces: mess-data (<< 0.162)
+Multi-Arch: foreign
+Homepage: https://mamedev.org/
+Priority: optional
+Section: games
+Filename: pool/main/m/mame/mame-data_0.251+dfsg.1-1_all.deb
+Size: 15848696
+SHA256: 32de0cfe427b0d183b689b16afed8aad0e7afaf49f3a818ca2c676ca0d92f811
+SHA1: d7efa475455f693713b8f51e94f2519ccded6e12
+MD5sum: 37024ebaf2a7f5c872dfada73b1e882e
+Description: Multiple Arcade Machine Emulator (MAME) -- data files
+ MAME is a hardware emulator: it faithfully reproduces the behavior of many
+ arcade machines (it is not a simulation). This program is not a game but can
+ directly, through ROM images, run the complete system of these old arcade
+ machines. These ROMs are subject to copyright and it is in most of the cases
+ illegal to use them if you do not own the arcade machine.
+ .
+ This package provides MAME hash files, keymaps, artwork, language files,
+ shaders, plugins and audio samples.
+
 Package: mandelbulber2-data
 Source: mandelbulber2
 Version: 2.20-2
@@ -208,6 +685,26 @@ Description: 3D fractal renderer and animator - data files
  This package contains architecture-independent data files for
  Mandelbulber2.
 
+Package: manpages-zh
+Version: 1.6.4.0-1
+Architecture: all
+Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
+Installed-Size: 5653
+Suggests: man-browser
+Multi-Arch: foreign
+Homepage: https://github.com/man-pages-zh/manpages-zh
+Priority: optional
+Section: doc
+Filename: pool/main/m/manpages-zh/manpages-zh_1.6.4.0-1_all.deb
+Size: 4937812
+SHA256: 81bae29495f6445db290e3f329f1203eb19b651c2a7ea165b74ebdc853a32ac1
+SHA1: d31fa2ee9dd351583743432008145956cf25dcfa
+MD5sum: 0a9b79f4ec7774763e7412b106854ad0
+Description: Chinese manual pages
+ This package contains the Chinese manual pages translated by
+ the Chinese Man Pages Project (CMPP).  Both zh_CN and zh_TW
+ (Simplified and Traditional Chinese) versions are provided.
+
 Package: marble-data
 Source: marble
 Version: 4:22.12.3-1
@@ -235,6 +732,60 @@ Description: data files for Marble
  .
  This package is part of the KDE education module.
 
+Package: marble-qt-data
+Source: marble
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 34258
+Breaks: marble-data (<< 4:17.08.3-3~)
+Replaces: marble-data (<< 4:17.08.3-3~)
+Multi-Arch: foreign
+Homepage: https://marble.kde.org/
+Priority: optional
+Section: misc
+Filename: pool/main/m/marble/marble-qt-data_22.12.3-1_all.deb
+Size: 15099216
+SHA256: 137e6ddc52a3a245be27f44d2ffad063ddf21c0ba5f6d48edc295b3864c9db48
+SHA1: 3ac57daea162450515d7227e695591c23fe353da
+MD5sum: ca7566d218683e32eeffdf7b7c84f22b
+Description: Qt-only data files for Marble
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package contains the architecture-independent data files for the Marble
+ desktop globe.
+ .
+ This package is part of the KDE education module.
+
+Package: mariadb-test-data
+Source: mariadb
+Version: 1:10.11.6-0+deb12u1
+Architecture: all
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Installed-Size: 224180
+Depends: perl:any
+Breaks: mariadb-test-10.0, mariadb-test-10.1, mariadb-test-5.5, mariadb-test-data-10.0, mysql-testsuite, mysql-testsuite-5.5, mysql-testsuite-5.6, mysql-testsuite-5.7, mysql-testsuite-8.0
+Replaces: mariadb-test-10.0, mariadb-test-10.1, mariadb-test-5.5, mariadb-test-data-10.0, mysql-testsuite, mysql-testsuite-5.5, mysql-testsuite-5.6, mysql-testsuite-5.7, mysql-testsuite-8.0
+Multi-Arch: foreign
+Homepage: https://mariadb.org/
+Priority: optional
+Section: database
+Filename: pool/main/m/mariadb/mariadb-test-data_10.11.6-0+deb12u1_all.deb
+Size: 18799688
+SHA256: d79f092180c5d702b7a8220c7881ead029e4936280fdecb61dd7a913bb8ab17c
+SHA1: 5746c1e94899c8c071e328301a4e9703c463c270
+MD5sum: 9da4eb952093fdbd0b1994f4affdc4f3
+Description: MariaDB database regression test suite - data files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package has the architecture independent data files for the test suite.
+
 Package: marsshooter-data
 Source: marsshooter
 Version: 0.7.6-7
@@ -260,6 +811,88 @@ Description: ridiculous space shooter governed by the laws of gravity -- data
  This package contains the data files for M.A.R.S and includes all graphics
  and sounds.
 
+Package: massxpert-doc
+Source: massxpert
+Version: 7.0.0-2
+Architecture: all
+Maintainer: The Debichem Group <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 23151
+Depends: libjs-jquery, libjs-highlight.js
+Conflicts: msxpertsuite-massxpert-data-doc
+Breaks: msxpertsuite-massxpert-data-doc (<< 6.0.0)
+Replaces: msxpertsuite-massxpert-data-doc (<< 6.0.0)
+Homepage: http://www.msxpertsuite.org/
+Priority: optional
+Section: doc
+Filename: pool/main/m/massxpert/massxpert-doc_7.0.0-2_all.deb
+Size: 21052168
+SHA256: 448e444c0e8c69d3e335036ecd4711121e6c91f19f4889352341d5c54df974ea
+SHA1: 2de41b849c67f1b22fbdc5ec799b7d08f5ffc83a
+MD5sum: 405c5d6f8b14036b530cb8645c52f4dc
+Description: polymer chemistry modelling and mass spectrometry data simulation (doc)
+ massXpert allows the user to perform the following tasks:
+ .
+  - Make brand new polymer chemistry definitions;
+  - Use the definitions to easily perform calculations in a desktop
+    calculator-like manner;
+  - Perform sophisticated polymer sequence editing and simulations;
+  - Perform m/z list comparisons;
+ .
+ Chemical simulations encompass cleavage (either chemical or
+ enzymatic), gas-phase fragmentations, chemical modification of any
+ monomer in the polymer sequence, cross-linking of monomers in the
+ sequence, arbitrary mass searches...
+ .
+ This package ships the user manual in both PDF and HTML formats.
+
+Package: mate-applets-common
+Source: mate-applets
+Version: 1.26.1-1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 51341
+Depends: dconf-gsettings-backend | gsettings-backend, sgml-base (>= 1.28)
+Breaks: mate-applets (<< 1.9.0), mate-netspeed (<< 1.13.0), mate-netspeed-common (<< 1.13.0)
+Replaces: mate-applets (<< 1.9.0), mate-netspeed (<< 1.13.0), mate-netspeed-common (<< 1.13.0)
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: x11
+Filename: pool/main/m/mate-applets/mate-applets-common_1.26.1-1_all.deb
+Size: 7361872
+SHA256: 073d4e6afbd92a5397c8710b6c3dbbdbbfe060c8c4c70d1573d14591ffe8b4ba
+SHA1: 8e8587ed1c2036a24879c9c91e009e9d7a2da898
+MD5sum: f48985d3a0856dfb44c4c00d9ee1742b
+Description: Various applets for the MATE panel (common files)
+ accessx-status: indicates keyboard accessibility settings, including
+ the current state of the keyboard, if those features are in use.
+ .
+ Battstat: monitors the power subsystem on a laptop.
+ .
+ Character palette: provides a convenient way to access non-standard
+ characters, such as accented characters, mathematical symbols, special
+ symbols, and punctuation marks.
+ .
+ MATE CPUFreq Applet: CPU frequency scaling monitor
+ .
+ Drivemount: lets you mount and unmount drives and file systems.
+ .
+ Geyes: pair of eyes which follow the mouse pointer around the screen.
+ .
+ Keyboard layout switcher: lets you assign different keyboard
+ layouts for different locales.
+ .
+ Netspeed: network traffic monitor applet.
+ .
+ System monitor: CPU, memory, network, swap file and resource.
+ .
+ Trash: lets you drag items to the trash folder.
+ .
+ Weather report: downloads weather information from the U.S National Weather
+ Service (NWS) servers, including the Interactive Weather Information
+ Network (IWIN).
+ .
+ This package contains the architecture independent files.
+
 Package: mate-backgrounds
 Version: 1.26.0-1
 Architecture: all
@@ -280,6 +913,341 @@ Description: Set of backgrounds packaged with the MATE Desktop Environment
  The package ships the default MATE backgrounds from various Linux
  distributions as well as a set of nature photographs suitable as comforting
  desktop backgrounds.
+
+Package: mate-icon-theme
+Version: 1.26.0-1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 35170
+Depends: hicolor-icon-theme, gtk-update-icon-cache, librsvg2-common
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: x11
+Filename: pool/main/m/mate-icon-theme/mate-icon-theme_1.26.0-1_all.deb
+Size: 13923300
+SHA256: 356945b21bf2449ab4d3c0cead5abbc84fab247b140c6d0252263470df49dc54
+SHA1: 6c17d6e5c5037912b3190c6371155bd958ba3571
+MD5sum: 174c4001c26762f5ef07989f6a8a350a
+Description: MATE Desktop icon theme
+ This package contains the default icon theme used by the MATE desktop.
+ The icons are used in the panel menu, in Caja and other
+ applications shipped with MATE.
+ .
+ This icon theme provides icon artwork for representing the different
+ applications, files, directories, and devices found on the MATE desktop.
+
+Package: mate-power-manager-common
+Source: mate-power-manager
+Version: 1.26.0-2+deb12u1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 16027
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: mate-power-manager (<< 1.9.0)
+Replaces: mate-power-manager (<< 1.9.0)
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: x11
+Filename: pool/main/m/mate-power-manager/mate-power-manager-common_1.26.0-2+deb12u1_all.deb
+Size: 5573564
+SHA256: cac5d8378699691452f09fa9543b460d5139bf6fd7b25b85eeee9d20ed137689
+SHA1: b342664e0c2d7589cd3d414c6c63a48f3eaddaa1
+MD5sum: f1fd613f263ce9a5cb32f7fb32a75c8c
+Description: power management tool for the MATE desktop (common files)
+ MATE Power Manager is a session daemon for the MATE desktop
+ that takes care of system or desktop events related to power, and
+ triggers actions accordingly. Its philosophy is to completely hide
+ these complex tasks and only show some settings important to the user.
+ .
+ The MATE power manager displays and manages battery status, power plug
+ events, display brightness, CPU, graphics card and hard disk drive
+ power saving, and can trigger suspend-to-RAM, hibernate or shutdown
+ events, all integrated to other components of the MATE desktop.
+ .
+ This package contains the architecture independent files.
+
+Package: mate-themes
+Version: 3.22.23-1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 80755
+Depends: gtk2-engines, gtk2-engines-murrine, gtk2-engines-pixbuf, librsvg2-common, mate-icon-theme
+Conflicts: mate-themes-gnome
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: x11
+Filename: pool/main/m/mate-themes/mate-themes_3.22.23-1_all.deb
+Size: 5884340
+SHA256: 8491d1a85801151677b4ad93ffdaeb8649f104a891399f462fdd2bd42db73127
+SHA1: aaccecad84ee15afca4bc474340d519128428550
+MD5sum: 2f9b9bd5dd527fb7cbc511a993f47092
+Description: Official themes for the MATE desktop
+ This package contains the official desktop themes of the MATE desktop
+ environment.
+ .
+ The themes provided for the MATE desktop partially resemble themes that
+ are well known from GNOMEv2 desktops. However, the MATE team also prepared
+ some new themes esp. for MATE (Menta, GreenLaguna, TraditionalGreen,
+ TraditionalOk, and BlackMate).
+
+Package: mate-user-guide
+Version: 1.26.0-1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 82044
+Depends: yelp
+Suggests: mate-desktop-environment
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mate-user-guide/mate-user-guide_1.26.0-1_all.deb
+Size: 8549848
+SHA256: 34d11899bcaa51619a6b574178b5bd79e5f6c6dd7a25debf57d095f2ea51ccfd
+SHA1: 13a37f5afa366bcc2bcf2839d20d648acfeb03b6
+MD5sum: 4fd6c23c5d4b9ab7901fbccf0dff9e0e
+Description: User documentation for MATE Desktop Environment
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ This package contains the user guide for MATE Desktop Environment and
+ its main applications.
+
+Package: mate-utils-common
+Source: mate-utils
+Version: 1.26.0-1+deb12u1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 25959
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: mate-utils (<< 1.9.0)
+Replaces: mate-utils (<< 1.9.0)
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: x11
+Filename: pool/main/m/mate-utils/mate-utils-common_1.26.0-1+deb12u1_all.deb
+Size: 6572652
+SHA256: a7beed98cf97ae14e0126fbc875d947d8c434f507da83173bdab7768047b1a03
+SHA1: 011d72bd9e3dc45294ed7b20aff500592d576c1a
+MD5sum: 28f86e9fcc15fada9b3c48006e1af0f8
+Description: MATE desktop utilities (common files)
+ This package contains all the tools bundled as MATE utilities:
+  - mate-disk-usage-analyzer, a disk usage analyser
+  - mate-dictionary, a program which can look up the definition of words
+    over the internet (including a panel applet to do the same)
+  - mate-search-tool, with which one can find files by name or content
+  - mate-system-log, a log viewing application
+  - mate-screenshot, a tool to take desktop screenshots and save them into
+    a file
+ .
+ This package contains the architecture independent files.
+
+Package: maxima-doc
+Source: maxima
+Version: 5.46.0-11
+Architecture: all
+Maintainer: Camm Maguire <camm@debian.org>
+Installed-Size: 22652
+Depends: tex-common (>= 6.13)
+Replaces: maxima (<< 5.46.0-11)
+Priority: optional
+Section: doc
+Filename: pool/main/m/maxima/maxima-doc_5.46.0-11_all.deb
+Size: 10397540
+SHA256: 01a726b693a7e465a62040ac5ade4762194d7553524231d77cd1fcd4a69a75b9
+SHA1: e6dcaa1ea280b490648e7c9a424a87f6c93a4984
+MD5sum: e75d683e47c59d60e7348db86d8d8dfc
+Description: Computer algebra system -- documentation
+ Maxima is a fully symbolic computation program.  It is full featured
+ doing symbolic manipulation of polynomials, matrices, rational
+ functions, integration, Todd-coxeter methods for finite group
+ analysis, graphing, multiple precision floating point computation.
+ It has a symbolic source level debugger for maxima code.  Maxima is
+ based on the original Macsyma developed at MIT in the 1970s.  It is
+ quite reliable, and has good garbage collection, and no memory leaks.
+ It comes with hundreds of self tests.
+ .
+ This package contains most of the documentation.
+
+Package: maxima-sage-doc
+Source: maxima-sage
+Version: 5.45.1-2
+Architecture: all
+Maintainer: Debian Math Team <team+math@tracker.debian.org>
+Installed-Size: 19209
+Multi-Arch: foreign
+Homepage: http://maxima.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/main/m/maxima-sage/maxima-sage-doc_5.45.1-2_all.deb
+Size: 8280876
+SHA256: a7820b7befaa139b8efdca357f57e1c28c8c85ab00682ec3868dcbcc45db025f
+SHA1: b82334b70787ae37065c13469ea780411a16cc94
+MD5sum: 9ba4c580cd51a5f688d418a2c718c6af
+Description: Computer algebra system -- documentation
+ Maxima is a fully symbolic computation program.  It is full featured
+ doing symbolic manipulation of polynomials, matrices, rational
+ functions, integration, Todd-coxeter methods for finite group
+ analysis, graphing, multiple precision floating point computation.
+ It has a symbolic source level debugger for maxima code.  Maxima is
+ based on the original Macsyma developed at MIT in the 1970s.  It is
+ quite reliable, and has good garbage collection, and no memory leaks.
+ It comes with hundreds of self tests.
+ .
+ The maxima-sage packages are meant to be used together with SageMath.
+ They contain the version of Maxima that works together with the
+ SageMath version in Debian and use ECL instead of GCL as Lisp compiler.
+ To use Maxima by itself, the more complete and up-to-date maxima package
+ is recommended.
+ .
+ This package contains most of the documentation.
+
+Package: maxima-sage-share
+Source: maxima-sage
+Version: 5.45.1-2
+Architecture: all
+Maintainer: Debian Math Team <team+math@tracker.debian.org>
+Installed-Size: 32569
+Depends: maxima-sage (>= 5.45.1-2)
+Homepage: http://maxima.sourceforge.net/
+Priority: optional
+Section: math
+Filename: pool/main/m/maxima-sage/maxima-sage-share_5.45.1-2_all.deb
+Size: 9924464
+SHA256: 21aef51c4ccc4d736c681b6986ce1864747799b82d4ec8bba09b98911ae5f831
+SHA1: 830d0ffc2b7d531921933145e29ec429c9c084cf
+MD5sum: 2ce3d28de034ae589e230907b0647943
+Description: Computer algebra system -- extra code
+ Maxima is a fully symbolic computation program.  It is full featured
+ doing symbolic manipulation of polynomials, matrices, rational
+ functions, integration, Todd-coxeter methods for finite group
+ analysis, graphing, multiple precision floating point computation.
+ It has a symbolic source level debugger for maxima code.  Maxima is
+ based on the original Macsyma developed at MIT in the 1970s.  It is
+ quite reliable, and has good garbage collection, and no memory leaks.
+ It comes with hundreds of self tests.
+ .
+ The maxima-sage packages are meant to be used together with SageMath.
+ They contain the version of Maxima that works together with the
+ SageMath version in Debian and use ECL instead of GCL as Lisp compiler.
+ To use Maxima by itself, the more complete and up-to-date maxima package
+ is recommended.
+ .
+ This package contains a set of contributed routines and add-on
+ packages.
+
+Package: maxima-share
+Source: maxima
+Version: 5.46.0-11
+Architecture: all
+Maintainer: Camm Maguire <camm@debian.org>
+Installed-Size: 33360
+Depends: maxima (>= 5.46.0-11), tex-common (>= 6.13)
+Replaces: maxima (<< 5.46.0-11)
+Priority: optional
+Section: math
+Filename: pool/main/m/maxima/maxima-share_5.46.0-11_all.deb
+Size: 9924948
+SHA256: 8dff78e1cecf9e39cfcd9b3a32a6707688c172297aad61fc2503365d5b0b1df8
+SHA1: b88e08dff32174d1c02e90306c6224e718ded753
+MD5sum: f0452c3f8a70494b6a56cd7c424a0fc3
+Description: Computer algebra system -- extra code
+ Maxima is a fully symbolic computation program.  It is full featured
+ doing symbolic manipulation of polynomials, matrices, rational
+ functions, integration, Todd-coxeter methods for finite group
+ analysis, graphing, multiple precision floating point computation.
+ It has a symbolic source level debugger for maxima code.  Maxima is
+ based on the original Macsyma developed at MIT in the 1970s.  It is
+ quite reliable, and has good garbage collection, and no memory leaks.
+ It comes with hundreds of self tests.
+ .
+ This package contains a set of contributed routines and add-on
+ packages.
+
+Package: mazeofgalious-data
+Source: mazeofgalious
+Version: 0.62.dfsg2-4.1
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 11108
+Homepage: http://www.braingames.getput.com/mog/
+Priority: optional
+Section: games
+Filename: pool/main/m/mazeofgalious/mazeofgalious-data_0.62.dfsg2-4.1_all.deb
+Size: 8035388
+SHA256: cbb9c1af02dff50c3975b6b53fb15ce3f4ddf67f6cd9c68aea8a76bd4ac31a9c
+SHA1: 3cab2e6ec443defa3dee0301cf361093099de80a
+MD5sum: 3a2a6cc95ee9ba846d87d35c80175df3
+Description: The Maze of Galious
+ This package contains graphics, leveldata, sounds, and music needed
+ for the game.
+
+Package: mecab-ipadic
+Version: 2.7.0-20070801+main-3
+Architecture: all
+Maintainer: Natural Language Processing (Japanese) <team+pkg-nlp-ja@tracker.debian.org>
+Installed-Size: 53075
+Depends: mecab-utils (>= 0.93)
+Homepage: https://taku910.github.io/mecab/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mecab-ipadic/mecab-ipadic_2.7.0-20070801+main-3_all.deb
+Size: 6717596
+SHA256: 2a59bb65193b605cec3e5540e69e7d3ce8db4624744f8686f419aa0cf3f327f2
+SHA1: 4ed70170af079e9715b5bbc8db8b567518371700
+MD5sum: 40f3956375348c4afa1be677596d19be
+Description: IPA dictionary compiled for Mecab
+ This package provides IPA dictionary converted for Mecab, that is a
+ Japanese morphological analysis system.  This dictionary is organized
+ in the IPA grammar system.
+
+Package: mecab-jumandic-utf8
+Source: mecab-jumandic
+Version: 7.0-20130310-7
+Architecture: all
+Maintainer: Natural Language Processing (Japanese) <team+pkg-nlp-ja@tracker.debian.org>
+Installed-Size: 211017
+Depends: mecab-utils (>= 0.93)
+Conflicts: mecab-jumandic (<< 7.0-20130310-1)
+Provides: mecab-jumandic
+Homepage: http://taku910.github.io/mecab/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mecab-jumandic/mecab-jumandic-utf8_7.0-20130310-7_all.deb
+Size: 16153096
+SHA256: 5da5e047d54e49b4fa4545a5492872796cae828f15cb97bdd4195d0969556455
+SHA1: 2495af6b74407f742b11de4a7f0cb5ed3c221523
+MD5sum: 891f6f550650a4af6e7eeb6ffb834920
+Description: Juman dictionary encoded in UTF-8 compiled for Mecab
+ This package provides Juman dictionary converted for Mecab, that is a
+ Japanese morphological analysis system.  This dictionary is written
+ in Masuoka-Takubo grammar system.
+
+Package: mecab-naist-jdic-eucjp
+Source: mecab-naist-jdic
+Version: 0.6.3.b-20111013-11
+Architecture: all
+Maintainer: Natural Language Processing (Japanese) <team+pkg-nlp-ja@tracker.debian.org>
+Installed-Size: 148271
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: mecab-utils (>= 0.93)
+Homepage: https://osdn.net/projects/naist-jdic/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mecab-naist-jdic/mecab-naist-jdic-eucjp_0.6.3.b-20111013-11_all.deb
+Size: 18008060
+SHA256: 50d2b1dc7761756eb5ceeafee9341dcdde9b8e1c602d635f6a6f5f2c67f66f30
+SHA1: a4028877d24617c2d449e2f303423359ff71f75b
+MD5sum: 3e88ce5ee5c2c54354c9be5ee85bf6e5
+Description: free Japanese Dictionaries for mecab (replacement of mecab-ipadic) in EUC-JP
+ NAIST Japanese Dictionary is a Dictionary for MeCab, Japanese morphological
+ analysis implementation.
+ .
+ This is based on mecab-ipadic, however it is released under BSD style license
+ now by NAIST (Nara Institute of Science and Technology, Japan), so it is free
+ and can replace mecab-ipadic.
+ .
+ This package provides EUC-JP data, not UTF-8.
 
 Package: mediawiki
 Version: 1:1.39.7-1~deb12u1
@@ -336,6 +1304,106 @@ Description: interactive tool to explore and analyse microbiome sequencing data
  alignment tool DIAMOND a powerful and complete pipeline for the analysis of
  metagenome shotgun sequences can be provided.
 
+Package: metamath-databases
+Version: 0.0.0~20210101.git55fe226-2
+Architecture: all
+Maintainer: Giovanni Mascellani <gio@debian.org>
+Installed-Size: 48088
+Recommends: metamath
+Multi-Arch: foreign
+Homepage: http://us.metamath.org/
+Priority: optional
+Section: math
+Filename: pool/main/m/metamath-databases/metamath-databases_0.0.0~20210101.git55fe226-2_all.deb
+Size: 12847496
+SHA256: c72523c221db6c1039fa909150f9c53fb9175809792f2e80e55e1baa965445a1
+SHA1: 9a02c378aba55fa71fde4f03746350a14ec8f3c7
+MD5sum: cf2ae4d4a7c7ef2ac116bd600634ddec
+Description: Sample databases for Metamath
+ Metamath is a tiny language for expressing theorems in abstract
+ mathematics, accompanied by proofs that can be verified by a computer
+ program.
+ .
+ This package contains a number of Metamath databases developed
+ collectively by people from the Metamath project, including set.mm
+ (Metamath Proof Explorer) and others available at http://us.metamath.org/.
+ .
+ You can edit and verify these databases with any tool implementing the
+ Metamath language, including the reference implementation available in
+ the package metamath.
+
+Package: metastudent
+Version: 2.0.1-9
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 94968
+Depends: perl:any, python3:any, python3, ncbi-blast+-legacy, default-jre, libgo-perl, libipc-run-perl, libgraphviz-perl, libfile-chdir-perl, metastudent-data
+Homepage: https://rostlab.org/owiki/index.php/Metastudent
+Priority: optional
+Section: science
+Filename: pool/main/m/metastudent/metastudent_2.0.1-9_all.deb
+Size: 6003612
+SHA256: 0ba2f0caff533930d317f1aef594f958a87a31f4fd24849e8d99ec924d38f4f1
+SHA1: d19ae94603ae241a8539daceced7193b852b7208
+MD5sum: 10c7fb9f61c2c66debe7b98633e8628b
+Description: predictor of Gene Ontology terms from protein sequence
+ Often, only the sequence of a protein is known, but
+ not its functions. Metastudent will try to predict
+ missing functional annotations through homology searches (BLAST).
+ .
+ All predicted functions correspond to Gene Ontology (GO)
+ terms from the Molecular Function (MFO), the Biological Process
+ (BPO) and the Cellular Component Ontology (CCO) and are associated
+ with a reliability score.
+
+Package: metview-data
+Source: metview
+Version: 5.17.4-1
+Architecture: all
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 31280
+Multi-Arch: foreign
+Homepage: https://confluence.ecmwf.int/display/METV/Metview
+Priority: optional
+Section: science
+Filename: pool/main/m/metview/metview-data_5.17.4-1_all.deb
+Size: 16907068
+SHA256: f1b80a95c1d5ef7ba76a0b89b8f646958b84af07acc8b37549fe326770eecdf4
+SHA1: 70ea0ca772fb2239612097db2e586ff5aeee302f
+MD5sum: 5648da7198542e137c1d82af2029c3ac
+Description: Data needed for the Metview data analysis environment
+ Metview has been designed as a flexible, modular and extendible system
+ able to accommodate the evolving needs of the user.
+ The system is based on the ECMWF standards for graphics (Magics) and
+ data access (MARS) but can also access locally stored data.
+ The user interface is based on Motif and Qt. Metview is a
+ fully distributed system where modules can run on different workstations
+ and servers.
+ .
+ This package provides data files needed for metvieww.
+
+Package: microbegps
+Version: 1.0.0-5
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 166412
+Depends: python3-matplotlib, python3-matplotlib-venn, python3-numpy, python3-scipy, python3:any, python3-pyqt5
+Homepage: http://sourceforge.net/projects/microbegps/
+Priority: optional
+Section: science
+Filename: pool/main/m/microbegps/microbegps_1.0.0-5_all.deb
+Size: 14244416
+SHA256: e155f258e7a83e970492aa17fd737e4970b1d37c231cf238b1162b0ebdf89c20
+SHA1: 40cbdf30d68595174c4f5ae935ff724eed0203af
+MD5sum: 98fca3580b10c706550eac170f616288
+Description: explorative taxonomic profiling tool for metagenomic data
+ MicrobeGPS is a bioinformatics tool for the analysis of metagenomic
+ sequencing data. The goal is to profile the composition of metagenomic
+ communities as accurately as possible and present the results to the
+ user in a convenient manner. One main focus is reliability: the tool
+ calculates quality metrics for the estimated candidates and allows the
+ user to identify false candidates easily.
+
 Package: minexpert2-doc
 Source: minexpert2
 Version: 8.6.3-1
@@ -378,6 +1446,28 @@ Description: MS^n mass spectrometric data visualization and mining (doc)
  .
  This package ships the user manual in both PDF and HTML formats.
 
+Package: mingw-w64-common
+Source: mingw-w64
+Version: 10.0.0-3
+Architecture: all
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 61462
+Multi-Arch: foreign
+Homepage: http://mingw-w64.sf.net
+Priority: optional
+Section: devel
+Filename: pool/main/m/mingw-w64/mingw-w64-common_10.0.0-3_all.deb
+Size: 5168888
+SHA256: 1317a00bbbc3866a6d23ff177bc3f6c92ccbfc9489f8d5314bfac76cf60ffc19
+SHA1: 08563b04ff9bae27cc8b766fa17253e28241a229
+MD5sum: f6493665be271c3beb1c45610cae3367
+Description: Common files for Mingw-w64
+ MinGW-w64 provides a development and runtime environment for 32- and
+ 64-bit (x86 and x64) Windows applications using the Windows API and
+ the GNU Compiler Collection (gcc).
+ .
+ This package contains files common to both 32- and 64-bit targets.
+
 Package: mint-y-icons
 Version: 1.6.5-1
 Architecture: all
@@ -416,6 +1506,105 @@ Description: data files for Minuet
  .
  This package contains the data files for Minuet.
 
+Package: mira-rfam-12s-rrna
+Source: mira
+Version: 4.9.6-7
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 10209
+Pre-Depends: mira-assembler
+Suggests: mira-doc
+Homepage: https://sourceforge.net/p/mira-assembler/wiki/Home/
+Priority: optional
+Section: science
+Filename: pool/main/m/mira/mira-rfam-12s-rrna_4.9.6-7_all.deb
+Size: 10443508
+SHA256: 852dfdce32f5bce6e3c4bbf0583e343110e39ab72be9c14272f43377a154d314
+SHA1: 00eb7089d40b0a3bb78339c24928211854f787a0
+MD5sum: 84441ef4416f10c518d3fd77efb0dccb
+Description: extract of RFAM 12 rRNA database
+ The mira genome fragment assembler is a specialised assembler for
+ sequencing projects classified as 'hard' due to high number of similar
+ repeats.
+ .
+ This package contains data to enable MIRA and MIRABAIT to search for rRNA and
+ rDNA. This data set contains an excerpt of the RFAM database.
+
+Package: mixxx-data
+Source: mixxx
+Version: 2.3.3~dfsg-2
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 36785
+Multi-Arch: foreign
+Homepage: https://www.mixxx.org/
+Priority: optional
+Section: sound
+Filename: pool/main/m/mixxx/mixxx-data_2.3.3~dfsg-2_all.deb
+Size: 10315992
+SHA256: 0ab516bc3b9b6613c20a35f201381b2649b671c87416e4a0fcefb02d48ee5c0c
+SHA1: 0a41ce8bc5d48d50434a41950421de8529a945ad
+MD5sum: dd33288339f258233a4aa4a6253b774a
+Description: Digital Disc Jockey Interface -- data files
+ Mixxx is a digital DJ system, where Wave, Ogg, FLAC and MP3 files can be
+ mixed on a computer for use in live performances. Filters, crossfader, and
+ speed control are provided. Mixxx can sync the 2 streams automatically, using
+ an algorithm to detect the beat.
+ .
+ Mixxx works with Jack or OSS, can be controlled from the GUI or from external
+ controllers, including MIDI devices and joysticks, and supports skins.
+ .
+ This package provides images and skin configuration files required for mixxx.
+
+Package: mmseqs2-examples
+Source: mmseqs2
+Version: 14-7e284+ds-1
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 9717
+Recommends: mmseqs2
+Multi-Arch: foreign
+Homepage: https://github.com/soedinglab/MMseqs2
+Priority: optional
+Section: science
+Filename: pool/main/m/mmseqs2/mmseqs2-examples_14-7e284+ds-1_all.deb
+Size: 9570216
+SHA256: ad2a14a4ca48735eff75de49b702ba969187c4e3b7814b8ae4ec0073f17cd4d2
+SHA1: b737d7c5113a297677d82bec9e8170a81b7ee436
+MD5sum: 3374afd7e358043f4df0598f02a95d50
+Description: optional resources for the mmseqs2 package
+ MMseqs2 (Many-against-Many sequence searching) is a software suite to
+ search and cluster huge proteins/nucleotide sequence sets. MMseqs2 is
+ open source GPL-licensed software implemented in C++ for Linux, MacOS,
+ and (as beta version, via cygwim) Windows. The software is designed to
+ run on multiple cores and servers and exhibits very good scalability.
+ MMseqs2 can run 10000 times faster than BLAST. At 100 times its speed it
+ achieves almost the same sensitivity. It can perform profile searches
+ with the same sensitivity as PSI-BLAST at over 400 times its speed.
+
+Package: mocassin-examples
+Source: mocassin
+Version: 2.02.73.2-1
+Architecture: all
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 9949
+Suggests: mocassin
+Multi-Arch: foreign
+Homepage: http://www.3d-mocassin.net
+Priority: optional
+Section: science
+Filename: pool/main/m/mocassin/mocassin-examples_2.02.73.2-1_all.deb
+Size: 8657344
+SHA256: 057131a5c36394f90f7c75f00e228270e6ac3ffef607af53927e80af501cb885
+SHA1: af26c78fa16f5d94b8b52d5060cf7a7f62aa04f2
+MD5sum: da515c889164f8fb807182e0152ebddd
+Description: Examples for the photoionisation code MOCASSIN
+ mocassin is a fully 3D or 2D photoionisation and dust radiative transfer code
+ which employs a Monte Carlo approach to the transfer of radiation through
+ media of arbitrary geometry and density distribution. This package contains
+ example input for files for some of the complex simulations that MOCASSIN is
+ capable of.
+
 Package: moka-icon-theme
 Version: 5.5.0-2
 Architecture: all
@@ -435,6 +1624,31 @@ Description: Tango-esque desktop icon set called Moka
  designed to be a clear, simple and consistent.
  Moka is designed to work with the Faba icon set - together
  they provide both applications and panel based icons.
+
+Package: mono-dbg
+Source: mono
+Version: 6.8.0.105+dfsg-3.3
+Architecture: all
+Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
+Installed-Size: 21415
+Replaces: monodoc-base (<< 2.4)
+Homepage: http://www.mono-project.com/
+Priority: optional
+Section: debug
+Filename: pool/main/m/mono/mono-dbg_6.8.0.105+dfsg-3.3_all.deb
+Size: 6508888
+SHA256: 4ab893276c0a8e516954bc8fbb2d2758b764bf5bad079d7d9178177f29a2c8c0
+SHA1: 86bd0048dbec9c36d73ede21e119581721d5728b
+MD5sum: eae0f75744fb0a70a09537dc35d0c663
+Description: Mono debugging symbols
+ This package contains the debugging symbols of various libmono-* and mono-*
+ packages.
+ .
+ Mono is a platform for running and developing applications based on the
+ ECMA/ISO Standards. Mono is an open source effort led by Xamarin.
+ Mono provides a complete CLR (Common Language Runtime) including compiler and
+ runtime, which can produce and execute CIL (Common Intermediate Language)
+ bytecode (aka assemblies), and a class library.
 
 Package: mono-devel
 Source: mono
@@ -464,6 +1678,29 @@ Description: Mono development tools
  .
  This package contains various development tools and pulls in the default
  development stack for Mono (which is 4.0 currently).
+
+Package: monodoc-manual
+Source: mono
+Version: 6.8.0.105+dfsg-3.3
+Architecture: all
+Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
+Installed-Size: 21342
+Depends: monodoc-http | monodoc-viewer
+Suggests: monodoc-gtk-manual, monodoc-gecko-manual, monodoc-nunit-manual
+Homepage: http://www.mono-project.com/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mono/monodoc-manual_6.8.0.105+dfsg-3.3_all.deb
+Size: 18588188
+SHA256: 790eaa4a041325e73622eed982621de5efe9a164dea8310e849df941514554d2
+SHA1: c92322dfddb90bf426059d0eac327169ff49fcc4
+MD5sum: 086d40003b7062a3c4e3bfb9af619bc8
+Description: compiled XML documentation from the Mono project
+ The MonoDoc Project is the documentation framework of the Mono project which
+ provides detailed API documentation for all Mono components and the Mono CLI
+ implementation.
+ .
+ This package contains the compiled XML documentation of MonoDoc.
 
 Package: morse-simulator-data
 Source: morse-simulator
@@ -501,6 +1738,209 @@ Description: Multi-OpenRobot Simulation Engine
   * Fully open source, BSD license.
  .
  This package contains morse data.
+
+Package: morse-simulator-doc
+Source: morse-simulator
+Version: 1.4-8
+Architecture: all
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 26368
+Depends: libjs-jquery, libjs-underscore
+Homepage: http://morse-simulator.github.io/
+Priority: optional
+Section: doc
+Filename: pool/main/m/morse-simulator/morse-simulator-doc_1.4-8_all.deb
+Size: 13318648
+SHA256: 7e3a399ef4b7eb6b2e31649af43264d3637b8ebd05a1f9786b3879acbc91f732
+SHA1: 48c601893af18ddc2e07475b5ce891b6961ce7a6
+MD5sum: 3a349dabebe9b327288abdff7b5c9b60
+Description: Multi-OpenRobot Simulation Engine - Documentation
+ List of morse features:
+  * Versatile simulator for generic mobile robots simulation
+    (single or multi robots),
+  * Realistic and dynamic environments (interaction with other agents like
+    humans or objects),
+  * Based on well known and widely adopted open source projects (Blender for 3D
+    rendering + UI, Bullet for physics simulation, dedicated robotic
+    middlewares for communications + robot hardware support),
+  * Seamless workflow: since the simulator rely on Blender for both modeling
+    and the real time 3D engine, creating and modifying a simulated scene is
+    straightforward.
+  * Entirely scriptable in Python,
+  * Adaptable to various level of simulation realism (for instance the
+    simulation of exteroceptive sensors like cameras or a direct access to
+    higher level representations of the world, like labeled artifacts),
+  * Currently compatible with ROS, YARP and the LAAS OpenRobots robotics
+    frameworks,
+  * Easy to integrate to other environments via a simple socket interface,
+  * Fully open source, BSD license.
+ .
+ This package contains the documentation.
+
+Package: mricron-data
+Source: mricron
+Version: 1.2.20211006+dfsg-4
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 15914
+Multi-Arch: foreign
+Homepage: https://www.nitrc.org/projects/mricron
+Priority: optional
+Section: science
+Filename: pool/main/m/mricron/mricron-data_1.2.20211006+dfsg-4_all.deb
+Size: 16122652
+SHA256: d40aa0ed66cf89bf6cafa049ad3884703c9d975c2ee2737525b7196528df9d6f
+SHA1: 2a68e52ce5e881c7a3d9c1f7b50897a32e281426
+MD5sum: bbc3f2eeaa1fbf251527d7cb60c255e3
+Description: data files for MRIcron
+ This is a GUI-based visualization and analysis tool for (functional) magnetic
+ resonance imaging. MRIcron can be used to create 2D or 3D renderings of
+ statistical overlay maps on brain anatomy images. Moreover, it aids drawing
+ anatomical regions-of-interest (ROI), or lesion mapping, as well as basic
+ analysis of functional timeseries (e.g. creating plots of peristimulus
+ signal-change).
+ .
+ This package provides data files for MRIcron, such as brain atlases, anatomy,
+ and color schemes.
+
+Package: mrpt-common
+Source: mrpt
+Version: 1:2.5.8+ds-2
+Architecture: all
+Maintainer: Jose Luis Blanco Claraco <joseluisblancoc@gmail.com>
+Installed-Size: 9734
+Multi-Arch: foreign
+Homepage: https://www.mrpt.org/
+Priority: optional
+Section: science
+Filename: pool/main/m/mrpt/mrpt-common_2.5.8+ds-2_all.deb
+Size: 8974008
+SHA256: fa99989931f8c8617902068d6cf7b38f560ee3e6e5999c3ecd464c9f55342ed4
+SHA1: 190eedc8ba892566b3cdec350bcfa0e75d7ae495
+MD5sum: 565e6c58c17e8096fd2a02a3c1a9cc0b
+Description: Mobile Robot Programming Toolkit - Example datasets and files
+ The Mobile Robot Programming Toolkit (MRPT) is an extensive, cross-platform,
+ and open source C++ library aimed to help robotics researchers to design and
+ implement algorithms in the fields of Simultaneous Localization and Mapping
+ (SLAM), computer vision, and motion planning (obstacle avoidance).
+ .
+ This package provides example datasets and configuration files for several
+ MRPT applications.
+
+Package: mrrescue
+Version: 1.02e-3
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 11706
+Depends: love
+Homepage: https://tangramgames.dk/games/mrrescue
+Priority: optional
+Section: games
+Filename: pool/main/m/mrrescue/mrrescue_1.02e-3_all.deb
+Size: 11918144
+SHA256: 62ca7e873bcb5077c6f95b814d3c8e6909c9e1f953ebb00d0bb82176e2bb0cd5
+SHA1: 46d07aea5eecfd4247cb434eb87ceeb853791fff
+MD5sum: df0d75fd69fbbf9dcefc8269f6082b94
+Description: Mr Rescue is an arcade 2d action game
+ Mr. Rescue is an arcade styled 2d action game centered around evacuating
+ civilians from burning buildings. The game features fast paced fire
+ extinguishing action, intense boss battles, a catchy soundtrack and lots of
+ throwing people around in pseudo-randomly generated buildings.
+
+Package: msc-generator-doc
+Source: msc-generator
+Version: 8.1-2
+Architecture: all
+Maintainer: Gábor Németh <homar@riseup.net>
+Installed-Size: 12243
+Multi-Arch: foreign
+Homepage: https://gitlab.com/msc-generator/msc-generator
+Priority: optional
+Section: doc
+Filename: pool/main/m/msc-generator/msc-generator-doc_8.1-2_all.deb
+Size: 10584080
+SHA256: ac8bd1c9ea11639bb106b2f2989fab0b973da6d3332e3f069a974f945aa781a7
+SHA1: e9ee256aef392a7b8c33bbaeea002d5eea516cfe
+MD5sum: fdaf0546260aa43cf0b907d20570c3b0
+Description: Documentation for msc-generator
+ This package contains documentation in info, html, and pdf formats for
+ Msc-generator.
+
+Package: mu-cade-data
+Source: mu-cade
+Version: 0.11.dfsg1-13
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5475
+Suggests: mu-cade
+Multi-Arch: foreign
+Homepage: https://www.asahi-net.or.jp/~cs8k-cyu/windows/mcd_e.html
+Priority: optional
+Section: games
+Filename: pool/main/m/mu-cade/mu-cade-data_0.11.dfsg1-13_all.deb
+Size: 4882560
+SHA256: 0486ba0460f0d1d7c9d41b44d5209610e000fc2aea8f6bb3d15de7f6f6664bd1
+SHA1: af42f101208db3cac8a25b441c21a73be733f933
+MD5sum: eca1319b1bf0dce37b2f62c1441e88a1
+Description: physics centipede invasion - game data
+ Mu-cade is another shoot-em-up game by Kenta Cho. In this game Kenta has
+ introduced physics into his formula of hardcore shooting games. Similar
+ in some ways to Asteroids and Nibbles, the playing area is a rectangular
+ arena in which vessel-snakes have only one idea at the head: expelling
+ the others into the vacuum. You incarnate one of them, and you'll quickly
+ realize the subtlety of the goal: your tail lengthens as you destroy your
+ enemies.
+ .
+ This package includes the architecture-independent data for the game Mu-cade.
+
+Package: munipack-doc
+Source: munipack
+Version: 0.6.1-1
+Architecture: all
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 23368
+Multi-Arch: foreign
+Homepage: https://munipack.physics.muni.cz/
+Priority: optional
+Section: doc
+Filename: pool/main/m/munipack/munipack-doc_0.6.1-1_all.deb
+Size: 20663816
+SHA256: a249071d3ba6224f7ad2647a2a36992f4bf7abf871c9edfb4dd1fec5162242f0
+SHA1: 5c6b6f4d329d3d1686c352578de8e1c4b290b75f
+MD5sum: 465c4482397189e5589de8b85841a34b
+Description: Documentation of Munipack
+ Munipack is a general astronomical photometry software package.
+ Currently implements functions for standard photometry processing
+ (photometry reductions - dark, flat), aperture  photometry, astrometry
+ and photometry calibration, accessing Virtual observatory, etc.
+ .
+ This package contains extensive documentation (guide, tutorials,
+ description of data formats).
+
+Package: murano-doc
+Source: murano
+Version: 1:14.0.0-3
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 11304
+Depends: libjs-sphinxdoc (>= 5.2)
+Homepage: https://github.com/openstack/murano
+Priority: optional
+Section: doc
+Filename: pool/main/m/murano/murano-doc_14.0.0-3_all.deb
+Size: 5096004
+SHA256: d8b94973f918205f59d5aef1c35a6b8e9348e28d2277bfb3fce0afcc1b525ed9
+SHA1: 07c71b81fdcc9968a57c7651187ac66a30eb73a8
+MD5sum: 026445d0eda136622d63a507143f1eeb
+Description: cloud-ready application catalog - doc
+ Murano Project introduces an application catalog, which allows application
+ developers and cloud administrators to publish various cloud-ready
+ applications in a browsable categorised catalog, which may be used by the
+ cloud users (including the inexperienced ones) to pick-up the needed
+ applications and services and composes the reliable environments out of them
+ in a "push-the-button" manner.
+ .
+ This package contains the documentation.
 
 Package: musescore-general-soundfont
 Version: 0.2.1-1
@@ -609,6 +2049,78 @@ Description: General SoundFont from MuseScore (lossy)
  This package will be installed into /usr/share/sounds/sf3/ which
  is the standard Debian location for system-wide SF3 soundfonts.
 
+Package: mygui-doc
+Source: mygui
+Version: 3.4.1+dfsg-3
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 34817
+Depends: libjs-jquery
+Homepage: http://www.ogre3d.org/tikiwiki/MyGUI
+Priority: optional
+Section: doc
+Filename: pool/main/m/mygui/mygui-doc_3.4.1+dfsg-3_all.deb
+Size: 5255784
+SHA256: e80833946113d2a76359563420f3a700e361f9b789fdcdd44124615997e6ac88
+SHA1: 608c5298c7fdc1c057c446316b0dc16504f3f350
+MD5sum: e363aa1bceeb79bbb731512bc38ff4cc
+Description: API documentations for MyGUI library
+ MyGUI is a GUI library which aims to be fast, flexible and simple GUIs in C++.
+  Features include
+    Layout Editor.
+    Multicolour text.
+    Per pixel cut.
+    Changing alpha support for widgets (also in states configuration).
+    Interface localisation.
+    Fast RTTI for safe casts.
+    Tool tips.
+    Animated cursors and pictures.
+    User xml resources.
+    Truetype fonts and fonts from texture.
+    Widgets controllers (moving, fading and so on).
+    Flexible configuration in xml config file.
+    Subskins with tiling, with direct access to texture.
+    Possibility to store any data in widgets items.
+    Skin themes.
+    Wrappers for fast UI development.
+    Drag'n'drop.
+ .
+ This package contains the MyGUI API reference for the MyGUIEngine library.
+
+Package: navit-data
+Source: navit
+Version: 0.5.6+dfsg.1-2
+Architecture: all
+Maintainer: Gilles Filippini <pini@debian.org>
+Installed-Size: 10727
+Recommends: navit
+Homepage: https://www.navit-project.org
+Priority: optional
+Section: misc
+Filename: pool/main/n/navit/navit-data_0.5.6+dfsg.1-2_all.deb
+Size: 4912192
+SHA256: a09dce6f615aba6f01841e3c3e1ecd5909fb6f69c10f91a0b9d15d4a10b08717
+SHA1: 863c94d5364f512fc93ac44912d66ef20050dcb7
+MD5sum: fbb77d930adf28aa4fead456ec991ee9
+Description: Car navigation system with routing engine - data files
+ Navit is a car navigation system with routing engine.
+ .
+ Its modular design is capable of using vector maps of various formats for
+ routing and rendering of the displayed map. It's even possible to use multiple
+ maps at a time.
+ .
+ The GTK+ or SDL user interfaces are designed to work well with touch screen
+ displays. Points of Interest of various formats are displayed on the map.
+ .
+ The current vehicle position is either read from gpsd or directly from NMEA
+ GPS sensors.
+ .
+ The routing engine not only calculates an optimal route to your destination,
+ but also generates directions and even speaks to you using speech-dispatcher.
+ .
+ This package contains the architecture independent files - mainly translation
+ files and images - for navit.
+
 Package: ncbi-rrna-data
 Source: ncbi-tools6
 Version: 6.1.20170106+dfsg1-10
@@ -635,6 +2147,174 @@ Description: large rRNA BLAST databases distributed with the NCBI toolkit
  files to facilitate searching some of them in conjunction with
  databases included in ncbi-data.
 
+Package: netdata-web
+Source: netdata
+Version: 1.37.1-2
+Architecture: all
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Installed-Size: 27157
+Depends: fonts-font-awesome, libjs-bootstrap, netdata-core (>= 1.37.1-2) | netdata-core-no-sse (>= 1.37.1-2)
+Enhances: netdata-core, netdata-core-no-sse
+Conflicts: netdata-data
+Replaces: netdata-data
+Homepage: https://github.com/netdata/netdata
+Priority: optional
+Section: net
+Filename: pool/main/n/netdata/netdata-web_1.37.1-2_all.deb
+Size: 7562708
+SHA256: d243a3f61111da84deffaf0b26455020d5fa18449d596d22d028713f3072e496
+SHA1: 2880c53d8332f1d9f64d30711b2fa0baf2dc3b95
+MD5sum: f46edcf889cf845a9c4a8786729632b0
+Description: real-time performance monitoring (web)
+ Netdata is distributed, real-time, performance and health monitoring for
+ systems and applications. It provides insights of everything happening on the
+ systems it runs using interactive web dashboards.
+ .
+ This package contains the web frontend.
+
+Package: netpanzer-data
+Source: netpanzer
+Version: 0.8.7+ds-4.1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 29652
+Suggests: netpanzer
+Multi-Arch: foreign
+Homepage: https://www.netpanzer.info/
+Priority: optional
+Section: games
+Filename: pool/main/n/netpanzer/netpanzer-data_0.8.7+ds-4.1_all.deb
+Size: 8623864
+SHA256: 7898229424bea5189986b995c9a0eca4d3923b692f8f1ec8c67b4801e3694aa8
+SHA1: 50bf460e771acb84c9413f2f695f309b3ec27ab1
+MD5sum: c947231f5b2895f51992b91810268dfe
+Description: data files for the netPanzer game
+ netPanzer is an online multiplayer tactical warfare game designed for
+ play across the Internet and over LAN systems. One on one games are
+ possible via direct connect or modem.
+ .
+ This package contains data files for netPanzer.
+
+Package: neutron-doc
+Source: neutron
+Version: 2:21.0.0-7
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 23847
+Depends: libjs-sphinxdoc (>= 5.2)
+Homepage: http://neutron.openstack.org/
+Priority: optional
+Section: doc
+Filename: pool/main/n/neutron/neutron-doc_21.0.0-7_all.deb
+Size: 10159936
+SHA256: ac507a6cd05dad46e4db200f0a78e38179c8969b448d179c85da991955af2e90
+SHA1: cb4a0a2564fc6f72cecc153d21d2e4058afcad17
+MD5sum: 9d40541d7c4adef49ff012a56bd17b8c
+Description: OpenStack virtual network service - doc
+ Neutron provides an API to dynamically request and configure virtual networks.
+ These networks connect "interfaces" from other OpenStack services (such as
+ vNICs from Nova VMs). The Neutron API supports extensions to provide advanced
+ network capabilities, including QoS, ACLs, and network monitoring.
+ .
+ This package provides the documentation.
+
+Package: neverball-common
+Source: neverball
+Version: 1.6.0+git20180603-3
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 26143
+Depends: fonts-dejavu-core
+Suggests: fonts-wqy-microhei
+Multi-Arch: foreign
+Homepage: http://neverball.org/
+Priority: optional
+Section: games
+Filename: pool/main/n/neverball/neverball-common_1.6.0+git20180603-3_all.deb
+Size: 16703460
+SHA256: 4da26f36600148591cecdc23860dbb358c3f3f6916ab1c2bb649b9292462b3f2
+SHA1: 58a7b7a21341bab28daa56b33ddbf3fbf17bd8dc
+MD5sum: c93f643a8423298fb3bfa7b13df79252
+Description: data files for Neverball and Neverputt
+ The engine of the floor-tilting game Neverball is also used by its spin-off,
+ a miniature golf game known as Neverputt.
+ .
+ This package contains the data files shared between Neverball and Neverputt.
+
+Package: neverball-data
+Source: neverball
+Version: 1.6.0+git20180603-3
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 85847
+Depends: neverball-common (= 1.6.0+git20180603-3)
+Suggests: neverball
+Multi-Arch: foreign
+Homepage: http://neverball.org/
+Priority: optional
+Section: games
+Filename: pool/main/n/neverball/neverball-data_1.6.0+git20180603-3_all.deb
+Size: 17897156
+SHA256: 08fc3a2846cab0be57235b82a6ac113ed9612ace43374b8d6ea7eed61700937f
+SHA1: c1fe07948c032903b8c19958e55d16975f9c97a9
+MD5sum: 5be72e91210d864bebd6f38c3bebd143
+Description: data files for Neverball
+ In the grand tradition of Marble Madness and Super Monkey Ball, Neverball
+ has you guide a rolling ball through dangerous territory. Balance on narrow
+ bridges, navigate mazes, ride moving platforms, and dodge pushers and
+ shovers to get to the goal. Race against the clock to collect coins to earn
+ extra balls.
+ .
+ This package contains the data files needed to play Neverball.
+
+Package: neverputt-data
+Source: neverball
+Version: 1.6.0+git20180603-3
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 27561
+Depends: neverball-common (= 1.6.0+git20180603-3)
+Suggests: neverputt
+Multi-Arch: foreign
+Homepage: http://neverball.org/
+Priority: optional
+Section: games
+Filename: pool/main/n/neverball/neverputt-data_1.6.0+git20180603-3_all.deb
+Size: 6087668
+SHA256: 991d94f2e971e9cc4e4a09eaba1832208a6a2c0ecc2cea7a123e671374f22442
+SHA1: 74ccc721c5a54e4f72f66e75e0d80b172d3328ad
+MD5sum: 40d8b24b3c7fbbabd02240084a37ed36
+Description: data files for Neverputt
+ Neverputt is a hot-seat multi-player miniature golf game for 1 to 4 players.
+ The 18-hole course takes advantage of all the elements that challenge
+ Neverball players, including moving platforms and barriers, teleporters,
+ ramps, and drop-offs. A simple putting interface and golf scoring system
+ have been added.
+ .
+ This package contains the data files needed to play Neverputt.
+
+Package: newlib-source
+Source: newlib
+Version: 3.3.0-1.3
+Architecture: all
+Maintainer: Agustin Henze <tin@debian.org>
+Installed-Size: 5735
+Homepage: https://sourceware.org/newlib/
+Priority: optional
+Section: libdevel
+Filename: pool/main/n/newlib/newlib-source_3.3.0-1.3_all.deb
+Size: 5835444
+SHA256: d5419dc3d43bf39536c4452f6ea1f2a661f351c1a016b529f13bf31e64b81de6
+SHA1: 4fea8e5f4f143670bb20656f3392fc1a1b142ccb
+MD5sum: 10709d3fa04875f87e29aa0c41eea22c
+Description: C library and math library for embedded systems (source)
+ Newlib is a C library and math library intended for use on embedded systems.
+ It is a conglomeration of several library parts, all under free software
+ licenses that make them easily usable on embedded products.
+ .
+ This package contains the upstream source code suitable for targeting
+ new platforms.
+
 Package: nexuiz-music
 Source: nexuiz-data
 Version: 2.5.2-12
@@ -659,6 +2339,49 @@ Description: Nexuiz music files
  .
  This package contains only the in-game music files. If you want to play the
  game you need to install the package "nexuiz".
+
+Package: node-typescript
+Version: 4.8.4+ds1-2
+Architecture: all
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 67283
+Depends: nodejs:any
+Breaks: node-typescript-types (<< 20190926-1~)
+Multi-Arch: foreign
+Homepage: https://typescriptlang.org/
+Priority: optional
+Section: javascript
+Filename: pool/main/n/node-typescript/node-typescript_4.8.4+ds1-2_all.deb
+Size: 7336672
+SHA256: a892c2ada87115af8875b4cbe9746836ffe8b5a00724a63ffcaa79b3d83d2245
+SHA1: a5eddeaf1da92260a61ecdaeaccee1ad0755e74d
+MD5sum: b8f1696c5588b1325294eff02005b831
+Description: TypeScript is a language for application scale JavaScript development
+ TypeScript is a language for application-scale JavaScript. It adds
+ optional types, classes, and modules to JavaScript, supports tools
+ for large-scale JavaScript applications for any browser, for any host,
+ on any OS and compiles to readable, standards-based JavaScript.
+ .
+ Node.js is an event-based server-side JavaScript engine.
+
+Package: noiz2sa-data
+Source: noiz2sa
+Version: 0.51a-13
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 8671
+Multi-Arch: foreign
+Homepage: http://www.asahi-net.or.jp/~cs8k-cyu/windows/noiz2sa_e.html
+Priority: optional
+Section: games
+Filename: pool/main/n/noiz2sa/noiz2sa-data_0.51a-13_all.deb
+Size: 8311400
+SHA256: 7e38af552d946eaaf06ab2789c921972bb2bd88f202d48113faf11a30a614223
+SHA1: 01321ef62e599b2daab5df1eebb8f197a97a587f
+MD5sum: 48357d70e88a0253291530c9b8083b12
+Description: abstract arcade shooter, data files
+ This package contains sounds and other data files for noiz2sa, an abstract
+ arcade shooter.
 
 Package: ns2-examples
 Source: ns2
@@ -721,6 +2444,31 @@ Description: documentation for ns3
  .
  This package contains manual, modules, tutorial and doxygen.
 
+Package: nwchem-data
+Source: nwchem
+Version: 7.0.2-4
+Architecture: all
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 47746
+Multi-Arch: foreign
+Homepage: https://nwchemgit.github.io
+Priority: optional
+Section: science
+Filename: pool/main/n/nwchem/nwchem-data_7.0.2-4_all.deb
+Size: 6111044
+SHA256: 2f64cf115fe1aff48becdee51ba9a0e463da220049ce59478e46a55eef534ec5
+SHA1: f92273db2beb52975f63d893152e486e4876a04a
+MD5sum: 108f21884420c3192df5c97dc9dad420
+Description: High-performance computational chemistry software (data files)
+ NWChem is a computational chemistry program package.  It provides methods
+ which are scalable both in their ability to treat large scientific
+ computational chemistry problems efficiently, and in their use of available
+ parallel computing resources from high-performance parallel supercomputers to
+ conventional workstation clusters.
+ .
+ This package contains the basis sets, pseudopotentials and AMBER/CHARMM
+ parameter files.
+
 Package: obsidian-icon-theme
 Version: 3.5-1.1
 Architecture: all
@@ -738,6 +2486,204 @@ Description: Intuitive Faenza-like icon theme
  Modern and intuitive Obsidian provides several faenza-like icons
  for panels, toolbars and buttons it also provides squared and colorful
  icons for your applications, folders, files and devices.
+
+Package: ocaml-source
+Source: ocaml
+Version: 4.13.1-4
+Architecture: all
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Installed-Size: 5384
+Provides: ocaml-source-4.13.1
+Homepage: https://ocaml.org/
+Priority: optional
+Section: ocaml
+Filename: pool/main/o/ocaml/ocaml-source_4.13.1-4_all.deb
+Size: 5486520
+SHA256: ccc6a2ade3b0eba82931ca8178721a3d1047bd5bb51143a1a2018c21746b696d
+SHA1: 080c404dfdf1616082f13ffb19151234cb884e65
+MD5sum: 44d438bf85fbad32cea695757905557f
+Description: Sources for Objective Caml
+ Objective Caml (OCaml) is an implementation of the ML language, based on
+ the Caml Light dialect extended with a complete class-based object system
+ and a powerful module system in the style of Standard ML.
+ .
+ This package contains the sources needed to build some packages which build
+ depend on the OCaml source. Notice that if you want to rebuild OCaml, these
+ will not work, consider using the source package instead.
+
+Package: occt-misc
+Source: opencascade
+Version: 7.6.3+dfsg1-7
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 59886
+Breaks: libocct-foundation-dev (<< 7.6.3+dfsg1-4~)
+Multi-Arch: foreign
+Homepage: https://www.opencascade.com/
+Priority: optional
+Section: utils
+Filename: pool/main/o/opencascade/occt-misc_7.6.3+dfsg1-7_all.deb
+Size: 10379624
+SHA256: cca1a3d048506931538d300835cfd7b94356ddb0254adb0ada57ea5a48e976d1
+SHA1: 26a270022afd605670df08488958b99a1cf49905
+MD5sum: eb83b3fd79be5ed83f960a83fee3b46b
+Description: OCCT CAE platform shared library miscellaneous files
+ Open CASCADE Technology is a suite for 3D surface and solid modeling,
+ visualization, data exchange and rapid application development.  It is an
+ excellent platform for development of numerical simulation software including
+ CAD/CAM/CAE, AEC and GIS, as well as PDM applications.
+ .
+ This package contains resource files.
+
+Package: octave-common
+Source: octave
+Version: 7.3.0-2
+Architecture: all
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Installed-Size: 21496
+Recommends: fonts-freefont-otf
+Multi-Arch: foreign
+Homepage: https://www.octave.org/
+Priority: optional
+Section: math
+Filename: pool/main/o/octave/octave-common_7.3.0-2_all.deb
+Size: 6256908
+SHA256: 4c46f7314b0bc471db63d4733ae4a798e9c2185d790d19862454d976ed071cbb
+SHA1: f7bba5c062fd29f74d4b7457ceed77d98e3d8283
+MD5sum: 54905f17bcab4c456bc2ed6b5ac4be4a
+Description: architecture-independent files for octave
+ Octave is a (mostly MATLAB® compatible) high-level language, primarily
+ intended for numerical computations. It provides a convenient command-line
+ interface for solving linear and nonlinear problems numerically.
+ .
+ Octave can be dynamically extended with user-supplied C++ files.
+ .
+ This package provides the architecture-independent files (Octave scripts
+ and other helper files).
+
+Package: octave-doc
+Source: octave
+Version: 7.3.0-2
+Architecture: all
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Installed-Size: 20597
+Depends: info
+Suggests: www-browser | pdf-viewer
+Enhances: octave
+Breaks: octave-htmldoc (<< 4.2.1-6), octave-info (<< 4.2.1-6)
+Replaces: octave-htmldoc (<< 4.2.1-6), octave-info (<< 4.2.1-6)
+Multi-Arch: foreign
+Homepage: https://www.octave.org/
+Priority: optional
+Section: doc
+Filename: pool/main/o/octave/octave-doc_7.3.0-2_all.deb
+Size: 8270064
+SHA256: b27897cc7e3d688daa5cb8f8d1ea47077f3fbd205ce32e22522200ff0c1eadd5
+SHA1: ebb50ec0138d4d31242882cb71ca9db6ee39db10
+MD5sum: 8ada2096ff22b0a404a5fb7576ce393d
+Description: documentation of the GNU Octave language
+ Octave is a (mostly MATLAB® compatible) high-level language, primarily
+ intended for numerical computations. It provides a convenient command-line
+ interface for solving linear and nonlinear problems numerically.
+ .
+ This package provides the following documentation in HTML, PDF and Info
+ formats:
+  - the main user manual
+  - a document on the C++ classes used internally by Octave.
+ .
+ It also includes a reference card in PDF format and in a4, letter and legal
+ paper sizes.
+ .
+ This package is required by the 'help -i' command at the Octave command-line
+ and by the help documentation browser in the graphical interface.
+
+Package: ogre-1.12-doc
+Source: ogre-1.12
+Version: 1.12.10+dfsg2-3
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 104679
+Depends: libjs-jquery, libjs-mathjax
+Multi-Arch: foreign
+Homepage: https://ogre3d.org/
+Priority: optional
+Section: doc
+Filename: pool/main/o/ogre-1.12/ogre-1.12-doc_1.12.10+dfsg2-3_all.deb
+Size: 7774192
+SHA256: 737bc3da312b11c7d64ac0d3f207ef986ba40d6b0645c0808ca88a7cf2fd7620
+SHA1: 0456e07c207ba0e23808939761abf62a7e94ec99
+MD5sum: 7d2c897e905393857f2146573079b1a1
+Description: 3D Object-Oriented Graphics Rendering Engine (documentation)
+ OGRE (Object-Oriented Graphics Rendering Engine) is a scene-oriented, flexible
+ 3D engine written in C++ designed to make it easier and more intuitive for
+ developers to produce applications utilising hardware-accelerated 3D
+ graphics. The class library abstracts all the details of using the underlying
+ system libraries like Direct3D and OpenGL and provides an interface based on
+ world objects and other intuitive classes.
+ .
+ This package contains the documentation.
+
+Package: omegat
+Version: 3.6.0.10+dfsg-3
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 25725
+Depends: default-jre | java-runtime, antlr4, groovy, libactivation-java, libcommons-io-java, libcommons-lang-java, libcommons-logging-java, libdictzip-java, libhtmlparser-java, libjaxb-api-java, libjaxb-java, libjgit-java, libjna-java, libjsch-java, libjuniversalchardet-java, liblucene3-contrib-java, liblucene3-java, libpdfbox-java, libsequence-library-java, libslf4j-java, libswing-layout-java, libvldocking-java
+Homepage: https://www.omegat.org
+Priority: optional
+Section: editors
+Filename: pool/main/o/omegat/omegat_3.6.0.10+dfsg-3_all.deb
+Size: 9297960
+SHA256: e29ce324eeb836e9e6c43cfa5fdb5056b63836583da656affbc645724b66acfd
+SHA1: f8c97bc7c074a55a5266a4a590998d26e803121f
+MD5sum: 6aafe256747d1fbeacb7bc91f2c0d50b
+Description: Computer Assisted Translation (CAT) tool
+ OmegaT's main features are
+  - multiple source texts handling, retaining complex folder
+    hierarchies
+  - fuzzy matching with other segments in the source file(s)
+    or TMX files from previous projects
+  - easy glossary terms management
+  - flexible regex-based sentence segmenting (using an
+    SRX-like method)
+  - powerful regex-based searches along with the facility to
+    apply a filter to display search results in the editor
+  - ability to batch process documents from the command line
+  - extended project statistics
+  - easy-to-understand documentation and tutorial
+  - plugin architecture with separate Lucene stemmer
+    (recognition of inflected forms) and LanguageTool (style
+     and grammar checker) plugins
+  - integration with Hunspell for spelling checking
+  - simple API to access source/target/selection textual data
+ .
+ OmegaT supports 24 formats, including documentation formats such as
+ OpenDocument, Open XML (MS Office 2007), DocBook and (x)HTML, and
+ also localization formats such as Java properties and PO files. An
+ Okapi plugin can further extend the supported formats, for example to
+ include TTX (TradosTag).
+
+Package: open-jtalk-mecab-naist-jdic
+Source: open-jtalk
+Version: 1.11-3
+Architecture: all
+Maintainer: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Installed-Size: 104810
+Multi-Arch: foreign
+Homepage: http://open-jtalk.sourceforge.net/
+Priority: optional
+Section: misc
+Filename: pool/main/o/open-jtalk/open-jtalk-mecab-naist-jdic_1.11-3_all.deb
+Size: 16055160
+SHA256: 5c022fc8cff3548ca655f491fa2d9d013576424f7e98d6e27f03c841554f0012
+SHA1: 53559455b5b3964a3987f0c7462945dc338d45ef
+MD5sum: 0c4fd208480c232ec2b63791ce19f6ac
+Description: NAIST Japanese Dictionary for Open JTalk
+ This package provides NAIST Japanese Dictionary converted for Mecab used
+ by Open JTalk.
+ .
+ This is based on ipadic, however it is released under BSD style license
+ now by NAIST (Nara Institute of Science and Technology, Japan).
 
 Package: open3d-doc
 Source: open3d
@@ -762,6 +2708,30 @@ Description: Library for 3D data processing - API documentation
  Python. The backend is highly optimized and is set up for parallelization.
  .
  This package provides the API documentation.
+
+Package: open3d-gui-data
+Source: open3d
+Version: 0.16.1+ds-2
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 37002
+Depends: fonts-roboto
+Multi-Arch: foreign
+Homepage: http://www.open3d.org
+Priority: optional
+Section: science
+Filename: pool/main/o/open3d/open3d-gui-data_0.16.1+ds-2_all.deb
+Size: 18581988
+SHA256: 6f3d99cc3747d46eb98ac49b353b5b09712f50b28b5d50d904a79226ff928483
+SHA1: 4e800a6b2a86b71eb8b76c9beb1ac8901e697e0f
+MD5sum: 96faa981358d91730caee2a4fbb61086
+Description: Library for 3D data processing - GUI resources
+ Open3D is an open-source library that supports rapid development of
+ software that deals with 3D data. The Open3D frontend exposes a set
+ of carefully selected data structures and algorithms in both C++ and
+ Python. The backend is highly optimized and is set up for parallelization.
+ .
+ This package provides the resources for the GUI.
 
 Package: openarena-081-maps
 Source: openarena-maps
@@ -978,6 +2948,48 @@ Description: OpenArena Community Map Pack 1
  This package contains additional maps (levels) released in 2014
  by the OpenArena community.
 
+Package: openboard-common
+Source: openboard
+Version: 1.6.4+dfsg-1
+Architecture: all
+Maintainer: Debian Edu Packaging Team <debian-edu-pkg-team@lists.alioth.debian.org>
+Installed-Size: 14662
+Depends: libjs-jquery, libjs-jquery-i18n-properties, libjs-jquery-ui, libjs-modernizr, libjs-mustache, fonts-ecolier-court, fonts-ecolier-lignes-court, fonts-sil-andika
+Recommends: fonts-linex
+Homepage: https://github.com/OpenBoard-org/OpenBoard
+Priority: optional
+Section: x11
+Filename: pool/main/o/openboard/openboard-common_1.6.4+dfsg-1_all.deb
+Size: 11035620
+SHA256: 3a5a22299ac1be43c88c4ff69a44ef4886407cfc0e6b478934c70cf5a1714d28
+SHA1: 3b2fb849b1ae067ef279b9bf5534193a5f39aeb5
+MD5sum: 942d07b7ea03da4763ca84d8810c55b2
+Description: Interactive White Board Application (common files)
+ OpenBoard is an open source cross-platform interactive white board
+ application designed primarily for use in schools.
+ .
+ It was originally forked from Open-Sankoré, which was itself based on
+ Uniboard.
+ .
+ This package contains all architecture independent files.
+
+Package: openbosniana-icons
+Source: openbosniana-themes
+Version: 2024.05.25
+Architecture: all
+Maintainer: Denis Maslo <denni@bosniana.org>
+Installed-Size: 75954
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: utils
+Filename: pool/main/o/openbosniana-themes/openbosniana-icons_2024.05.25_all.deb
+Size: 7443404
+SHA256: da08480e4185ba073805f205189e7497894e4ab53e1c25f507c7c308da12d395
+SHA1: e45a837f5a9782dd323ce8c2d1270f6f9aa823ee
+MD5sum: 23bc8226489c279f03189a123990bfb2
+Description: OpenBosniana OS default themes.
+ This package contains the default themes for OpenBosniana OS.
+
 Package: openbosniana-installer-docs
 Version: 2024.04.13
 Architecture: all
@@ -992,6 +3004,55 @@ SHA256: 7022f3a19657ef0ec87a1f962328f1a398d1a031d399dc411413575fea73a65c
 SHA1: 83a74a2d89b0180809edfec544318e73c99b4ce5
 MD5sum: 3bca9aa1670d1b4d9d09fea15e92846a
 Description: OpenBosniana OS docs
+
+Package: opencity-data
+Source: opencity
+Version: 0.0.6.5stable-5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 8457
+Suggests: opencity
+Multi-Arch: foreign
+Homepage: http://www.opencity.info/
+Priority: optional
+Section: games
+Filename: pool/main/o/opencity/opencity-data_0.0.6.5stable-5_all.deb
+Size: 7681136
+SHA256: ca9e9e6619da070e20e1e0089bd9fd1187dce6d8b01b19ca3a9c1cdf8f580e6e
+SHA1: d769ad41e66a1a581b935f7982b5f531e1dc1eaf
+MD5sum: a9fe8bbbcc7b61c8f01cd3b56fdb4be9
+Description: data for opencity, a 3D city simulator game
+ OpenCity is 3D city construction simulator. You can build some
+ zones of housing, trading and industry, electric plant and roads.
+ .
+ This package contains the architecture-independent data for opencity. For more
+ information, see the opencity package.
+
+Package: openclipart-libreoffice
+Source: openclipart
+Version: 1:0.18+dfsg-19
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 27618
+Depends: openclipart-png (= 1:0.18+dfsg-19)
+Recommends: libreoffice
+Conflicts: libreoffice-common (<< 1:3.5.0~beta~), openclipart (<< 0.10+dfsg-3)
+Homepage: http://www.openclipart.org
+Priority: optional
+Section: graphics
+Filename: pool/main/o/openclipart/openclipart-libreoffice_0.18+dfsg-19_all.deb
+Size: 20006684
+SHA256: 77739d6ad8cc8b25caf0a410dc9dbca53f1da1913bd5f06519340a8272d0f132
+SHA1: 04a4266e2673a3f12c403b72a733e8a6b97f9a32
+MD5sum: 94799a6d4c041d53fc7f35b8e8ef5fa6
+Description: clip art for OpenOffice.org/LibreOffice gallery
+ The Open Clip Art Library is a collection of 100% license-free,
+ royalty-free, and restriction-free art that you can use for any purpose.
+ .
+ The clip art in this package is sorted by subject (e.g. sports). Openclipart 2
+ is sorted by artist (who created the clip art) and is much larger.
+ .
+ This package contains the OpenOffice.org/LibreOffice Gallery info files.
 
 Package: openclipart-svg
 Source: openclipart
@@ -1049,6 +3110,31 @@ Description: OpenCV documentation and examples
  analysis, structural analysis, motion analysis and object tracking, object
  recognition, camera calibration and 3D reconstruction.
 
+Package: opendrop-doc
+Source: opendrop
+Version: 3.3.1-5
+Architecture: all
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 8984
+Depends: libjs-sphinxdoc (>= 5.2), sphinx-rtd-theme-common (>= 1.2.0+dfsg)
+Suggests: opendrop
+Multi-Arch: foreign
+Homepage: http://opencolloids.com/
+Priority: optional
+Section: doc
+Filename: pool/main/o/opendrop/opendrop-doc_3.3.1-5_all.deb
+Size: 7765264
+SHA256: 1b04f82a96ae7644bdd4512440858b508259b7ecfae9d1380b0f2a62b8a9c81f
+SHA1: b931876e63e2a8f022b3a896f57564e3c5932a4d
+MD5sum: efec3c2bb11a418f059ae29872458758
+Description: fully-featured pendant drop tensiometry software (documentation)
+ OpenDrop is a fully-featured pendant drop tensiometry software,
+ allowing acquisition, analysis and fitting of pendant drop profiles
+ to obtain surface and interfacial tension. OpenDrop also includes
+ functionality for measuring sessile drop contact angles.
+ .
+ This is the documentation package for OpenDrop.
+
 Package: openfoam-examples
 Source: openfoam
 Version: 1912.200626-1
@@ -1074,6 +3160,28 @@ Description: Open source toolbox for Computational Fluid Dynamics (CFD) - exampl
  .
  Package contains examples and tutorials.
 
+Package: openjdk-11-doc
+Source: openjdk-11
+Version: 11.0.22+7-2
+Architecture: all
+Maintainer: OpenJDK Team <openjdk-11@packages.debian.org>
+Installed-Size: 277674
+Suggests: openjdk-11-jdk
+Multi-Arch: foreign
+Homepage: https://openjdk.java.net/
+Priority: optional
+Section: doc
+Filename: pool/main/o/openjdk-11/openjdk-11-doc_11.0.22+7-2_all.deb
+Size: 13465208
+SHA256: 7234074d867ac4a522a9d1d3636a09051791098a4f9bc0420b1140a73c153a18
+SHA1: 23140067374d9edb8b41651ad22eecaef6cc5cba
+MD5sum: e1ad97da530ded7e63d79eda9ba0aac5
+Description: OpenJDK Development Kit (JDK) documentation
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the API documentation.
+
 Package: openjdk-11-source
 Source: openjdk-11
 Version: 11.0.22+7-2
@@ -1097,6 +3205,29 @@ Description: OpenJDK Development Kit (JDK) source files
  This package contains the Java programming language source files
  (src.zip) for all classes that make up the Java core API.
 
+Package: openjdk-17-doc
+Source: openjdk-17
+Version: 17.0.10+7-1~deb12u1
+Architecture: all
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Installed-Size: 275300
+Depends: libjs-jquery, libjs-jquery-ui, libjs-jquery-ui-theme-base
+Suggests: openjdk-17-jdk
+Multi-Arch: foreign
+Homepage: https://openjdk.java.net/
+Priority: optional
+Section: doc
+Filename: pool/main/o/openjdk-17/openjdk-17-doc_17.0.10+7-1~deb12u1_all.deb
+Size: 12834288
+SHA256: 7059b079d8a13377ede8cb514fadca52f43d8827e863feb4bdf0b159d3f0fa26
+SHA1: 054b54090883477cbcd74ad4181dc619ada1c238
+MD5sum: 4890fc10c69e2b6c8b0b2ff18174d283
+Description: OpenJDK Development Kit (JDK) documentation
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the API documentation.
+
 Package: openjdk-17-source
 Source: openjdk-17
 Version: 17.0.10+7-1~deb12u1
@@ -1119,6 +3250,47 @@ Description: OpenJDK Development Kit (JDK) source files
  .
  This package contains the Java programming language source files
  (src.zip) for all classes that make up the Java core API.
+
+Package: openjfx-source
+Source: openjfx
+Version: 11.0.11+1-3
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 6529
+Homepage: https://openjfx.io
+Priority: optional
+Section: java
+Filename: pool/main/o/openjfx/openjfx-source_11.0.11+1-3_all.deb
+Size: 6074536
+SHA256: a8de0bec39f5fd7825d513893cd13876c1e8e4733b998fa9d0de0671afcc66b4
+SHA1: 5512d06cb25b073c69c471f86af3b092d9ee4d9b
+MD5sum: 1fa6a5cd89bf8737036663887c4fe19b
+Description: JavaFX/OpenJFX - Rich client application platform for Java (sources)
+ JavaFX/OpenJFX is a set of graphics and media APIs that enables Java developers
+ to design, create, test, debug, and deploy rich client applications that
+ operate consistently across diverse platforms.
+ .
+ This package contains the source archive to be used with an IDE.
+
+Package: openmolcas-data
+Source: openmolcas
+Version: 22.10-1
+Architecture: all
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 84947
+Homepage: https://gitlab.com/Molcas/OpenMolcas
+Priority: optional
+Section: science
+Filename: pool/main/o/openmolcas/openmolcas-data_22.10-1_all.deb
+Size: 12516564
+SHA256: 7daa99aa9d4d0458a3b4e51fa22e001426d51f5bb9d73aeee200690ccb0f6894
+SHA1: e609608a9a1bfac4001443644e844e8c528853b3
+MD5sum: 0f46f1b7ae691c0808ebf404f23e55a6
+Description: Quantum chemistry software package (data files)
+ The key feature of OpenMolcas is the multiconfigurational approach to the
+ electronic structure.
+ .
+ This package contains data files.
 
 Package: openms-doc
 Source: openms
@@ -1159,6 +3331,56 @@ Description: package for LC/MS data management and analysis - documentation
  package (libOpenMS and libOpenMS_GUI) and the OpenMS Proteomic
  Pipeline (topp) package.
 
+Package: openscad-testing-data
+Source: openscad
+Version: 2021.01-6
+Architecture: all
+Maintainer: Kristian Nielsen <knielsen@knielsen-hq.org>
+Installed-Size: 18586
+Depends: openscad-mcad, fonts-hosny-amiri
+Recommends: openscad
+Suggests: openscad-testing
+Multi-Arch: foreign
+Homepage: http://openscad.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/o/openscad/openscad-testing-data_2021.01-6_all.deb
+Size: 7170476
+SHA256: 4a05b16116ca8da7cb10224809f66094a991d5b4d7de75c087d1d85120536857
+SHA1: c27eb5995647c42642ca843b11988c395dbdd898
+MD5sum: fa9368979457f13c469b1f94ca1b6571
+Description: script file based graphical CAD environment (test suite data)
+ OpenSCAD is a software for creating solid 3D CAD objects. It focuses on CAD
+ aspects rather than artistic ones.
+ .
+ This package contains the data required to run the test suites.
+
+Package: openscenegraph-doc
+Source: openscenegraph
+Version: 3.6.5+dfsg1-8
+Architecture: all
+Maintainer: Alberto Luaces Fernández <aluaces@udc.es>
+Installed-Size: 167291
+Depends: libjs-jquery
+Multi-Arch: foreign
+Homepage: http://www.openscenegraph.org/
+Priority: optional
+Section: doc
+Filename: pool/main/o/openscenegraph/openscenegraph-doc_3.6.5+dfsg1-8_all.deb
+Size: 6941472
+SHA256: c9dbd8d6a5863923c003f3966d0951731076d4985cde7fb46b14ad9005087b78
+SHA1: ade4bf93bdad1011aa5f9269fe1155f9e5772015
+MD5sum: 191821b3e0f9916cd9d321c9ce10309e
+Description: 3D scene graph, documentation
+ A portable, high level graphics toolkit for the development of high performance
+ graphics applications such as flight simulators, games, virtual reality or
+ scientific visualization.  Providing an object orientated framework on top of
+ OpenGL, it frees the developer from implementing and optimizing low level
+ graphics calls, and provide many additional utilities for rapid development of
+ graphics applications.
+ .
+ This package contains the documentation.
+
 Package: openshot-qt
 Version: 2.6.1+dfsg1-3
 Architecture: all
@@ -1192,6 +3414,76 @@ Description: create and edit videos and movies
   * Chroma key (green screen & blue screen)
   * Transcode (convert video encodings)
   * Upload videos (YouTube and Vimeo supported)
+
+Package: openssn-data
+Source: openssn
+Version: 1.4-4
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 5936
+Suggests: openssn
+Multi-Arch: foreign
+Homepage: https://openssn.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/o/openssn/openssn-data_1.4-4_all.deb
+Size: 5827836
+SHA256: 90f5e7556f6096b61d0614cb85f706c6c7480a8975872ac2f33b1e67de796425
+SHA1: 4135d78714d6efd19aa58043a2c514565cf9c773
+MD5sum: b85bdfb1fd4c3e0207fced2d2bf10de7
+Description: modern submarine tactical simulator (data)
+ OpenSSN is a submarine simulation (subsim) which tries to emulate the
+ behaviour of modern submarines. The player is placed in command of a
+ submarine and is able to move about in a deep ocean environment.
+ .
+ This package contains data files for OpenSSN.
+
+Package: openttd-opensfx
+Version: 1.0.3-2
+Architecture: all
+Maintainer: Matthijs Kooijman <matthijs@stdin.nl>
+Installed-Size: 13032
+Multi-Arch: foreign
+Homepage: https://github.com/OpenTTD/OpenSFX
+Priority: optional
+Section: games
+Filename: pool/main/o/openttd-opensfx/openttd-opensfx_1.0.3-2_all.deb
+Size: 9895076
+SHA256: 2898b4677a3caccc4abc08fb4cf83319047b5a04729291deb5c77a8cd713c006
+SHA1: 7a82866cc2c78a49fc7b37363d29f234d94bba72
+MD5sum: 2138c593d7adbba1f1c8603f78780248
+Description: sound set for use with the OpenTTD game
+ OpenSFX is a replacement for the original TTD (Transport Tycoon Deluxe) base
+ sounds used by OpenTTD, distributed under a restrictive license.  The main
+ goal of OpenSFX therefore is to provide a set of sounds, available free of
+ charge, which make it possible to play OpenTTD without requiring the user to
+ pay for the original Transport Tycoon Deluxe game for its sound set.
+
+Package: openvswitch-source
+Source: openvswitch
+Version: 3.1.0-2+deb12u1
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 7762
+Homepage: http://openvswitch.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openvswitch/openvswitch-source_3.1.0-2+deb12u1_all.deb
+Size: 7731580
+SHA256: da7b7d8765447e7359a80b77caf1edc51a465bd7b34c487331d85fdbc0213502
+SHA1: ba207a80e643757bdc4e90da8605f056e493419b
+MD5sum: d9aad8295363a41910690739ee6495a6
+Description: Open vSwitch source code
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains the full Open vSwitch source code to support
+ use with the Open Virtual Network (OVN) build.
 
 Package: opl3-soundfont
 Version: 1.0-4
@@ -1240,4 +3532,25 @@ Description: Oxygen icon theme
  Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
  icon schemes, so it can be used in other desktop environments using this
  specification.
+
+Package: oxygencursors
+Version: 0.0.2012-06-kde4.8-4
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 97224
+Enhances: plasma-theme-oxygen
+Homepage: https://techbase.kde.org/Projects/Oxygen
+Priority: optional
+Section: x11
+Filename: pool/main/o/oxygencursors/oxygencursors_0.0.2012-06-kde4.8-4_all.deb
+Size: 7109316
+SHA256: f53bb4d71f402b6be32eaa1018b84cfa2c05648cd0df8294c04eb2da62286c66
+SHA1: e984529a3e424da516e97b9149195ab70d96128d
+MD5sum: 223e2a54429366d44d88f11bd4c877e6
+Description: Oxygen mouse cursor theme
+ This package contains the Oxygen cursor theme,
+ originally created for KDE 4.
+ .
+ The cursors are available in numerous colors to
+ match the style of any desktop.
 
