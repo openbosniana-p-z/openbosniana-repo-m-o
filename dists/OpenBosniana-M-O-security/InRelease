@@ -6,7 +6,7 @@ Label: OpenBosniana-M-O Repository
 Suite: 2024
 Codename: OpenBosniana-M-O-security
 Version: 2024
-Date: Sun, 09 Jun 2024 18:41:46 UTC
+Date: Sun, 09 Jun 2024 19:05:17 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  6ea07f15ed11393037abefab43b87b5f86b31628344e15d3217cc941af6b6553 202 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZl92oACgkQ5Vfn9vbt
-T6rGYw//WVrU71/j/mOE6VtQiDRMnfdSHtfBNWwgwgU/XMWo/3i5nFdf++deI/Yx
-C21xeQD1GsJfFc2WRdUDdrb85LwxXeYbocBJ5R6uCzGveaCiRXbapwAJF2xDW7zg
-A1zBFAYy8iK5qcYRb+8JBVBWLvcO3PB5aZFGzSb20NWcHJ8NJ5J+kAAvwjJ/IAQT
-7b9UwW6IIijIGxnBzNMGoR0fmitB/NGKSdKd4X/JFJWT0K5D3dROD2RSw7bL2vrY
-caMDjGtlOX6Gr7orp+bcbblmqiCJcT1cn+itOdxFOsbY84hiNaAtLhVbpN5sHTjQ
-XsVPfO73FSEnkKhdaP4NSVBz2JUVLqkm/oW0Xjq3L01zyF1kxHK4EgOBcN2+4vVv
-3SdU3mmc+5+nhXvh18XQSrN+Nrd3ecjy1kZI/+nJAo4x69di5EtlxQYcDv25MMRp
-K9qiuYUhnWXamzv2uAjlpq+1iVwYAHNqvkYQ+Yho3cOuj/f5m33ozv15Cg/naEPe
-r3/8c8Uld2AtxcirgZZvHA1cwU9XLK4hPTCCbgNpPn/J+i7FIl8pIr6/tGEwwTIc
-lhOmLijt22xP4nA8soZxreVkBKtfZlx7dUW88lu8WQWGqsyd9cqOdsPYSCah1WpI
-/TOt492LgEotTAKcXiBhD0RXeEoky6VHBrcEBOGlgSXT5dfNJLQ=
-=yWzP
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZl/O0ACgkQ5Vfn9vbt
+T6pt4Q//W/gdMsBAcN126PauV9AyjToUssV7dLDoZV9qhmOc4qBUKK41/oiSFb8r
+iiiz+wbeFS8xo1OofBpluPbOeT7hPGXQ9eQBId3sQRWkbAVOVffJPSOqIydT9GRA
+TmmmkawhaeKiHvaOi9iPrH4ffU2tUI4iO9BYdub9v60mPd0NW9+BOH0HykWE8NlE
+2NhMLWUUU7HKQgmij7rAFnI6x9u4S1cKwN1XgSF1iQiy3Dh9dK8og1aiciMbDtu0
+bOnczozwC9kALhXkClMGU6Vq2I9LGgFYyr+4QFTKxnwmAKGNILspnOmCnDxUvqSV
+LUVSOaBg4euQCzjs3EeMJYK8lt0S5z2JGJxZUjoLKLsmdz4AsEgx9yzfNMAzCzTw
+d/w3UIIOljmxw884O2d3TtsrQ9r75eQb6VwS0AlBI8bJJ1BAsWCu0Ryh9wMgpdGd
+U6sovkyrF7A/QmtNAW5Tm9b0yhFHEvoWtBNCWOCX6RG/w2qiRLIf13bXDLCdM7Ei
+Nu011shOI/Vnal9orxcTX59ck3wyMwY0gk+qKAW+WzknyK0RY2NVYwuhQnIwjSui
+9uA8Fyl6ZYU5rWVpWnZtBaHCuAHHRoGFsU/Ea66i8SrF0dIl9TXsSB80aaCb0mr3
+6sYPEH+bYHrZ34AMreTub0Xtz7Wrw2UcgIY4o/1ELYtLeChpCMU=
+=J8jx
 -----END PGP SIGNATURE-----

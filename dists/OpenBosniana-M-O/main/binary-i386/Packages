@@ -1,3 +1,70 @@
+Package: libmagics++-data
+Source: magics++
+Version: 4.13.0-1
+Architecture: all
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 169966
+Multi-Arch: foreign
+Homepage: https://software.ecmwf.int/wiki/display/MAGP/Magics
+Priority: optional
+Section: science
+Filename: pool/main/m/magics++/libmagics++-data_4.13.0-1_all.deb
+Size: 32184032
+SHA256: 0d199e0bb9faeb05bb77939c2112d49424b89d66026a727cf3afb95261cd64b0
+SHA1: 2e64dfa6317fdc241140ba5b125ebfbd17b3f4b6
+MD5sum: e31c1503850b27f649ee099d7288b538
+Description: Data files needed for magics++ library
+ Magics++ is the latest generation of the ECMWF's Meteorological plotting
+ software MAGICS. Although completely redesigned in C++, it is intended to be
+ as backwards-compatible as possible with the Fortran interface.
+ .
+ This package contains data expected by the magics++ library.
+
+Package: libncarg-data
+Source: ncl
+Version: 6.6.2.dfsg.1-1
+Architecture: all
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 102082
+Depends: ksh | mksh | pdksh | zsh
+Multi-Arch: foreign
+Homepage: https://www.ncl.ucar.edu/
+Priority: optional
+Section: science
+Filename: pool/main/n/ncl/libncarg-data_6.6.2.dfsg.1-1_all.deb
+Size: 26845808
+SHA256: 52b4f825c6ab75d8f324185b96defab7a2b746ab15850a047198ee3f6da3bb3d
+SHA1: 1ed7c28edc2e938c85298d39e04579e4256e4a65
+MD5sum: 4cf1acd69c6d5c85c55a9126032e84ef
+Description: NCAR command-language library - Data
+ NCAR Command Language library used by NCAR. This package contains data such
+ as colormaps, fonts and map data that is used by the ncarg library.
+
+Package: libnewlib-arm-none-eabi
+Source: newlib
+Version: 3.3.0-1.3
+Architecture: all
+Maintainer: Agustin Henze <tin@debian.org>
+Installed-Size: 386540
+Depends: libnewlib-dev (= 3.3.0-1.3)
+Recommends: gcc-arm-none-eabi, libstdc++-arm-none-eabi-newlib
+Suggests: libnewlib-doc
+Homepage: https://sourceware.org/newlib/
+Priority: optional
+Section: libs
+Filename: pool/main/n/newlib/libnewlib-arm-none-eabi_3.3.0-1.3_all.deb
+Size: 43615460
+SHA256: b2161bac4aee2ccf310eb46eb26d707db965f6f68c3789e4497c247f177285e1
+SHA1: 488f498ac6d63c698d3b1ff440b9dcc9170435ea
+MD5sum: d018c3ee00dd115d24e080bab8785ddc
+Description: C library and math library compiled for bare metal using Cortex A/R/M
+ Newlib is a C library and math library intended for use on embedded systems.
+ It is a conglomeration of several library parts, all under free software
+ licenses that make them easily usable on embedded products.
+ .
+ This package contains the newlib library compiled for Cortex-A*,
+ Cortex-R4/R5/R7 and Cortex-M0/M0+/M3/M4 targets.
+
 Package: libodil-doc
 Source: odil
 Version: 0.12.2-2
@@ -25,6 +92,58 @@ Description: C++11 library for the DICOM standard (documentation)
  and servers for the various DICOM protocols.
  .
  This package contains the documentation files.
+
+Package: libosd-doc
+Source: opensubdiv
+Version: 3.5.0-2
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 48723
+Depends: libosd-dev (>= 3.5.0-2)
+Multi-Arch: foreign
+Homepage: http://graphics.pixar.com/opensubdiv/
+Priority: optional
+Section: doc
+Filename: pool/main/o/opensubdiv/libosd-doc_3.5.0-2_all.deb
+Size: 31483876
+SHA256: ff2000342cdea5f00ed53fab974506957c80efdc9426c185b0ec865d8e936134
+SHA1: 50d42fd7e2b06263b6fce417a58978eaf19f0e80
+MD5sum: 4986ebedfaf2bc9ddedb383e748e3c6f
+Description: high performance subdivision surface (subdiv) library - documentation
+ OpenSubdiv is a set of open source libraries that implement high
+ performance subdivision surface (subdiv) evaluation on massively
+ parallel CPU and GPU architectures. This codepath is optimized for
+ drawing deforming subdivs with static topology at interactive
+ framerates. The resulting limit surface matches Pixar's Renderman to
+ numerical precision.
+ .
+ This package provides the documentation.
+
+Package: macaulay2-common
+Source: macaulay2
+Version: 1.21+ds-3
+Architecture: all
+Maintainer: Debian Math Team <team+math@tracker.debian.org>
+Installed-Size: 218903
+Depends: fonts-glyphicons-halflings (>= 1.009~3.4.1+dfsg), fonts-katex (>= 0.16.4+~cs6.1.0), libjs-bootsidemenu (>= 1.0.0), libjs-bootstrap (>= 3.4.1+dfsg), libjs-d3 (>= 3.5.17), libjs-jquery (>= 3.6.1+dfsg+~3.5.14), libjs-katex (>= 0.16.4+~cs6.1.0), libjs-nouislider (>= 15.6.1+ds), libjs-three (>= 111+dfsg1), libjs-underscore (>= 1.13.4~dfsg+~1.11.4), node-clipboard (>= 2.0.11+ds+~cs9.6.11)
+Multi-Arch: foreign
+Homepage: http://macaulay2.com
+Priority: optional
+Section: math
+Filename: pool/main/m/macaulay2/macaulay2-common_1.21+ds-3_all.deb
+Size: 23725292
+SHA256: 5c761108e33536e0db3e0713c220209c2eece5ca7e01cca742555586e2ab8699
+SHA1: c1eff77b25db3f5ea9d1bd5b47c41f93ec529208
+MD5sum: 0f57942309c0a4eb29196e0b5cd1e204
+Description: Software system for algebraic geometry research (common files)
+ Macaulay 2 is a software system for algebraic geometry research, written by
+ Daniel R. Grayson and Michael E. Stillman.  Based on Groebner bases, it
+ provides algorithms for computing homological invariants of rings and
+ modules.
+ .
+ This package contains the architecture independent portion of Macaulay2, and is
+ normally installed automatically when one of the architecture dependent
+ packages is installed.
 
 Package: maffilter-examples
 Source: maffilter
@@ -89,6 +208,33 @@ Description: 3D fractal renderer and animator - data files
  This package contains architecture-independent data files for
  Mandelbulber2.
 
+Package: marble-data
+Source: marble
+Version: 4:22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 30195
+Depends: marble-qt-data (= 4:22.12.3-1)
+Multi-Arch: foreign
+Homepage: https://marble.kde.org/
+Priority: optional
+Section: misc
+Filename: pool/main/m/marble/marble-data_22.12.3-1_all.deb
+Size: 28532984
+SHA256: d2367e5a5e9aca9724d5d0aed8d987bc026894ebb20f69a50ec19770c3069555
+SHA1: 884d09ce557ebd2e9e11e29955242914b773dca1
+MD5sum: 47a13e72f8d4ddabd71cd7d034b24934
+Description: data files for Marble
+ Marble is a generic geographical map widget and framework for KDE
+ applications. The Marble widget shows the earth as a sphere but does not
+ require hardware acceleration.  A minimal set of geographical data is
+ included, so it can be used without an internet connection.
+ .
+ This package contains the architecture-independent data files for the Marble
+ desktop globe.
+ .
+ This package is part of the KDE education module.
+
 Package: marsshooter-data
 Source: marsshooter
 Version: 0.7.6-7
@@ -113,6 +259,82 @@ Description: ridiculous space shooter governed by the laws of gravity -- data
  .
  This package contains the data files for M.A.R.S and includes all graphics
  and sounds.
+
+Package: mate-backgrounds
+Version: 1.26.0-1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 46043
+Homepage: http://www.mate-desktop.org/
+Priority: optional
+Section: x11
+Filename: pool/main/m/mate-backgrounds/mate-backgrounds_1.26.0-1_all.deb
+Size: 46638500
+SHA256: 7bf4c2209f34b4f61ba6d24c8b58c28b361e82e4b943aae6d42c030169af9e04
+SHA1: 00dc62fcfd2f45c98fe8ee348a333d43c053faca
+MD5sum: ef71d29fbd8637a0c1ba3c372fd955bc
+Description: Set of backgrounds packaged with the MATE Desktop Environment
+ This package provides a collection of desktop wallpapers created with MATE
+ users in mind.
+ .
+ The package ships the default MATE backgrounds from various Linux
+ distributions as well as a set of nature photographs suitable as comforting
+ desktop backgrounds.
+
+Package: mediawiki
+Version: 1:1.39.7-1~deb12u1
+Architecture: all
+Maintainer: MediaWiki packaging team <mediawiki-debian@lists.wikimedia.org>
+Installed-Size: 224334
+Depends: apache2 | httpd, php (>= 2:7.4~), php-intl, php-json, php-mysql | php-pgsql | php-sqlite3 | php-mysqlnd, php-mbstring, php-xml, mediawiki-classes (= 1:1.39.7-1~deb12u1)
+Recommends: default-mysql-server | virtual-mysql-server | postgresql-contrib | php-sqlite3, php-cli, php-apcu, php-curl, php-gmp, imagemagick | php-gd, php-readline, php-yaml, php-wikidiff2, python3-pygments, php-luasandbox | lua5.1
+Suggests: memcached, clamav, firejail
+Breaks: fusionforge-plugin-mediawiki (<< 5.2~rc1+1~), mediawiki-extensions (<< 2.8~), mediawiki-extensions-base, mediawiki-extensions-collection (<< 2.8~), mediawiki-extensions-confirmedit, mediawiki-extensions-fckeditor, mediawiki-extensions-geshi, mediawiki-extensions-graphviz (<< 2.8~), mediawiki-extensions-ldapauth (<< 2.8~), mediawiki-extensions-math (<= 2:1.0+git20120528-8), mediawiki-extensions-openid (<< 2.8~), mediawiki-skin-greystuff (<< 1.2.5~)
+Replaces: mediawiki-extensions-base, mediawiki-extensions-confirmedit, mediawiki-extensions-geshi, mediawiki-extensions-math (<= 2:1.0+git20120528-8)
+Provides: mediawiki-extensions-confirmedit, mediawiki-extensions-geshi
+Homepage: https://www.mediawiki.org/
+Priority: optional
+Section: web
+Filename: pool/main/m/mediawiki/mediawiki_1.39.7-1~deb12u1_all.deb
+Size: 35597564
+SHA256: e2c2cbd1bd203dcc86b95a6476099a6fa2cf9a6b8b47ec41adc149202f1e1d19
+SHA1: 937e7ce0dce858212f9131a702a51ca9b507eabd
+MD5sum: acd04689d13cff1ad41834d4e8c518ce
+Description: website engine for collaborative work
+ MediaWiki is a wiki engine (a program for creating a collaboratively
+ edited website). It is designed to handle heavy websites containing
+ library-like document collections, and supports user uploads of
+ images/sounds, multilingual content, TOC autogeneration, ISBN links,
+ etc.
+ .
+ Moreover, it keeps track of changes, so users can receive
+ notifications, view diffs and revert edits. This system has many
+ other features and can easily be extended.
+
+Package: megan-ce
+Version: 6.21.1+dfsg-2
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 37717
+Depends: default-jre, libcolt-free-java, libcommons-math3-java, libgoogle-gson-java, libjama-java, libjbcrypt-java, libjloda-java, libopenjfx-java, libsis-jhdf5-java, libxerial-sqlite-jdbc-java
+Homepage: https://github.com/danielhuson/megan-ce
+Priority: optional
+Section: science
+Filename: pool/main/m/megan-ce/megan-ce_6.21.1+dfsg-2_all.deb
+Size: 37056716
+SHA256: 2dc650069ee34490cee69bdd073a9522a32a20f68f7c743df3ae6b600b1e0b82
+SHA1: eea691fa61cbe7945ec8ed123ad0408d4960afa4
+MD5sum: 7e247047fa581dd253036286c960bc43
+Description: interactive tool to explore and analyse microbiome sequencing data
+ MEGAN Community Edition is a shotgun sequencer to analyze microbiome samples.
+ It is a rewrite and extension of the widely-used microbiome analysis tool
+ MEGAN so as to facilitate the interactive analysis of the taxonomic and
+ functional content of very large microbiome datasets. Other new features
+ include a functional classifier called InterPro2GO, gene-centric read
+ assembly, principal coordinate analysis of taxonomy and function, and support
+ for metadata.  By integrating MEGAN CE with the high-throughput DNA-to-protein
+ alignment tool DIAMOND a powerful and complete pipeline for the analysis of
+ metagenome shotgun sequences can be provided.
 
 Package: minexpert2-doc
 Source: minexpert2
@@ -173,6 +395,27 @@ MD5sum: 993dd48446b4230b4095bad901959030
 Description: Mint-Y icon theme
  A flat, colorful, and modern theme based on Paper and Moka.
 
+Package: minuet-data
+Source: minuet
+Version: 22.12.3-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 31845
+Homepage: https://minuet.kde.org/
+Priority: optional
+Section: kde
+Filename: pool/main/m/minuet/minuet-data_22.12.3-1_all.deb
+Size: 27057444
+SHA256: ebcfe09eb16ceeeaea998427b671784ff6a5f0b0e2aecb1e1ad9ef0da6ded5fb
+SHA1: 6ad63075d001efdbc2cc90843e2bae87c24503a4
+MD5sum: 987d07be9545e1882da2872217606351
+Description: data files for Minuet
+ Music education Free Software, thoughtfully designed to push your musical
+ skills to the next level. Enhance your ability to recognize intervals, chords,
+ rhythm, and scales while enjoying all the power of Free Software.
+ .
+ This package contains the data files for Minuet.
+
 Package: moka-icon-theme
 Version: 5.5.0-2
 Architecture: all
@@ -192,6 +435,35 @@ Description: Tango-esque desktop icon set called Moka
  designed to be a clear, simple and consistent.
  Moka is designed to work with the Faba icon set - together
  they provide both applications and panel based icons.
+
+Package: mono-devel
+Source: mono
+Version: 6.8.0.105+dfsg-3.3
+Architecture: all
+Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
+Installed-Size: 115890
+Depends: mono-runtime (>= 3.0~), libc6 (>= 2.36) | libc6.1 (>= 2.36) | libc0.1 (>= 2.36), libmono-cecil-private-cil (>= 6.8.0.105), libmono-cecil-private-cil (<< 6.8.0.106), libmono-codecontracts4.0-cil (>= 1.0), libmono-compilerservices-symbolwriter4.0-cil (>= 4.6.1.3), libmono-corlib4.5-cil (>= 5.18.0.240), libmono-peapi4.0a-cil (>= 4.2.0), libmono-relaxng4.0-cil (>= 2.10.1), libmono-security4.0-cil (>= 4.6.1.3), libmono-system-componentmodel-composition4.0-cil (>= 3.0.6), libmono-system-componentmodel-dataannotations4.0-cil (>= 4.6.1.3), libmono-system-configuration-install4.0-cil (>= 1.0), libmono-system-configuration4.0-cil (>= 4.0.0~alpha1), libmono-system-core4.0-cil (>= 5.18.0.240), libmono-system-data-datasetextensions4.0-cil (>= 5.12.0.309), libmono-system-data4.0-cil (>= 5.16.0.220), libmono-system-drawing4.0-cil (>= 5.12.0.309), libmono-system-identitymodel4.0-cil (>= 5.12.0.309), libmono-system-io-compression-filesystem4.0-cil (>= 5.12.0.309), libmono-system-io-compression4.0-cil (>= 5.12.0.309), libmono-system-net-http4.0-cil (>= 5.12.0.309), libmono-system-numerics4.0-cil (>= 5.16.0.220), libmono-system-runtime-serialization4.0-cil (>= 5.16.0.220), libmono-system-runtime4.0-cil (>= 2.10.1), libmono-system-security4.0-cil (>= 5.18.0.240), libmono-system-servicemodel4.0a-cil (>= 5.18.0.240), libmono-system-serviceprocess4.0-cil (>= 3.0.6), libmono-system-transactions4.0-cil (>= 5.12.0.309), libmono-system-web-services4.0-cil (>= 4.2.0), libmono-system-web4.0-cil (>= 2.10.3), libmono-system-xml-linq4.0-cil (>= 5.16.0.220), libmono-system-xml4.0-cil (>= 4.6.1.3), libmono-system4.0-cil (>= 5.18.0.240), mono-mcs (= 6.8.0.105+dfsg-3.3), mono-gac (= 6.8.0.105+dfsg-3.3), mono-xbuild (= 6.8.0.105+dfsg-3.3), libmono-cil-dev (= 6.8.0.105+dfsg-3.3), libmono-2.0-dev (>= 6.8.0.105+dfsg-3.3), libmono-2.0-dev (<< 6.8.0.105+dfsg-3.3.1~), ca-certificates-mono (= 6.8.0.105+dfsg-3.3), pkg-config
+Recommends: mono-csharp-shell
+Breaks: libmono-accessibility2.0-cil (<< 4.0.1~), libmono-accessibility4.0-cil (<< 4.0.0~alpha1-0~), libmono-cairo2.0-cil (<< 4.0.1~), libmono-cairo4.0-cil (<< 4.0.0~alpha1-0~), libmono-compilerservices-symbolwriter4.0-cil (<< 4.0.0~alpha1-0~), libmono-corlib2.0-cil (<< 4.0.1~), libmono-corlib4.0-cil (<< 4.0.0~alpha1-0~), libmono-cscompmgd8.0-cil (<< 4.0.1~), libmono-csharp4.0c-cil (<< 4.0.0~alpha1-0~), libmono-custommarshalers4.0-cil (<< 4.0.0~alpha1-0~), libmono-data-tds2.0-cil (<< 4.0.1~), libmono-data-tds4.0-cil (<< 4.0.0~alpha1-0~), libmono-db2-1.0-cil (<< 4.0.0~alpha1-0~), libmono-debugger-soft2.0a-cil (<< 4.0.1~), libmono-debugger-soft4.0a-cil (<< 4.0.0~alpha1-0~), libmono-facades-system-collections-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-collections-concurrent-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-componentmodel-annotations-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-componentmodel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-componentmodel-eventbasedasync-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-diagnostics-contracts-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-diagnostics-debug-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-diagnostics-tools-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-dynamic-runtime-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-globalization-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-io-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-expressions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-parallel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-queryable-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-net-networkinformation-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-net-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-net-requests-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-objectmodel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-reflection-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-reflection-extensions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-reflection-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-resources-resourcemanager-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-extensions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-interopservices-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-numerics-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-serialization-json-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-serialization-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-serialization-xml-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-security-principal-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-servicemodel-http-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-servicemodel-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-text-encoding-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-text-encoding-extensions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-text-regularexpressions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-threading-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-threading-tasks-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-threading-tasks-parallel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-xml-readerwriter-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-xml-xdocument-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-xml-xmlserializer-cil (<< 3.2.3+dfsg-5~), libmono-http4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-cjk4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-mideast4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-other4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-rare4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-west2.0-cil (<< 4.0.1~), libmono-i18n-west4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n2.0-cil (<< 4.0.1~), libmono-i18n4.0-cil (<< 4.0.0~alpha1-0~), libmono-ldap2.0-cil (<< 4.0.1~), libmono-ldap4.0-cil (<< 4.0.0~alpha1-0~), libmono-management2.0-cil (<< 4.0.1~), libmono-management4.0-cil (<< 4.0.0~alpha1-0~), libmono-messaging-rabbitmq2.0-cil (<< 4.0.1~), libmono-messaging-rabbitmq4.0-cil (<< 4.0.0~alpha1-0~), libmono-messaging2.0-cil (<< 4.0.1~), libmono-messaging4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-engine4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-framework4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-tasks-v4.0-4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-utilities-v4.0-4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build2.0-cil (<< 4.0.1~), libmono-microsoft-build4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-csharp4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-visualbasic10.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-visualc10.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-web-infrastructure1.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft8.0-cil (<< 4.0.1~), libmono-npgsql2.0-cil (<< 4.0.1~), libmono-npgsql4.0-cil (<< 4.0.0~alpha1-0~), libmono-oracle2.0-cil (<< 4.0.1~), libmono-oracle4.0-cil (<< 4.0.0~alpha1-0~), libmono-parallel4.0-cil (<< 4.0.0~alpha1-0~), libmono-peapi2.0a-cil (<< 4.0.1~), libmono-peapi4.0a-cil (<< 4.0.0~alpha1-0~), libmono-posix2.0-cil (<< 4.0.1~), libmono-posix4.0-cil (<< 4.0.0~alpha1-0~), libmono-rabbitmq2.0-cil (<< 4.0.1~), libmono-rabbitmq4.0-cil (<< 4.0.0~alpha1-0~), libmono-relaxng2.0-cil (<< 4.0.1~), libmono-relaxng4.0-cil (<< 4.0.0~alpha1-0~), libmono-security2.0-cil (<< 4.0.1~), libmono-security4.0-cil (<< 4.0.0~alpha1-0~), libmono-sharpzip2.84-cil (<< 4.0.1~), libmono-sharpzip4.84-cil (<< 4.0.0~alpha1-0~), libmono-simd2.0-cil (<< 4.0.1~), libmono-simd4.0-cil (<< 4.0.0~alpha1-0~), libmono-sqlite2.0-cil (<< 4.0.1~), libmono-sqlite4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-componentmodel-composition4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-componentmodel-dataannotations4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-configuration-install4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-configuration4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-core4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-datasetextensions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-linq2.0-cil (<< 4.0.1~), libmono-system-data-linq4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-services-client4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-services2.0-cil (<< 4.0.1~), libmono-system-data-services4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data2.0-cil (<< 4.0.1~), libmono-system-data4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-design4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-drawing-design4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-drawing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-dynamic4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-enterpriseservices4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-identitymodel-selectors4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-identitymodel4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-json-microsoft4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-json2.0-cil (<< 4.0.1~), libmono-system-json4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-ldap-protocols4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-ldap2.0-cil (<< 4.0.1~), libmono-system-ldap4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-management4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-messaging2.0-cil (<< 4.0.1~), libmono-system-messaging4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-net2.0-cil (<< 4.0.1~), libmono-system-net4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-numerics4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-caching4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-durableinstancing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-serialization-formatters-soap4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-serialization4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime2.0-cil (<< 4.0.1~), libmono-system-runtime4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-security4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-activation4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-discovery4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-routing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-web4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel4.0a-cil (<< 4.0.0~alpha1-0~), libmono-system-serviceprocess4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-transactions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-abstractions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-applicationservices4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-dynamicdata4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-extensions-design4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-extensions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-mvc2.0-cil (<< 4.0.1~), libmono-system-web-routing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-services4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web2.0-cil (<< 4.0.1~), libmono-system-web4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-windows-forms-datavisualization4.0a-cil (<< 4.0.0~alpha1-0~), libmono-system-windows-forms4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-xaml4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-xml-linq4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-xml4.0-cil (<< 4.0.0~alpha1-0~), libmono-system2.0-cil (<< 4.0.1~), libmono-system4.0-cil (<< 4.0.0~alpha1-0~), libmono-tasklets2.0-cil (<< 4.0.1~), libmono-tasklets4.0-cil (<< 4.0.0~alpha1-0~), libmono-wcf3.0a-cil (<< 4.0.1~), libmono-webbrowser2.0-cil (<< 4.0.1~), libmono-webbrowser4.0-cil (<< 4.0.0~alpha1-0~), libmono-webmatrix-data4.0-cil (<< 4.0.0~alpha1-0~), libmono-windowsbase3.0-cil (<< 4.0.1~), libmono-windowsbase4.0-cil (<< 4.0.0~alpha1-0~), libmono-winforms2.0-cil (<< 4.0.1~), libmono-xbuild-tasks2.0-cil (<< 4.0.1~), libmono-xbuild-tasks4.0-cil (<< 4.0.0~alpha1-0~), libmono2.0-cil (<< 4.0.1~), mono-reference-assemblies-2.0 (<< 5.0~), mono-reference-assemblies-3.5 (<< 5.0~), mono-reference-assemblies-4.0 (<< 5.0~)
+Replaces: libmono-accessibility2.0-cil (<< 4.0.1~), libmono-accessibility4.0-cil (<< 4.0.0~alpha1-0~), libmono-cairo2.0-cil (<< 4.0.1~), libmono-cairo4.0-cil (<< 4.0.0~alpha1-0~), libmono-compilerservices-symbolwriter4.0-cil (<< 4.0.0~alpha1-0~), libmono-corlib2.0-cil (<< 4.0.1~), libmono-corlib4.0-cil (<< 4.0.0~alpha1-0~), libmono-cscompmgd8.0-cil (<< 4.0.1~), libmono-csharp4.0c-cil (<< 4.0.0~alpha1-0~), libmono-custommarshalers4.0-cil (<< 4.0.0~alpha1-0~), libmono-data-tds2.0-cil (<< 4.0.1~), libmono-data-tds4.0-cil (<< 4.0.0~alpha1-0~), libmono-db2-1.0-cil (<< 4.0.0~alpha1-0~), libmono-debugger-soft2.0a-cil (<< 4.0.1~), libmono-debugger-soft4.0a-cil (<< 4.0.0~alpha1-0~), libmono-dev (<< 2.4), libmono-facades-system-collections-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-collections-concurrent-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-componentmodel-annotations-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-componentmodel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-componentmodel-eventbasedasync-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-diagnostics-contracts-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-diagnostics-debug-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-diagnostics-tools-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-dynamic-runtime-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-globalization-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-io-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-expressions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-parallel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-linq-queryable-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-net-networkinformation-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-net-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-net-requests-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-objectmodel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-reflection-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-reflection-extensions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-reflection-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-resources-resourcemanager-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-extensions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-interopservices-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-numerics-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-serialization-json-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-serialization-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-runtime-serialization-xml-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-security-principal-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-servicemodel-http-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-servicemodel-primitives-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-text-encoding-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-text-encoding-extensions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-text-regularexpressions-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-threading-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-threading-tasks-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-threading-tasks-parallel-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-xml-readerwriter-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-xml-xdocument-cil (<< 3.2.3+dfsg-5~), libmono-facades-system-xml-xmlserializer-cil (<< 3.2.3+dfsg-5~), libmono-http4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-cjk4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-mideast4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-other4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-rare4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n-west2.0-cil (<< 4.0.1~), libmono-i18n-west4.0-cil (<< 4.0.0~alpha1-0~), libmono-i18n2.0-cil (<< 4.0.1~), libmono-i18n4.0-cil (<< 4.0.0~alpha1-0~), libmono-ldap2.0-cil (<< 4.0.1~), libmono-ldap4.0-cil (<< 4.0.0~alpha1-0~), libmono-management2.0-cil (<< 4.0.1~), libmono-management4.0-cil (<< 4.0.0~alpha1-0~), libmono-messaging-rabbitmq2.0-cil (<< 4.0.1~), libmono-messaging-rabbitmq4.0-cil (<< 4.0.0~alpha1-0~), libmono-messaging2.0-cil (<< 4.0.1~), libmono-messaging4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-engine4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-framework4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-tasks-v4.0-4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build-utilities-v4.0-4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-build2.0-cil (<< 4.0.1~), libmono-microsoft-build4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-csharp4.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-visualbasic10.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-visualc10.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft-web-infrastructure1.0-cil (<< 4.0.0~alpha1-0~), libmono-microsoft8.0-cil (<< 4.0.1~), libmono-npgsql2.0-cil (<< 4.0.1~), libmono-npgsql4.0-cil (<< 4.0.0~alpha1-0~), libmono-oracle2.0-cil (<< 4.0.1~), libmono-oracle4.0-cil (<< 4.0.0~alpha1-0~), libmono-parallel4.0-cil (<< 4.0.0~alpha1-0~), libmono-peapi2.0a-cil (<< 4.0.1~), libmono-peapi4.0a-cil (<< 4.0.0~alpha1-0~), libmono-posix2.0-cil (<< 4.0.1~), libmono-posix4.0-cil (<< 4.0.0~alpha1-0~), libmono-rabbitmq2.0-cil (<< 4.0.1~), libmono-rabbitmq4.0-cil (<< 4.0.0~alpha1-0~), libmono-relaxng2.0-cil (<< 4.0.1~), libmono-relaxng4.0-cil (<< 4.0.0~alpha1-0~), libmono-security2.0-cil (<< 4.0.1~), libmono-security4.0-cil (<< 4.0.0~alpha1-0~), libmono-sharpzip2.84-cil (<< 4.0.1~), libmono-sharpzip4.84-cil (<< 4.0.0~alpha1-0~), libmono-simd2.0-cil (<< 4.0.1~), libmono-simd4.0-cil (<< 4.0.0~alpha1-0~), libmono-sqlite2.0-cil (<< 4.0.1~), libmono-sqlite4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-componentmodel-composition4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-componentmodel-dataannotations4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-configuration-install4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-configuration4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-core4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-datasetextensions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-linq2.0-cil (<< 4.0.1~), libmono-system-data-linq4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-services-client4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data-services2.0-cil (<< 4.0.1~), libmono-system-data-services4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-data2.0-cil (<< 4.0.1~), libmono-system-data4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-design4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-drawing-design4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-drawing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-dynamic4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-enterpriseservices4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-identitymodel-selectors4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-identitymodel4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-json-microsoft4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-json2.0-cil (<< 4.0.1~), libmono-system-json4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-ldap-protocols4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-ldap2.0-cil (<< 4.0.1~), libmono-system-ldap4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-management4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-messaging2.0-cil (<< 4.0.1~), libmono-system-messaging4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-net2.0-cil (<< 4.0.1~), libmono-system-net4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-numerics4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-caching4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-durableinstancing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-serialization-formatters-soap4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime-serialization4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-runtime2.0-cil (<< 4.0.1~), libmono-system-runtime4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-security4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-activation4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-discovery4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-routing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel-web4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-servicemodel4.0a-cil (<< 4.0.0~alpha1-0~), libmono-system-serviceprocess4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-transactions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-abstractions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-applicationservices4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-dynamicdata4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-extensions-design4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-extensions4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-mvc2.0-cil (<< 4.0.1~), libmono-system-web-routing4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web-services4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-web2.0-cil (<< 4.0.1~), libmono-system-web4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-windows-forms-datavisualization4.0a-cil (<< 4.0.0~alpha1-0~), libmono-system-windows-forms4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-xaml4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-xml-linq4.0-cil (<< 4.0.0~alpha1-0~), libmono-system-xml4.0-cil (<< 4.0.0~alpha1-0~), libmono-system2.0-cil (<< 4.0.1~), libmono-system4.0-cil (<< 4.0.0~alpha1-0~), libmono-tasklets2.0-cil (<< 4.0.1~), libmono-tasklets4.0-cil (<< 4.0.0~alpha1-0~), libmono-wcf3.0a-cil (<< 4.0.1~), libmono-webbrowser2.0-cil (<< 4.0.1~), libmono-webbrowser4.0-cil (<< 4.0.0~alpha1-0~), libmono-webmatrix-data4.0-cil (<< 4.0.0~alpha1-0~), libmono-windowsbase3.0-cil (<< 4.0.1~), libmono-windowsbase4.0-cil (<< 4.0.0~alpha1-0~), libmono-winforms2.0-cil (<< 4.0.1~), libmono-xbuild-tasks2.0-cil (<< 4.0.1~), libmono-xbuild-tasks4.0-cil (<< 4.0.0~alpha1-0~), libmono2.0-cil (<< 4.0.1~), mono-1.0-devel (<< 2.0), mono-2.0-devel (<< 2.10), mono-gmcs (<< 2.0), mono-mcs (<< 2.0), mono-reference-assemblies-2.0 (<< 5.0~), mono-reference-assemblies-3.5 (<< 5.0~), mono-reference-assemblies-4.0 (<< 5.0~)
+Provides: assembly-linker, c-sharp-2.0-compiler, c-sharp-3.0-compiler, c-sharp-4.0-compiler, c-sharp-4.5-compiler, c-sharp-compiler, resource-file-generator, strong-name-tool
+Homepage: http://www.mono-project.com/
+Priority: optional
+Section: cli-mono
+Filename: pool/main/m/mono/mono-devel_6.8.0.105+dfsg-3.3_all.deb
+Size: 23546300
+SHA256: f9f90b28e70bc2f6cab093bc8cfe74e3cca24624de06e954192da39bc633983d
+SHA1: fdb3cbc996634b64169f582bbc2bc8186e98571c
+MD5sum: 5781c48057e5f79ae76d26da9567a778
+Description: Mono development tools
+ Mono is a platform for running and developing applications based on the
+ ECMA/ISO Standards. Mono is an open source effort led by Xamarin.
+ Mono provides a complete CLR (Common Language Runtime) including compiler and
+ runtime, which can produce and execute CIL (Common Intermediate Language)
+ bytecode (aka assemblies), and a class library.
+ .
+ This package contains various development tools and pulls in the default
+ development stack for Mono (which is 4.0 currently).
 
 Package: morse-simulator-data
 Source: morse-simulator
@@ -283,6 +555,86 @@ Description: General SoundFont from MuseScore (HQ version, lossy)
  This package will be installed into /usr/share/sounds/sf3/ which
  is the standard Debian location for system-wide SF3 soundfonts.
 
+Package: musescore-general-soundfont-small
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Thorsten Glaser <tg@mirbsd.de>
+Installed-Size: 39086
+Enhances: libfluidsynth1 (>= 1.1.7), libfluidsynth2, musescore (>= 2.2), musescore3
+Conflicts: fluidr3mono-gm-soundfont (<< 2.315-5~), musescore-common (<< 2.3.2+dfsg1-1~bpo9), musescore-general-soundfont (<< 0.1.3-1~)
+Provides: musescore-compatible-soundfont, musescore-general-soundfont, sf3-soundfont-gm
+Multi-Arch: foreign
+Homepage: https://musescore.org/en/node/269869
+Priority: optional
+Section: sound
+Filename: pool/main/m/musescore-general-soundfont-small/musescore-general-soundfont-small_0.2.1-1_all.deb
+Size: 34150714
+SHA256: 65f9c1cb658c49e8713d2c95238d5d26868f520341f74a4fe26248a8f763c739
+SHA1: dc3a14735151057185cc1bc2003ce08139719186
+MD5sum: 304ddea3e689e545962c02e5c80451ce
+Description: General SoundFont from MuseScore (lossy)
+ This is the new standard hard disc space-saving SF3 format
+ soundfont as shipped with MuseScore 2.2 and newer.
+ .
+ This release of the soundfont supports Single-Note Dynamics with
+ MuseScore 3.2 and higher.
+ .
+ MuseScore_General attempts to keep the installed-size footprint
+ low while providing the complete GM (General MIDI) sound set
+ and some extras; were it not for the new pianos, it would even
+ be smaller than its antecessor fluidr3mono-gm-soundfont despite
+ restoring stereo samples for some instruments and the new focus
+ on quality, thanks to numerous optimisations and bugfixes.
+ .
+ It can be used with most modern MIDI synthesisers which support
+ the SF3 format, although early implementations (such as the one
+ from MuseScore before release 2.2) had bugs making the resulting
+ sound bad; instead use fluidr3mono-gm-soundfont for those.
+ .
+ As it comes under the MIT licence, it can be used in most settings,
+ but do remember that waveforms generated using this soundfont are
+ “copies or substantial portions of the” soundfont. It is sufficient
+ to reproduce the licence and copyright notice in any “associated
+ documentation files” provided with your generated waveforms.
+ .
+ The musescore-general-soundfont-small package contains the normal
+ soundfont (as shipped with MuseScore 3.x), lossily SF3 compressed.
+ The musescore-general-soundfont package similarly provides the
+ HQ version of the soundfont (with separate ensembles instruments
+ and other large improvements) as SF3, whereas the SF2 HQ version
+ is packaged as musescore-general-soundfont-lossless for use with
+ synthesisers lacking SF3 support, by audiophiles, and to avoid
+ long MuseScore startup times; however with a large disc footprint.
+ .
+ This package will be installed into /usr/share/sounds/sf3/ which
+ is the standard Debian location for system-wide SF3 soundfonts.
+
+Package: ncbi-rrna-data
+Source: ncbi-tools6
+Version: 6.1.20170106+dfsg1-10
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 351550
+Depends: ncbi-data
+Recommends: ncbi-blast+
+Multi-Arch: foreign
+Homepage: https://www.ncbi.nlm.nih.gov/IEB/ToolBox/
+Priority: optional
+Section: science
+Filename: pool/main/n/ncbi-tools6/ncbi-rrna-data_6.1.20170106+dfsg1-10_all.deb
+Size: 46310976
+SHA256: 6a66c1c170eb5a3f1b7d806ad7787fb57ee0a9db26a488b90bc722c440ad327f
+SHA1: 32aa07c60fc3ba1b50e91d07dafabf6a08d5c6b9
+MD5sum: c8f2fa38b507c8b232122934b755797c
+Description: large rRNA BLAST databases distributed with the NCBI toolkit
+ This package contains some ribosomal RNA BLAST databases distributed
+ as part of the NCBI C Toolkit that are too large and specialized to
+ include in ncbi-data.  Specifically, it contains the databases
+ Combined16SrRNA, LSURef_93.fasta, LSU_nomito_nochloro_noplastid,
+ SSURef_93.fasta, and SSU_nomito_nochloro_noplastid, along with alias
+ files to facilitate searching some of them in conjunction with
+ databases included in ncbi-data.
+
 Package: nexuiz-music
 Source: nexuiz-data
 Version: 2.5.2-12
@@ -308,6 +660,156 @@ Description: Nexuiz music files
  This package contains only the in-game music files. If you want to play the
  game you need to install the package "nexuiz".
 
+Package: ns2-examples
+Source: ns2
+Version: 2.35+dfsg-5
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 57627
+Suggests: ns2
+Multi-Arch: foreign
+Homepage: http://www.isi.edu/nsnam/ns/
+Priority: optional
+Section: net
+Filename: pool/main/n/ns2/ns2-examples_2.35+dfsg-5_all.deb
+Size: 40276832
+SHA256: 7bdb5f89be61734c0e2ee7f79abbeddff7bf274d7d77c1fec8e71ca9d7cd87f4
+SHA1: 10dca6dc5b2f27d851c518d533fee9e23bd77f5c
+MD5sum: bee9bb40ed6199d3b9562d5531e3bcda
+Description: examples of ns2
+ Provides substantial support for simulation of TCP, routing,
+ and multicast protocols over wired and wireless (local and satellite)
+ networks.
+ Ns-2 is written in C++ and an Object oriented version of Tcl called OTcl.
+ .
+ Ns began as a variant of the REAL network simulator in 1989 and has
+ evolved substantially over the past few years. In 1995 ns development
+ was supported by DARPA through the VINT project  at LBL, Xerox PARC,
+ UCB, and USC/ISI. Currently ns development is support through DARPA
+ with SAMAN  and through NSF with CONSER, both in collaboration with
+ other researchers including ACIRI. Ns has always included substantal
+ contributions from other researchers, including wireless code from the
+ UCB Daedelus and CMU Monarch projects and Sun Microsystems.
+ .
+ This package contains examples of ns2
+
+Package: ns3-doc
+Source: ns3
+Version: 3.37-2
+Architecture: all
+Maintainer: Martin Quinson <mquinson@debian.org>
+Installed-Size: 33909
+Depends: libjs-jquery, libjs-sphinxdoc
+Multi-Arch: foreign
+Homepage: https://www.nsnam.org/
+Priority: optional
+Section: doc
+Filename: pool/main/n/ns3/ns3-doc_3.37-2_all.deb
+Size: 22563824
+SHA256: 5d41b6bc084fe65023406d5a94e605907320de37e625900dd60f998d6181aab0
+SHA1: 949c7cc3c59cff7aab74f6776b892bf33fbfee36
+MD5sum: c43f77e84d2b00226f575d1e148d4046
+Description: documentation for ns3
+ ns-3 is a discrete-event network simulator for Internet systems,
+ targeted primarily for research and educational use.
+ ns-3 is free software, licensed under the GNU GPLv2 license,
+ and is publicly available for research, development, and use.
+ ns-3 is intended as an eventual replacement for the popular
+ ns-2 simulator. The project acronym “nsnam” derives
+ historically from the concatenation of ns (network simulator)
+ and NAM (network animator).
+ .
+ This package contains manual, modules, tutorial and doxygen.
+
+Package: obsidian-icon-theme
+Version: 3.5-1.1
+Architecture: all
+Maintainer: Debian Desktop Themes Team <obsidian-icon-theme@packages.debian.org>
+Installed-Size: 221914
+Homepage: https://github.com/madmaxms/iconpack-obsidian
+Priority: optional
+Section: x11
+Filename: pool/main/o/obsidian-icon-theme/obsidian-icon-theme_3.5-1.1_all.deb
+Size: 23684548
+SHA256: bc73451d8574830ba2c9a9575cca6e18ff595bde77ef9f5b5744002049e71eb5
+SHA1: a98920d7d778a1370a1990b768bc2d0ab726e1f6
+MD5sum: b9189b6e77a24bc20219ade3ae0162df
+Description: Intuitive Faenza-like icon theme
+ Modern and intuitive Obsidian provides several faenza-like icons
+ for panels, toolbars and buttons it also provides squared and colorful
+ icons for your applications, folders, files and devices.
+
+Package: open3d-doc
+Source: open3d
+Version: 0.16.1+ds-2
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 114426
+Depends: libjs-sphinxdoc (>= 4.3), sphinx-rtd-theme-common (>= 1.1.1+dfsg)
+Multi-Arch: foreign
+Homepage: http://www.open3d.org
+Priority: optional
+Section: doc
+Filename: pool/main/o/open3d/open3d-doc_0.16.1+ds-2_all.deb
+Size: 36694452
+SHA256: c5c0533ed5156655c9870de94bf0740480dd81b8140c845cbf1a5e1c51540caa
+SHA1: bc31238c14b78c61e7aa593cf2110d0a9d68e797
+MD5sum: d9f4d4cd266bfa6578f7ed615e09f469
+Description: Library for 3D data processing - API documentation
+ Open3D is an open-source library that supports rapid development of
+ software that deals with 3D data. The Open3D frontend exposes a set
+ of carefully selected data structures and algorithms in both C++ and
+ Python. The backend is highly optimized and is set up for parallelization.
+ .
+ This package provides the API documentation.
+
+Package: openarena-081-maps
+Source: openarena-maps
+Version: 0.8.5split-14
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 39755
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-maps/openarena-081-maps_0.8.5split-14_all.deb
+Size: 40249856
+SHA256: dc2584d3af84696366080bc8d54c6c70d82085b7d3220f6cc878caed16aaf7d2
+SHA1: 677b47db3a7fc5d3497b16c609906b4b07e135fe
+MD5sum: b225cc521cfeb7900ffb49240435d070
+Description: OpenArena game data - maps from 0.8.1
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages.
+ This package contains maps from OpenArena 0.8.1.
+
+Package: openarena-081-misc
+Source: openarena-misc
+Version: 0.8.5split-14
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 28293
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-misc/openarena-081-misc_0.8.5split-14_all.deb
+Size: 28073232
+SHA256: 1cc4c96b334e50a54e3b20b6ef0f2e8112b391afc33de024b7d7db3fa6ebf702
+SHA1: 05ca0619c4d7be1fa9bfb92da8b2da74e41d20ca
+MD5sum: 81ee04655561342413e49e068100135f
+Description: OpenArena game data - miscellaneous files from 0.8.1
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages.
+ This package contains sounds, bot data, demos, and team-game powerups from
+ OpenArena 0.8.1.
+
 Package: openarena-081-players
 Source: openarena-players
 Version: 0.8.5split-14
@@ -330,6 +832,35 @@ Description: OpenArena game data - player graphics from 0.8.1
  .
  In Debian, OpenArena game data are divided into several packages.
  This package contains player graphics from OpenArena 0.8.1.
+
+Package: openarena-081-players-mature
+Source: openarena-players-mature
+Version: 0.8.5split-14
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 27035
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-players-mature/openarena-081-players-mature_0.8.5split-14_all.deb
+Size: 26963340
+SHA256: 0fa433f3b734a5b5bb64dfee368e9bd7ff618c8c38324bf9a3badea7864352c3
+SHA1: bcaa49096f84449e2b5e9c3c6847f5479b9e9efd
+MD5sum: a05a875a6da03c0257d54d32ada06ba4
+Description: OpenArena game data - "mature" player graphics from 0.8.1
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages, to
+ fit better onto CD releases.
+ .
+ This package contains player graphics from OpenArena 0.8.1 which contain
+ partial nudity (the Angelyss, Arachna, Ayumi and Sorceress models).
+ In OpenArena 0.8.1 these player models were optional, but the structure
+ of the 0.8.5 patch means they cannot be removed from 0.8.5 or later
+ versions.
 
 Package: openarena-081-textures
 Source: openarena-textures
@@ -354,6 +885,28 @@ Description: OpenArena game data - textures from 0.8.1
  In Debian, OpenArena game data are divided into several packages.
  This package contains textures from OpenArena 0.8.1.
 
+Package: openarena-085-data
+Version: 0.8.5split-14
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 37619
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-085-data/openarena-085-data_0.8.5split-14_all.deb
+Size: 36983600
+SHA256: 2f43c30736db74dd5e9721520b34f2b7c70766154c6ebed4438d9b936ee15461
+SHA1: 9d0147a9d6f4ec27b2533e7911e5bc76244f5f01
+MD5sum: bfbd094dfa754dc7706f62e7a10b2d8b
+Description: OpenArena game data - 0.8.5 update
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages.
+ This package contains the OpenArena 0.8.5 update.
+
 Package: openarena-088-data
 Version: 0.8.8-12
 Architecture: all
@@ -377,6 +930,54 @@ Description: OpenArena game data
  This package contains the non-code parts of the OpenArena 0.8.8 update.
  It is ignored by older OpenArena packages.
 
+Package: openarena-data
+Version: 0.8.5split-14
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 44068
+Depends: openarena-081-maps, openarena-081-misc, openarena-081-players, openarena-081-players-mature, openarena-081-textures, openarena-085-data
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-data/openarena-data_0.8.5split-14_all.deb
+Size: 44029708
+SHA256: fa68862434f02a826b7ef22008f25f406623abf4e37113c1bfab5460065483c8
+SHA1: 7ed58e750cb15f8f83f9c95d795182b8bba11cd7
+MD5sum: 41c0bee6f5765b2bb4a13351f25cfe77
+Description: OpenArena game data
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages.
+ This package contains the basic game content from OpenArena 0.8.1,
+ and depends on the rest of the game data from OpenArena 0.8.1 and 0.8.5.
+
+Package: openarena-oacmp1
+Version: 3-7
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 36357
+Depends: openarena-088-data
+Enhances: openarena, openarena-server
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-oacmp1/openarena-oacmp1_3-7_all.deb
+Size: 33896328
+SHA256: b6fdd8badf20e4a113892d9ffdfcfdb2d8542145b97af7bfd2674ff02466f161
+SHA1: 0f00beadbb873ad4a05564be1dbcf6836066a622
+MD5sum: 7dff302fdd306a45c6257fe62a8803e1
+Description: OpenArena Community Map Pack 1
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ This package contains additional maps (levels) released in 2014
+ by the OpenArena community.
+
 Package: openbosniana-installer-docs
 Version: 2024.04.13
 Architecture: all
@@ -391,6 +992,33 @@ SHA256: 7022f3a19657ef0ec87a1f962328f1a398d1a031d399dc411413575fea73a65c
 SHA1: 83a74a2d89b0180809edfec544318e73c99b4ce5
 MD5sum: 3bca9aa1670d1b4d9d09fea15e92846a
 Description: OpenBosniana OS docs
+
+Package: openclipart-svg
+Source: openclipart
+Version: 1:0.18+dfsg-19
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 173164
+Recommends: librsvg2-bin
+Suggests: ksvg, gimp-svg, inkscape, sodipodi, sketch
+Conflicts: openclipart (<< 0.10+dfsg-3)
+Homepage: http://www.openclipart.org
+Priority: optional
+Section: graphics
+Filename: pool/main/o/openclipart/openclipart-svg_0.18+dfsg-19_all.deb
+Size: 24919068
+SHA256: 989712d90d57dfa3230049f553bb43b76c30ee4d4b8c5f6e106e33f7db5cbdc5
+SHA1: a48b56053eec7878a36d4923bcc8b48cbb704093
+MD5sum: a7cfc33b11ff6502e9538bf5e3ec0418
+Description: clip art in SVG format
+ The Open Clip Art Library is a collection of 100% license-free,
+ royalty-free, and restriction-free art that you can use for any purpose.
+ .
+ The clip art in this package is sorted by subject (e.g. sports). Openclipart 2
+ is sorted by artist (who created the clip art) and is much larger.
+ .
+ This package contains the images in Scalable Vector Graphic
+ (SVG) format, which is an XML format approved by the W3C.
 
 Package: opencv-doc
 Source: opencv
@@ -421,6 +1049,31 @@ Description: OpenCV documentation and examples
  analysis, structural analysis, motion analysis and object tracking, object
  recognition, camera calibration and 3D reconstruction.
 
+Package: openfoam-examples
+Source: openfoam
+Version: 1912.200626-1
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 56739
+Multi-Arch: foreign
+Homepage: http://openfoam.com
+Priority: optional
+Section: science
+Filename: pool/main/o/openfoam/openfoam-examples_1912.200626-1_all.deb
+Size: 36437980
+SHA256: cf2060b848b9e4e95b69c57f70fdd9b96310db7399f0c538280caca750fb2a37
+SHA1: 6ae1ec6607642aa361c334f0973b91b2f6790b3c
+MD5sum: 88a34c1a28a815d642fa1e312acf1aee
+Description: Open source toolbox for Computational Fluid Dynamics (CFD) - examples
+ OpenFOAM is the free, open source CFD software released and developed
+ primarily by OpenCFD Ltd since 2004. It has a large user base across most
+ areas of engineering and science, from both commercial and academic
+ organisations. OpenFOAM has an extensive range of features to solve anything
+ from complex fluid flows involving chemical reactions, turbulence and heat
+ transfer, to acoustics, solid mechanics and electromagnetics.
+ .
+ Package contains examples and tutorials.
+
 Package: openjdk-11-source
 Source: openjdk-11
 Version: 11.0.22+7-2
@@ -443,6 +1096,68 @@ Description: OpenJDK Development Kit (JDK) source files
  .
  This package contains the Java programming language source files
  (src.zip) for all classes that make up the Java core API.
+
+Package: openjdk-17-source
+Source: openjdk-17
+Version: 17.0.10+7-1~deb12u1
+Architecture: all
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Installed-Size: 50602
+Depends: openjdk-17-jdk (>= 17.0.10+7-1~deb12u1)
+Multi-Arch: foreign
+Homepage: https://openjdk.java.net/
+Priority: optional
+Section: java
+Filename: pool/main/o/openjdk-17/openjdk-17-source_17.0.10+7-1~deb12u1_all.deb
+Size: 46912976
+SHA256: 4b76cf47cd06226653c028a5cca2062a90d737b3d13c8434e1974409ad5379d5
+SHA1: 4aa6da90b6c86773540b98b93625b58f204377e9
+MD5sum: 4b11dc63ab3281ce1dc9264b0f128231
+Description: OpenJDK Development Kit (JDK) source files
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the Java programming language source files
+ (src.zip) for all classes that make up the Java core API.
+
+Package: openms-doc
+Source: openms
+Version: 2.6.0+cleaned1-3
+Architecture: all
+Maintainer: The Debichem Group <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 142611
+Depends: libjs-jquery
+Suggests: libopenms2.6.0 (= 2.6.0+cleaned1-3), topp (= 2.6.0+cleaned1-3)
+Replaces: openms-doc (<= 2.6.0+cleaned1-3)
+Homepage: http://www.openms.de
+Priority: optional
+Section: doc
+Filename: pool/main/o/openms/openms-doc_2.6.0+cleaned1-3_all.deb
+Size: 43023256
+SHA256: 70fafc1a8f1775ee713344e6c592546d96cba8f7d801b7081bbcd86183609998
+SHA1: 058016f2f2baee66533f526aa815ef92d7a39e9d
+MD5sum: e96c2ad6519e8c4f5b179b79c06f90e2
+Description: package for LC/MS data management and analysis - documentation
+ OpenMS is a package for LC/MS data management and analysis. OpenMS
+ offers an infrastructure for the development of mass
+ spectrometry-related software and powerful 2D and 3D visualization
+ solutions.
+ .
+ OpenMS offers analyses for various quantitation protocols, including
+ label-free quantitation, SILAC, iTRAQ, SRM, SWATH…
+ .
+ It provides built-in algorithms for de-novo identification and
+ database search, as well as adapters to other state-of-the art tools
+ like X!Tandem, Mascot, OMSSA…
+ .
+ OpenMS supports the Proteomics Standard Initiative (PSI) formats for
+ MS data and supports easy integration of tools into workflow engines
+ like Knime, Galaxy, WS-Pgrade, and TOPPAS via the TOPPtools concept
+ and a unified parameter handling.
+ .
+ This package brings full documentation for both the libopenms library
+ package (libOpenMS and libOpenMS_GUI) and the OpenMS Proteomic
+ Pipeline (topp) package.
 
 Package: openshot-qt
 Version: 2.6.1+dfsg1-3
@@ -502,4 +1217,27 @@ Description: OPL3 SoundFont that simulates the sound of an OPL3 chip
  OPL3, which can be costly in terms of CPU usage to emulate accurately.
  .
  This package will be installed into /usr/share/sounds/sf2/.
+
+Package: oxygen-icon-theme
+Source: oxygen-icons5
+Version: 5:5.103.0-1
+Architecture: all
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 37702
+Depends: hicolor-icon-theme
+Breaks: fdpowermon-icons
+Replaces: fdpowermon-icons
+Multi-Arch: foreign
+Homepage: https://invent.kde.org/frameworks/oxygen-icons5
+Priority: optional
+Section: x11
+Filename: pool/main/o/oxygen-icons5/oxygen-icon-theme_5.103.0-1_all.deb
+Size: 31761936
+SHA256: 3e49023e148906e41457a98a19a09858ddd761ef4f212fa356232924b3cebcce
+SHA1: 1a93dc00d0b6ef0e074c3daf485173fffb8e4636
+MD5sum: 4d43f5c70b4b30e234148fb337615aa9
+Description: Oxygen icon theme
+ Oxygen is the standard icon theme for KDE 4, but follows the freedesktop.org
+ icon schemes, so it can be used in other desktop environments using this
+ specification.
 
