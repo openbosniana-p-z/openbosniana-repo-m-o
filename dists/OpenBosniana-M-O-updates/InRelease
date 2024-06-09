@@ -6,7 +6,7 @@ Label: OpenBosniana-M-O Repository
 Suite: 2024
 Codename: OpenBosniana-M-O-updates
 Version: 2024
-Date: Sun, 09 Jun 2024 19:41:21 UTC
+Date: Sun, 09 Jun 2024 20:24:03 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  4c5fae67574cc8c0e9bbd42ead0f6b8af4d6c984b4b9c2255c9e6f5e0547b025 201 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmBWEACgkQ5Vfn9vbt
-T6ptuA//R4YpN4b1z0DAldDgCRuDyepoCK40K+XNOSaB2lrj+z7S5rgCX25wMOxT
-hVlF/FNaNang0p7z9JTe7wSswW/qDJJ0kGgMBtW+Z8S5qeR8aU9hG6FQx2Y4jU1J
-qSfvFRWfck7DK13H37ytGOnrkBNi5VTwh6G8uYzDmUoeRYdMY4vjE+Wr8jOu9HHx
-PJ7UDvY8RNH4wueLsDNC0mMT4y1HoYdVRIFjw1frAUCYgb3/4EU8YkqAPMpXafDW
-svckMXXJd+kJHGIReeyAFm6uV10KDSKfiaqKIoW0PyCHCmywaR9WsY1oU4uLmC19
-WryX0vzBDhf5g6QfmnSCJMQD4lC0BtJw3KuykRg5xlouuD7SAA5aieFAjZQdv/HJ
-ll0F4z0AMtOInFLB50yfkEn2Xl+XqH4OK2VFpYVsjDeRQfwgviXmUwlQIICHkK+j
-EnwnzY/pSQYOjvBzUaI0IvXp8kGgqfX/nmsGAq8HNcbKlXaVakOnCvD12krRKw/a
-WDvOip5MjgCA/obVeDm0pAnP9Sgyjy/OM4Y06DucacpnfPrBAe3pUukkk9w4Nhio
-Vv056YtJPuCOxjZ3hAs6xJkSbc9UYI0D4c6xelJ5EUm9mfdZeeVabGfvE7lBBJCM
-sEHtzw/Pl4/Dyg2wP8KHvCwe+BBt/rOXJ3gSJ/BeRdT8mv/3lUw=
-=+kU8
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmD2MACgkQ5Vfn9vbt
+T6otIg//W7nHpYV3YjjY7aZn8DI8ns+9JFv92nD5/wjtJ9jNWvv6CUsWZJLWwTRM
+dOSlLEjoMd4MX4d6jD3ClwxmLHQR8KA+zdUXoUC/BVpwh9x5BKcstO1S6S2zk39g
+CeTcSv/LtO3K5oY/EXE6b+BrayzDtokfUDprDkk3WGRl2GAH+IlFyijCqA18sB9s
+gx059d2TSVQwN+3ySpiLCZKxM6iF04ynCSduy8jM+i5/xz5V2aedfVn1FoIpLMIS
+Kp3cesMojMPMkhSAZEXqxEIsAkIk3nY36O6LO1ikPZtwmQ5eGBESCO8gWcdzExoL
+7lWnqhBY8RWEJkXyCIa5s69fId2qs+01OALdyVFcClv69yXN4gWQS9wvOoWcENkd
+FnYndFNwdwOh4y1bBmIV6FyNJrwsDBR04pNdfaZgs9r4v7GyL7zwTBEFjfYLPxlz
+nO84UGkbs73wOwu6tJXcqyZiI+YPQ2rs3c2QSIyhgOix1r26YvTxCEsh/gr8b4YI
+abmO7FMhvcCNiUrIFLBeuoj4Fz0RiaI/wcGL+aO3aJRzRYTXBNA8gO5C256Fj0Ep
+3n7hxl+/OVBGnXGPeeUKOvLyIc6mUyIC6qYFO234hSFwBFSuUozgu6FqVOoVtZVm
+M5KqJtS6bbkBZKWjUCxdPibfVAwmJG9wJmA+uGMSZrBEmCjHH0s=
+=aMcW
 -----END PGP SIGNATURE-----
