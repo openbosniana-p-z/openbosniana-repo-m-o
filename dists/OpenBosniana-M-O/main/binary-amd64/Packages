@@ -1,0 +1,640 @@
+Package: libodil-doc
+Source: odil
+Version: 0.12.2-2
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 102463
+Depends: libjs-jquery
+Conflicts: libdcmtkpp0-doc
+Replaces: libdcmtkpp0-doc
+Provides: libdcmtkpp0-doc, libodil0-doc
+Multi-Arch: foreign
+Homepage: https://github.com/lamyj/odil
+Priority: optional
+Section: doc
+Filename: pool/main/o/odil/libodil-doc_0.12.2-2_all.deb
+Size: 58919420
+SHA256: 6847b29a2758bfaf732a076d71f86a95c0e190d72984331123f35f232ec88460
+SHA1: f50edbfb82f246e2f2e13ed5e523e41362cbe221
+MD5sum: 323e690b42c548686f150744f8990640
+Description: C++11 library for the DICOM standard (documentation)
+ Odil leverages C++ constructs to provide a user-friendly API of the
+ different parts of the DICOM standard. Included in Odil are exception-based
+ error handling, generic access to datasets elements, standard JSON and XML
+ representation of datasets, and generic implementation of messages, clients
+ and servers for the various DICOM protocols.
+ .
+ This package contains the documentation files.
+
+Package: maffilter-examples
+Source: maffilter
+Version: 1.3.1+dfsg-4
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 78842
+Enhances: maffilter
+Multi-Arch: foreign
+Homepage: https://jydu.github.io/maffilter/
+Priority: optional
+Section: science
+Filename: pool/main/m/maffilter/maffilter-examples_1.3.1+dfsg-4_all.deb
+Size: 79214344
+SHA256: 16a25c6cdbe6b89bb6520bb6f192e75abf348602f98b5481f37d8a13d56ee8cc
+SHA1: 9a55ddef1ee9c7bac1ce9a4bd91bc5d852b4dd98
+MD5sum: 2b41dc7ab240f99c09cba77a4bca97a0
+Description: process genome alignment in the Multiple Alignment Format (example data)
+ MafFilter applies a series of "filters" to a MAF file, in order to
+ clean it, extract data and computer statistics while keeping track of
+ the associated meta-data such as genome coordinates and quality scores.
+ .
+  * It can process the alignment to remove low-quality / ambiguous /
+    masked regions.
+  * It can export data into a single or multiple alignment file in
+    format such as Fasta or Clustal.
+  * It can read annotation data in GFF or GTF format, and extract the
+    corresponding alignment.
+  * It can perform sliding windows calculations.
+  * It can reconstruct phylogeny/genealogy along the genome alignment.
+  * It can compute population genetics statistics, such as site
+    frequency spectrum, number of fixed/polymorphic sites, etc.
+ .
+ This package provides example data for maffilter.
+
+Package: mame
+Version: 0.251+dfsg.1-1
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 348707
+Depends: libc6 (>= 2.35), libexpat1 (>= 2.0.1), libflac12 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.4), libgl1, libjpeg62-turbo (>= 1.3.1), liblua5.3-0, libportaudio2 (>= 19+svn20101113), libportmidi0, libpugixml1v5 (>= 1.7), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.14), libsdl2-ttf-2.0-0 (>= 2.0.15), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 12), libutf8proc2 (>= 1.3), libx11-6, libxi6, zlib1g (>= 1:1.2.2), mame-data (= 0.251+dfsg.1-1)
+Suggests: gnome-video-arcade, mame-doc, mame-extra, mame-tools
+Breaks: mess (<< 0.162)
+Replaces: mess (<< 0.162)
+Homepage: https://mamedev.org/
+Priority: optional
+Section: games
+Filename: pool/main/m/mame/mame_0.251+dfsg.1-1_amd64.deb
+Size: 67068448
+SHA256: 3f07f51c7285d207f2cde099c65dd635bbe8a4d3f40ce68b5813c7f6b1953ec7
+SHA1: b1eafaffc76ac37a949e75ef112ec448e2092fbe
+MD5sum: fafc4a6e2cc0b00461f16ac52fb0178c
+Description: Multiple Arcade Machine Emulator (MAME)
+ MAME is a hardware emulator: it faithfully reproduces the behavior of many
+ arcade machines (it is not a simulation). This program is not a game but can
+ directly, through ROM images, run the complete system of these old arcade
+ machines. These ROMs are subject to copyright and it is in most of the cases
+ illegal to use them if you do not own the arcade machine.
+ .
+ This package provides the MAME binary and configuration files.
+
+Package: mandelbulber2-data
+Source: mandelbulber2
+Version: 2.20-2
+Architecture: all
+Maintainer: Giovanni Mascellani <gio@debian.org>
+Installed-Size: 101646
+Replaces: mandelbulber2 (<< 2.13.2-4)
+Multi-Arch: foreign
+Homepage: https://github.com/buddhi1980/mandelbulber2
+Priority: optional
+Section: math
+Filename: pool/main/m/mandelbulber2/mandelbulber2-data_2.20-2_all.deb
+Size: 80585392
+SHA256: 8623ffbf79f3cf64d5f607b8f0d66efb895d703b1363b065554ccc60bfef5e77
+SHA1: bacc27cf43c6ad3b5dc46ae6b5348d728ec75a29
+MD5sum: 6761421ce6e5d1392653203afe188ac8
+Description: 3D fractal renderer and animator - data files
+ Mandelbulber2 is a ray-tracing application for drawing three-dimensional
+ fractals, like Mandelbulb, Mandelbox, Julia, trigonometric, hypercomplex
+ or IFS fractals. It is highly customizable and features complex shading
+ algorithms (among the others there are shadows, depth of field, ambient
+ occlusion).
+ .
+ Mandelbulber2 is also able to produce animations and has a simple
+ built-in 3D navigator for exploring the fractals.
+ .
+ This package contains architecture-independent data files for
+ Mandelbulber2.
+
+Package: marsshooter-data
+Source: marsshooter
+Version: 0.7.6-7
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 68167
+Suggests: marsshooter
+Multi-Arch: foreign
+Homepage: https://github.com/thelaui/M.A.R.S.
+Priority: optional
+Section: games
+Filename: pool/main/m/marsshooter/marsshooter-data_0.7.6-7_all.deb
+Size: 68377444
+SHA256: b8d040a9739434f2be96bbf9b38f0743d56d59b853647b2242f9357e38394951
+SHA1: 6b3e56426420e81856490bf5855bcc3e1697b948
+MD5sum: c4ffe3efe2833b84f6ff59232228ed37
+Description: ridiculous space shooter governed by the laws of gravity -- data
+ M.A.R.S is a two-dimensional space shooter game with excellent 2D-graphics, a
+ stunning amount of particles and shader support. It offers single- and
+ multiplayer gameplay, many impressive weapons and specials and customizable
+ ships.
+ .
+ This package contains the data files for M.A.R.S and includes all graphics
+ and sounds.
+
+Package: minexpert2-doc
+Source: minexpert2
+Version: 8.6.3-1
+Architecture: all
+Maintainer: The Debichem Group <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 56947
+Depends: libjs-jquery, libjs-highlight.js
+Conflicts: msxpertsuite-minexpert-data-doc
+Breaks: msxpertsuite-minexpert-data-doc (<< 6.0.0)
+Replaces: msxpertsuite-minexpert-data-doc (<< 6.0.0)
+Homepage: http://www.msxpertsuite.org/
+Priority: optional
+Section: doc
+Filename: pool/main/m/minexpert2/minexpert2-doc_8.6.3-1_all.deb
+Size: 54438864
+SHA256: 71284956db5c51beec9b6bd3fd55fba9985650dedf4d308febda69abc9b929ea
+SHA1: d4f68834f73eec462a1559112688fc188f868e77
+MD5sum: ead5bd4a5d4aaea6424ac8e329924e41
+Description: MS^n mass spectrometric data visualization and mining (doc)
+ mineXpert2 allows the user to perform the following tasks:
+  - Open mass spectrometry data files (mzML, mzXML, asc, xy, ...);
+  - Display in a table view the full data set, for easy filtering;
+  - Calculate and display the TIC chromatogram;
+  - Calculate and display a mz=f(rt) color map;
+  - For mobility data, calculate and display a mz=f(dt) color map;
+  - Integrate the mass spectrometric data from any kind of data
+    representation (mass | drift spectra, TIC | XIC chromatogram,
+    2D color maps) to any other kind of data representation;
+  - For any mass data feature (mass peak, TIC | XIC peak, color map)
+    integrate to a XIC single intensity value;
+  - Powerful isotopic cluster calculation starting from a
+    chemical formula, optionally with user-defined isotopic abundance ratios;
+  - Gaussian fit over any isotopic cluster to estimate the
+    average mass of a given ion;
+  - Mouse-driven deconvolution of m/z data (charge envelope-based
+    or isotopic cluster-based);
+  - Export the data to text files;
+  - Export the graphical representation of mass spectrometric
+    data to graphics files in a number of formats (jpg, png, pdf).
+ .
+ This package ships the user manual in both PDF and HTML formats.
+
+Package: mint-y-icons
+Version: 1.6.5-1
+Architecture: all
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Installed-Size: 110028
+Depends: gtk-update-icon-cache
+Homepage: https://github.com/linuxmint/mint-y-icons
+Priority: optional
+Section: gnome
+Filename: pool/main/m/mint-y-icons/mint-y-icons_1.6.5-1_all.deb
+Size: 59835168
+SHA256: 46eabcb4c910cbecd76fcf840c0b7013a5e070202141c7ad26a154dad281edd3
+SHA1: afe2f1014a57a48d062086ffa15b29093cb7d459
+MD5sum: 993dd48446b4230b4095bad901959030
+Description: Mint-Y icon theme
+ A flat, colorful, and modern theme based on Paper and Moka.
+
+Package: moka-icon-theme
+Version: 5.5.0-2
+Architecture: all
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Installed-Size: 87222
+Depends: faba-icon-theme
+Homepage: https://snwh.org/moka
+Priority: optional
+Section: misc
+Filename: pool/main/m/moka-icon-theme/moka-icon-theme_5.5.0-2_all.deb
+Size: 53702480
+SHA256: b55540ac018cbb2b2d87f9db451e977d43436069070916025d58ad903fc83117
+SHA1: c5a6cef5de67a0aea834f4e5d1b264df617aac47
+MD5sum: 91aecb62264642e8197ae9020e596ad4
+Description: Tango-esque desktop icon set called Moka
+ Moka is a stylized Tango-esque Linux desktop icon set. They are
+ designed to be a clear, simple and consistent.
+ Moka is designed to work with the Faba icon set - together
+ they provide both applications and panel based icons.
+
+Package: morse-simulator-data
+Source: morse-simulator
+Version: 1.4-8
+Architecture: all
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 157424
+Homepage: http://morse-simulator.github.io/
+Priority: optional
+Section: science
+Filename: pool/main/m/morse-simulator/morse-simulator-data_1.4-8_all.deb
+Size: 82038716
+SHA256: a247b7c8f5cd5c0128d58e2d07884aa0338e4d60adb9d8408edf032c6c851202
+SHA1: 1442af19d10558e5cabd7e9e638d621de64c64ab
+MD5sum: 8bccba022e83be419fdc710eba3ed72b
+Description: Multi-OpenRobot Simulation Engine
+ List of morse features:
+  * Versatile simulator for generic mobile robots simulation
+    (single or multi robots),
+  * Realistic and dynamic environments (interaction with other agents like
+    humans or objects),
+  * Based on well known and widely adopted open source projects (Blender for 3D
+    rendering + UI, Bullet for physics simulation, dedicated robotic
+    middlewares for communications + robot hardware support),
+  * Seamless workflow: since the simulator rely on Blender for both modeling
+    and the real time 3D engine, creating and modifying a simulated scene is
+    straightforward.
+  * Entirely scriptable in Python,
+  * Adaptable to various level of simulation realism (for instance the
+    simulation of exteroceptive sensors like cameras or a direct access to
+    higher level representations of the world, like labeled artifacts),
+  * Currently compatible with ROS, YARP and the LAAS OpenRobots robotics
+    frameworks,
+  * Easy to integrate to other environments via a simple socket interface,
+  * Fully open source, BSD license.
+ .
+ This package contains morse data.
+
+Package: musescore-general-soundfont
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Thorsten Glaser <tg@mirbsd.de>
+Installed-Size: 83998
+Enhances: libfluidsynth1 (>= 1.1.7), libfluidsynth2, musescore (>= 2.2), musescore3
+Conflicts: fluidr3mono-gm-soundfont (<< 2.315-5~), musescore-common (<< 2.3.2+dfsg1-1~bpo9)
+Provides: musescore-compatible-soundfont, sf3-soundfont-gm
+Multi-Arch: foreign
+Homepage: https://musescore.org/en/node/269869
+Priority: optional
+Section: sound
+Filename: pool/main/m/musescore-general-soundfont/musescore-general-soundfont_0.2.1-1_all.deb
+Size: 75768132
+SHA256: 21ab87e4b15711817f84130a370bdb51003c90f3bf53e4015f3b410b9ed8c6a5
+SHA1: 257efb9c131437c22bb658e00bad1dfe78d05a43
+MD5sum: 8cb71956f614c114cc628049560a681c
+Description: General SoundFont from MuseScore (HQ version, lossy)
+ This is the HQ version for the new standard hard disc space-saving
+ SF3 format soundfont as shipped with MuseScore 2.2 and newer.
+ .
+ This release of the soundfont supports Single-Note Dynamics with
+ MuseScore 3.2 and higher.
+ .
+ MuseScore_General_HQ aims at providing the best audio quality and
+ soundfont programming features, while being a compatible drop-in
+ replacement for the less heavyweight MuseScore_General soundfont,
+ providing the complete GM (General MIDI) sound set, with separate
+ ensemble samples for several instruments, and some extras.
+ .
+ It can be used with most modern MIDI synthesisers which support
+ the SF3 format, although early implementations (such as the one
+ from MuseScore before release 2.2) had bugs making the resulting
+ sound bad; instead use fluidr3mono-gm-soundfont for those.
+ .
+ As it comes under the MIT licence, it can be used in most settings,
+ but do remember that waveforms generated using this soundfont are
+ “copies or substantial portions of the” soundfont. It is sufficient
+ to reproduce the licence and copyright notice in any “associated
+ documentation files” provided with your generated waveforms.
+ .
+ The musescore-general-soundfont-small package contains the normal
+ soundfont (as shipped with MuseScore 3.x), lossily SF3 compressed.
+ The musescore-general-soundfont package similarly provides the
+ HQ version of the soundfont (with separate ensembles instruments
+ and other large improvements) as SF3, whereas the SF2 HQ version
+ is packaged as musescore-general-soundfont-lossless for use with
+ synthesisers lacking SF3 support, by audiophiles, and to avoid
+ long MuseScore startup times; however with a large disc footprint.
+ .
+ This package will be installed into /usr/share/sounds/sf3/ which
+ is the standard Debian location for system-wide SF3 soundfonts.
+
+Package: nexuiz-music
+Source: nexuiz-data
+Version: 2.5.2-12
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 85973
+Suggests: nexuiz (>= 2.5.2)
+Multi-Arch: foreign
+Homepage: https://www.alientrap.org/games/nexuiz/
+Priority: optional
+Section: games
+Filename: pool/main/n/nexuiz-data/nexuiz-music_2.5.2-12_all.deb
+Size: 84012080
+SHA256: d1a7d6e2c0a5bbe6670dbf73354e38f742597310d425e373250fc71a636f8dda
+SHA1: 0c778b13d61477642389221b96a198cd5243a888
+MD5sum: f89d71d5826472595df491bdc8cfc46b
+Description: Nexuiz music files
+ Nexuiz is a 3d deathmatch game made entirely over the internet. The purpose of
+ the game is to bring deathmatch back to the basics, with perfect weapon
+ balancing and fast paced action, keeping itself away from the current trend of
+ realistic shooters.
+ .
+ This package contains only the in-game music files. If you want to play the
+ game you need to install the package "nexuiz".
+
+Package: ocaml
+Version: 4.13.1-4
+Architecture: amd64
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Installed-Size: 285421
+Depends: ocaml-interp (= 4.13.1-4), libncurses-dev, gcc, binutils, libc6 (>= 2.35), ocaml-base-4.13.1
+Recommends: ocaml-man, file
+Suggests: ocaml-doc, elpa-tuareg
+Breaks: ocaml-nox (<< 4.13)
+Replaces: ocaml-nox (<< 4.13)
+Provides: libseq-ocaml-dev, libstdlib-shims-ocaml-dev, libuchar-ocaml-dev, ocaml-4.13.1, ocaml-best-compilers (= 4.13.1-4), ocaml-native-compilers (= 4.13.1-4)
+Homepage: https://ocaml.org/
+Priority: optional
+Section: ocaml
+Filename: pool/main/o/ocaml/ocaml_4.13.1-4_amd64.deb
+Size: 72145688
+SHA256: 98ca43adc3edb8994bb89830e51b3bdb7d25449db41a5702cf8ff39696c404ea
+SHA1: ed27b73db6ef89ea7e4568dcf0e3a88842a9b239
+MD5sum: 9d534010cb0da34a626fd3fdd47a8a04
+Description: ML language implementation with a class-based object system
+ Objective Caml (OCaml) is an implementation of the ML language, based on
+ the Caml Light dialect extended with a complete class-based object system
+ and a powerful module system in the style of Standard ML.
+ .
+ OCaml comprises two compilers. One generates bytecode
+ which is then interpreted by a C program. This compiler runs quickly,
+ generates compact code with moderate memory requirements, and is
+ portable to essentially any 32 or 64 bit Unix platform. Performance of
+ generated programs is quite good for a bytecoded implementation:
+ almost twice as fast as Caml Light 0.7. This compiler can be used
+ either as a standalone, batch-oriented compiler that produces
+ standalone programs, or as an interactive, toplevel-based system.
+ .
+ The other compiler generates high-performance native code for a number
+ of processors. Compilation takes longer and generates bigger code, but
+ the generated programs deliver excellent performance, while retaining
+ the moderate memory requirements of the bytecode compiler. It is not
+ available on all arches though.
+ .
+ This package contains everything needed to develop OCaml applications.
+
+Package: openarena-081-players
+Source: openarena-players
+Version: 0.8.5split-14
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 74944
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-players/openarena-081-players_0.8.5split-14_all.deb
+Size: 74721940
+SHA256: 34b80557c998079689a83b723976eafa7f85c9e36ba6f967e62c55c2a3204b62
+SHA1: 912ebcfed323056543be9b3bcaad1e874effc3df
+MD5sum: 6d8d764db66cfd255272f1e6b0781803
+Description: OpenArena game data - player graphics from 0.8.1
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages.
+ This package contains player graphics from OpenArena 0.8.1.
+
+Package: openarena-081-textures
+Source: openarena-textures
+Version: 0.8.5split-14
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 96620
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-textures/openarena-081-textures_0.8.5split-14_all.deb
+Size: 93727900
+SHA256: 72bf05abd5286a1523b56ca04e25bceb775813d747f92ecd20749d512361a81f
+SHA1: 64cc62ea86d610a48e0aba05f9a7aa00666c1cec
+MD5sum: 3dcb55d824edaed7719227b0177dd88c
+Description: OpenArena game data - textures from 0.8.1
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages.
+ This package contains textures from OpenArena 0.8.1.
+
+Package: openarena-088-data
+Version: 0.8.8-12
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 71508
+Multi-Arch: foreign
+Homepage: https://openarena.ws/
+Priority: optional
+Section: games
+Filename: pool/main/o/openarena-088-data/openarena-088-data_0.8.8-12_all.deb
+Size: 71701120
+SHA256: 277dd6d46d057d65884596f606c79c7393d9c0e240f6e4c4981706231f4ab00d
+SHA1: 5d38d12acce3ee3ddcaada3541285512c00687f0
+MD5sum: af54328157784a5756bc469a92215899
+Description: OpenArena game data
+ OpenArena is an open-source content package for the Quake III
+ engine, effectively creating a free stand-alone game similar to
+ Quake III Arena.
+ .
+ In Debian, OpenArena game data are divided into several packages.
+ This package contains the non-code parts of the OpenArena 0.8.8 update.
+ It is ignored by older OpenArena packages.
+
+Package: openbosniana-installer-docs
+Version: 2024.04.13
+Architecture: all
+Maintainer: Denis Maslo <denni.msl@blackbosniana.org>
+Installed-Size: 133652
+Homepage: https://www.bosniana.org/
+Priority: optional
+Section: utils
+Filename: pool/main/o/openbosniana-installer-docs/openbosniana-installer-docs_2024.04.13_all.deb
+Size: 70478864
+SHA256: 7022f3a19657ef0ec87a1f962328f1a398d1a031d399dc411413575fea73a65c
+SHA1: 83a74a2d89b0180809edfec544318e73c99b4ce5
+MD5sum: 3bca9aa1670d1b4d9d09fea15e92846a
+Description: OpenBosniana OS docs
+
+Package: opencv-doc
+Source: opencv
+Version: 4.6.0+dfsg-12
+Architecture: all
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 274307
+Depends: libjs-jquery, libjs-mathjax
+Multi-Arch: foreign
+Homepage: https://opencv.org
+Priority: optional
+Section: doc
+Filename: pool/main/o/opencv/opencv-doc_4.6.0+dfsg-12_all.deb
+Size: 95715012
+SHA256: 4b12681df35878207ac7097dc66184b2ae552e4bf4ddd2af04a0f03ed0b8682a
+SHA1: 7419f26569e08df97f93afc25cee39865194b2a6
+MD5sum: 484deaae4b64fbc01900e818058bd559
+Description: OpenCV documentation and examples
+ This package contains the OpenCV documentation and example programs.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: openjdk-11-jdk-headless
+Source: openjdk-11
+Version: 11.0.22+7-2
+Architecture: amd64
+Maintainer: OpenJDK Team <openjdk-11@packages.debian.org>
+Installed-Size: 80075
+Depends: openjdk-11-jre-headless (= 11.0.22+7-2), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
+Suggests: openjdk-11-demo, openjdk-11-source
+Breaks: openjdk-11-jre-headless (<< 11.0.11+3-2~)
+Replaces: openjdk-11-jre-headless (<< 11.0.11+3-2~)
+Provides: java-compiler, java-sdk-headless (= 11), java10-sdk-headless, java11-sdk-headless, java2-sdk-headless, java5-sdk-headless, java6-sdk-headless, java7-sdk-headless, java8-sdk-headless, java9-sdk-headless
+Multi-Arch: same
+Homepage: https://openjdk.java.net/
+Priority: optional
+Section: java
+Filename: pool/main/o/openjdk-11/openjdk-11-jdk-headless_11.0.22+7-2_amd64.deb
+Size: 73727424
+SHA256: ae952e98d31128bad5f336dea9e0b8e226741efc791d5074e82dc4ef8488da9c
+SHA1: 6a87273870ecc7ff82ce5769fc9bb4a299b9a994
+MD5sum: e912dbbcec667fc948065052c8ea17fd
+Description: OpenJDK Development Kit (JDK) (headless)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+
+Package: openjdk-11-source
+Source: openjdk-11
+Version: 11.0.22+7-2
+Architecture: all
+Maintainer: OpenJDK Team <openjdk-11@packages.debian.org>
+Installed-Size: 56989
+Depends: openjdk-11-jdk (>= 11.0.22+7-2)
+Multi-Arch: foreign
+Homepage: https://openjdk.java.net/
+Priority: optional
+Section: java
+Filename: pool/main/o/openjdk-11/openjdk-11-source_11.0.22+7-2_all.deb
+Size: 52128548
+SHA256: 4362f58bf577c3ed10242f0361f617c4052298835ad8c4c0cd0263d80fecc1d3
+SHA1: ecd3dba9aa7660c5085b695d06658da6d815bc7f
+MD5sum: 7de768f2b7e1afd39a594493b1a5ce1b
+Description: OpenJDK Development Kit (JDK) source files
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the Java programming language source files
+ (src.zip) for all classes that make up the Java core API.
+
+Package: openjdk-17-jdk-headless
+Source: openjdk-17
+Version: 17.0.10+7-1~deb12u1
+Architecture: amd64
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Installed-Size: 76674
+Depends: openjdk-17-jre-headless (= 17.0.10+7-1~deb12u1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
+Suggests: openjdk-17-demo, openjdk-17-source
+Breaks: openjdk-17-jre-headless (<< 17~10)
+Replaces: openjdk-17-jre-headless (<< 17~10)
+Provides: java-compiler, java-sdk-headless (= 17), java10-sdk-headless, java11-sdk-headless, java12-sdk-headless, java13-sdk-headless, java14-sdk-headless, java15-sdk-headless, java16-sdk-headless, java17-sdk-headless, java2-sdk-headless, java5-sdk-headless, java6-sdk-headless, java7-sdk-headless, java8-sdk-headless, java9-sdk-headless
+Multi-Arch: same
+Homepage: https://openjdk.java.net/
+Priority: optional
+Section: java
+Filename: pool/main/o/openjdk-17/openjdk-17-jdk-headless_17.0.10+7-1~deb12u1_amd64.deb
+Size: 71338980
+SHA256: 257b1c7df31c61c3c907ef42d2bc2cb1be23f9cc27e5bf59b07e5f695650a851
+SHA1: 7d973c3f2533c3fd83714168ec95df9fa18c0cfc
+MD5sum: 84f80dfc01e73df1507fefaa72dcfda9
+Description: OpenJDK Development Kit (JDK) (headless)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+
+Package: openshot-qt
+Version: 2.6.1+dfsg1-3
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 114469
+Depends: fonts-cantarell, libjs-jquery, libjs-jquery-ui, python3-openshot (>= 0.2.7), python3-pkg-resources, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-requests, python3-zmq, python3:any
+Recommends: blender, inkscape
+Suggests: openshot-qt-doc
+Homepage: https://www.openshot.org/
+Priority: optional
+Section: video
+Filename: pool/main/o/openshot-qt/openshot-qt_2.6.1+dfsg1-3_all.deb
+Size: 56783040
+SHA256: 693a58a31208eaf3289fc6021029e49c66b85319eaefebe92f8303bcf1bf14e2
+SHA1: 9cb53694ffa9303cbd193b76fd2eabab6c0eaabd
+MD5sum: d53a670881bba815038586e735b85ce2
+Description: create and edit videos and movies
+ OpenShot Video Editor is a free, open-source, non-linear video editor. It
+ can create and edit videos and movies using many popular video, audio, and
+ image formats. Create videos for YouTube, Flickr, Vimeo, Metacafe, iPod,
+ Xbox, and many more common formats!
+ .
+ Features include:
+  * Multiple tracks (layers)
+  * Compositing, image overlays, and watermarks
+  * Support for image sequences (rotoscoping)
+  * Key-frame animation
+  * Video and audio effects (chroma-key)
+  * Transitions (lumas and masks)
+  * 3D animation (titles and physics simulations)
+  * Chroma key (green screen & blue screen)
+  * Transcode (convert video encodings)
+  * Upload videos (YouTube and Vimeo supported)
+
+Package: openstructure
+Version: 2.3.1-9
+Architecture: amd64
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Installed-Size: 84989
+Depends: python3-ost, python3:any, libboost-filesystem1.74.0 (>= 1.74.0+ds1), libboost-iostreams1.74.0 (>= 1.74.0+ds1), libboost-program-options1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libost-base2.3 (>= 2.3.1), libost-conop2.3 (>= 2.3.1), libost-gui2.3 (>= 2.3.1), libost-io2.3 (>= 2.3.1), libost-mol-alg2.3 (>= 2.3.1), libost-mol2.3 (>= 2.3.1), libpython3.11 (>= 3.11.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11)
+Recommends: libcifpp-data
+Homepage: https://www.openstructure.org
+Priority: optional
+Section: science
+Filename: pool/main/o/openstructure/openstructure_2.3.1-9_amd64.deb
+Size: 84803532
+SHA256: 72555a180d8fa4f85fe618c0a3ff39669c118ec340fbbce26414281e7a29ef4e
+SHA1: 29371ff207062d0d599f62e2d8cbe182e8efc4eb
+MD5sum: 6c16c5d450a62898a00bcb56e013a829
+Description: Open-Source Computational Structural Biology Framework
+ OpenStructure aims to provide an open-source, modular, flexible, molecular
+ modelling and visualization environment. It is targeted at interested method
+ developers in the field of structural bioinformatics.
+
+Package: opl3-soundfont
+Version: 1.0-4
+Architecture: all
+Maintainer: Bret Curtis <psi29a@gmail.com>
+Installed-Size: 131893
+Enhances: fluidsynth, musescore, timidity, wildmidi
+Provides: sf2-soundfont-gm, sf3-soundfont-gm
+Multi-Arch: foreign
+Homepage: https://github.com/Mindwerks/opl3-soundfont
+Priority: optional
+Section: sound
+Filename: pool/main/o/opl3-soundfont/opl3-soundfont_1.0-4_all.deb
+Size: 99953240
+SHA256: d0534cc07a536e1cfa05b1d0c0befb8586840c8d0e163ef24c536ca1bb5c9aff
+SHA1: 53fc514eabe203d192d22111c6ec9ac608223b38
+MD5sum: 2c833ce9ce3b15e6184d87d3edce79d2
+Description: OPL3 SoundFont that simulates the sound of an OPL3 chip
+ This package provides a soundfont (sf2) that can be used by FluidSynth,
+ Timidity and WildMidi to play MIDI (and MIDI-like files) using the samples
+ created by the OPL3 (SB16/YM262) chip. This also allows applications like
+ DOSBox, ZDoom and others to play back MIDI without having to emulate the
+ OPL3, which can be costly in terms of CPU usage to emulate accurately.
+ .
+ This package will be installed into /usr/share/sounds/sf2/.
+
