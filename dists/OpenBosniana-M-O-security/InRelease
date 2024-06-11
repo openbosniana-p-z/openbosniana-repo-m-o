@@ -6,7 +6,7 @@ Label: OpenBosniana-M-O Repository
 Suite: 2024
 Codename: OpenBosniana-M-O-security
 Version: 2024
-Date: Sun, 09 Jun 2024 20:24:03 UTC
+Date: Tue, 11 Jun 2024 02:33:21 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  6ea07f15ed11393037abefab43b87b5f86b31628344e15d3217cc941af6b6553 202 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmD2QACgkQ5Vfn9vbt
-T6q96RAAsduRjfxDfse8hwLWY5qH5yY+hEPD2F74nRSwFTGlH/Nbpx6rAn5kbHPm
-4yfVcqI1ONiLh0pk0MrjEzD94zKwaFP9JUFms3y9EJ6AO9GVCFS7HARB5Tc7f0Ui
-7NFSOdp9178cnS/h64fYQsNUKOjgRaO/nR0v12C3vyHESxkpkpgpTVG+fVFdNA9y
-7Gb2IrQ93VolpUDvW6NQKEBmDFXtl6bJ4DFwF3zgLqAjvkVRugS6479fcESrLhNI
-Jo2Ci+nPuS8FJECxRS3PGt6uhXUg3Ijc7hNyZ8B7OkI7PwioxHf/i5LslEPFRNGe
-4XDiSSwuIiubOh2VhwOu3NSY4OcON2lC+RGVAAjHkp54IM6MQw0Ypaa9UEZ4839T
-8hxMHfXbuxn83cGx3HB8ceCxnMt07hTv8gTZoq8dHys3T2ohbaa7MNIBSy+LXu1L
-YqUFKD3KWk29tim9+sVKHDlEDEa+/GDVeAMmatddV3/RFtMB8fy9geA/Ppzjf7bX
-XZGqqE8oAX2HIvzzhGjm0RjQkQx3Kg++BJTUjz19FSFEYfjWgFuXGv/vN4V0JyEe
-DfEPvYLIhYpCngaduGgPi9LXaO6vh7SmU2I4gltxgmKkdUePx0ZkOSW2IxEArqGR
-pvY1nN3QM0jcZO/3kHlOaqEFwsbS1LDvx+90uHa5pKs7lxU3urQ=
-=s77j
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZnt3IACgkQ5Vfn9vbt
+T6ouIRAAgzgFn3JnwIy7seCVbn44UiIOjAc5MIsxAfGnwtynV91Z2buw17TAe5tw
++jekCAYkjNosCZ9z3cyP4ZjGaQ6uS+1+0RZVw3KKZkNYGaEgEW1B4/vDu8B0uPqL
+Q1b5NcrJfuTySq05Mkj+f2Ep3Xnq7U6+9FH95BzLSAs8aLPA/GPHAp65UNca8Sya
+7iL8DcwI/UHDPV4LJxd59o3silfEAOVhTRq8k5y1uKoDzOm0O/tqaGgbtSYQTPjH
+ChiKDKXopyyH/OJsd0WI8nJ3OrRSn7JyAhT1gZe9UxH/GDjmsO53OKq7gzfI9+FV
+rcPpIC+nML163r6eBfA1C7j3ogJ05r+pqUp6h3IoYzR1mlN+M7F011caQzoFz1ZS
+erMQT/K847bxl3OdMsZ8qdaIfw8dSzgJuHZdupagtqiA4Rv6+7TYUhKnROx8hAsY
+XGlk/MnfdPwgZjYdUtsqLIHPFBN9++wZH/vtXIDTlpVqvIjnPSqZKQjBE2K/eQzB
+Nl0FosbzbXSR4XucT9PrnJWRz0ingikkVYa872PQAmnT0nrnf7E2jiRUaEBoQey+
+L+89tL8hXYbdIbpldNCpIO6mX17m5terzMXleRaHdAbxQTcezMDzbkkNEfFIAlNb
+fisKyI/VOgou5DNOW5tx+Ayl1a8HdwXVBDmpXVKkVCiiU1b/sCE=
+=kwpT
 -----END PGP SIGNATURE-----

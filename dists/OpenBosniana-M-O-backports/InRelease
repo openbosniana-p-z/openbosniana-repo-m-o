@@ -6,7 +6,7 @@ Label: OpenBosniana-M-O Repository
 Suite: 2024
 Codename: OpenBosniana-M-O-backports
 Version: 2024
-Date: Sun, 09 Jun 2024 20:24:02 UTC
+Date: Tue, 11 Jun 2024 02:33:19 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  0ffde429d2d8d9c39c2c4e8a1158d5221d5d19943b976b4c13b0bb039be5d678 203 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmD2IACgkQ5Vfn9vbt
-T6qr5w/+PzCB1/E3cBFFu36EAJeUJbOKXmo5PRUEq2xRN3z9wTE+HkZG0kSIVnBI
-iPck/VKYB2oLL91oyAJEp9VpiyUtLNZAnltI+IDu1/JQBV8HY2FmPB6EwBzNQlZ3
-fMZy2GsyTXIugMQ1YoAxw6CoOvjs2a+Aku4Y8SYYktBm737k9cyEbUB4ykorgwWx
-47fjMEENMykpjo86sVMuttA1mqFvELAbMRPO3sAQq7qX0z8YXBkfDvPQEo2t2pw8
-9Ji7ssItXNeUeCcG+F7NfoCrdqtNDtrr1YNianw3QlZk2N//iyIJQBPNdXopQgMs
-UURsJUtZ1Iamq24zyaiE9IOYFBmaGpDBwzW5CswOfottsQobb2efdwpe+k6NNvS5
-KXNrixMBnns65nGO02nMEULfzQ3IA2KxfDGS+wTcSiNfx2Axvhu0+EaBt93x1OB6
-1Le5wFE0kW8Afyz+FQUXwQ3bEdyolBO8JcWvrhlRRu50Wu+O3L+NlyiM2+RZRDKB
-rzuURvUsVWbBCBt7wu9mvou4nGhEHUvlALJJGKk96TH0I42Yyd9ysKge5wfmUjxA
-4ttJieIMdUjojJbb9GulzkJH3/lIuKQK3RWwcj2e8TtuPJoSKTqU/N15cwh2lqdF
-Ba2A/Mh9PHnoeZw1L5daUSwErKGTNBk/UnE9Tro6bveADG+yIOQ=
-=Eyyq
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZnt3AACgkQ5Vfn9vbt
+T6pz8BAArl3I/QM75epu1fjcon33dRSvKxj0Sgey7XVtXy84+56gxy4nutlCJ8KW
+AjU/ojwYK9upWUFPdtFQfUVpnmR3tTgFttL+hj3I+pc+Jj23IMNZ1YrqleDn2fk5
+51zc78rdgKVTj5PeK6e5GZP5PzaCXOLTOp6ViAFXZAdmJDRMvsyyvDsbvUSlyWJq
+k62PrXJkSshI3OO/IIk23KnAFY4mAWzCNMALFwx31K4I0wDGByWIM5FKL81oKtnS
+1X2n9bccfeGi3cowb55jrKdHtKCAm3DvyCvCqA49H9VOhVzYf3ZhaYu0rhW+ebcS
+DxbwtneNKVKcqkoIfnQc3Bdx2gC3+/e9tDFP851He3IbrazLfvp1M3AYML4xxohk
+dbLbCNt6zLshBH2SMtI2/fvUN7vX54fFFn2K1ZhdH/GuRg3rQ2ypytlVnFwBmEds
+STLgVAbAt8/hs05zHRXtY5ibo85nJPakV2QsQLg5pVKDBZYzokcJZlExMc9HEpMn
+Woiv/hqdQquknU07LICVqpT9nn49m4KAN9wY+DVcDfPzGPT9dB8KwJCCFcBJBrcA
+vflr68EiPaK8sSmUq/4mm68BXEiCZrXWJsI/wIUp2RlOuF6yFJ7QU9xA/+hYqrkd
+QI8tGbWXGDtR4+oI+gD4Rls5urVAi2VQiYI7CvqLSMeCnVT1jbI=
+=/Fpc
 -----END PGP SIGNATURE-----

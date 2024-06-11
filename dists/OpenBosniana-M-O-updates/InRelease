@@ -6,7 +6,7 @@ Label: OpenBosniana-M-O Repository
 Suite: 2024
 Codename: OpenBosniana-M-O-updates
 Version: 2024
-Date: Sun, 09 Jun 2024 20:24:03 UTC
+Date: Tue, 11 Jun 2024 02:33:20 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  4c5fae67574cc8c0e9bbd42ead0f6b8af4d6c984b4b9c2255c9e6f5e0547b025 201 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZmD2MACgkQ5Vfn9vbt
-T6otIg//W7nHpYV3YjjY7aZn8DI8ns+9JFv92nD5/wjtJ9jNWvv6CUsWZJLWwTRM
-dOSlLEjoMd4MX4d6jD3ClwxmLHQR8KA+zdUXoUC/BVpwh9x5BKcstO1S6S2zk39g
-CeTcSv/LtO3K5oY/EXE6b+BrayzDtokfUDprDkk3WGRl2GAH+IlFyijCqA18sB9s
-gx059d2TSVQwN+3ySpiLCZKxM6iF04ynCSduy8jM+i5/xz5V2aedfVn1FoIpLMIS
-Kp3cesMojMPMkhSAZEXqxEIsAkIk3nY36O6LO1ikPZtwmQ5eGBESCO8gWcdzExoL
-7lWnqhBY8RWEJkXyCIa5s69fId2qs+01OALdyVFcClv69yXN4gWQS9wvOoWcENkd
-FnYndFNwdwOh4y1bBmIV6FyNJrwsDBR04pNdfaZgs9r4v7GyL7zwTBEFjfYLPxlz
-nO84UGkbs73wOwu6tJXcqyZiI+YPQ2rs3c2QSIyhgOix1r26YvTxCEsh/gr8b4YI
-abmO7FMhvcCNiUrIFLBeuoj4Fz0RiaI/wcGL+aO3aJRzRYTXBNA8gO5C256Fj0Ep
-3n7hxl+/OVBGnXGPeeUKOvLyIc6mUyIC6qYFO234hSFwBFSuUozgu6FqVOoVtZVm
-M5KqJtS6bbkBZKWjUCxdPibfVAwmJG9wJmA+uGMSZrBEmCjHH0s=
-=aMcW
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZnt3EACgkQ5Vfn9vbt
+T6osshAApy/lfmWXw/TKykIveODK23WNCavFKMl6u5p3SpJ4nsqEZJrVydbrT3pu
+CzAMA6RnjjrQZ3mSLjAF1WPl8QFlyoC3spivzm5XyLqX+3DN8GRbSQqnjV/GPdNK
+NWJAvqkemWuEATB4BlhyKjndHC8UIV+vIyQ43tY8ciT7sHPeZvf7TaZNwaLCq5d7
+CzvAh84tv7r6Ji2eA48qr7qt60nR+4+8icWfkmy1YDEYVZDDslDFKrDoNUMFBsP7
+17kNWPj/rH5bgD1Jyv0KyqD9CnNrLhhOsqh1CqJyUl+8gMx2hlTayr9+EhSmDJsv
+5ptSgq4dd3IbHwYaY0IDffGG7LZ9TSFIy/cSPNaNLCOJGBd2eTiEuEpntey17PN0
+OZYygk3xHnY7RKecCDbmYp3NTZM6BoSjgf9IxpWgANHQXU+cGMSgE/Ktf5maGmWi
+MkbbefanY2hxagyKo12ocl7wormHtm/9kenP12c9EeWWLulOen9D4o2uT47o38Cu
+dWvKQiXIH0D7ovDgnIBIVgzw9t6AEqvl1KK+c+Ob8eIFiB+6tlfhWOp4zwBI925D
+WfaC0ZJZzthE4bqiDOWIVyXjiuGSln/rolv0X+hiTr9Efd63ZE4zycIqHH4lL/LS
+CPivzo95EV4+fD6bfo49ecuK/7UQtLOMQM1vIBRFPakjNNkh9SQ=
+=Irn1
 -----END PGP SIGNATURE-----

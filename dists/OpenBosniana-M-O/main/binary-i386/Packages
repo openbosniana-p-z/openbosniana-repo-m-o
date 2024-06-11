@@ -295,6 +295,24 @@ Description: Tool for minifying CSS files
  The cleancss tool is a reference implementation for the Clean-css Node.js
  module.
 
+Package: cobra
+Source: golang-github-spf13-cobra
+Version: 1.6.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 11
+Depends: cobra-cli
+Homepage: https://github.com/spf13/cobra
+Priority: optional
+Section: oldlibs
+Filename: pool/main/g/golang-github-spf13-cobra/cobra_1.6.1-1_all.deb
+Size: 4252
+SHA256: 0318335d5204dc7432e7783f1e76528c37958fe25f449ac5dae30be1254f327b
+SHA1: 04602138f503a24cc7948603a1fafa2b92651da5
+MD5sum: 4e25bcbbe4b3864e2c592e9ae2d321ea
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
 Package: ducktype
 Source: mallard-ducktype
 Version: 1.0.2-2
@@ -2068,6 +2086,25 @@ Description: GNUstep based games
  This is a metapackage that depends on (almost) all games designed for
  the GNUstep environment.
 
+Package: golang-clockwork-dev
+Source: golang-github-jonboulle-clockwork
+Version: 0.1.0-4.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 9
+Depends: golang-github-jonboulle-clockwork-dev
+Homepage: https://github.com/jonboulle/clockwork
+Priority: extra
+Section: oldlibs
+Filename: pool/main/g/golang-github-jonboulle-clockwork/golang-clockwork-dev_0.1.0-4.1_all.deb
+Size: 2600
+SHA256: ed7526177959ffa6bfca6bb8c0a3dc73acc813cdbaf4fbfacc7de7a463421642
+SHA1: 1da5606a8400c1ad03497f1d61d6c97ef22c5059
+MD5sum: 61e1e6a2e8c9d812d6b98d0c82e6902a
+Description: Transitional package for golang-github-jonboulle-clockwork-dev
+ This is a transitional package to ease upgrades to the
+ golang-github-jonboulle-clockwork-dev package.
+
 Package: golang-github-docker-notary-dev
 Source: notary
 Version: 0.7.0+ds1-2
@@ -2105,6 +2142,2508 @@ Description: library for running and interacting with trusted collections
  channel, can then communicate with any notary server or (insecure) mirror,
  relying only on the publisher's key to determine the validity and integrity
  of the received content.
+ .
+ This package contains the source.
+
+Package: golang-github-go-macaroon-bakery-macaroon-bakery-dev
+Source: golang-github-go-macaroon-bakery-macaroon-bakery
+Version: 3.0.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 632
+Depends: golang-github-frankban-quicktest-dev, golang-github-go-macaroon-bakery-macaroonpb-dev, golang-github-google-go-cmp-dev, golang-github-juju-qthttptest-dev, golang-github-juju-webbrowser-dev, golang-github-julienschmidt-httprouter-dev, golang-github-rogpeppe-fastuuid-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-gopkg-errgo.v1-dev, golang-gopkg-httprequest.v1-dev, golang-gopkg-juju-environschema.v1-dev, golang-gopkg-macaroon.v2-dev, golang-gopkg-mgo.v2-dev, golang-yaml.v2-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-macaroon-bakery/macaroon-bakery
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-macaroon-bakery-macaroon-bakery/golang-github-go-macaroon-bakery-macaroon-bakery-dev_3.0.1-1_all.deb
+Size: 107972
+SHA256: 2e94e76bfc8438235e9b8d7341ed40dc2d9628245aead4f9a88f56096c33f4d6
+SHA1: e22d8162f9b61d72c1e14cd8687db2ca83d6f761
+MD5sum: c11a5466fff78119c4cccf832646df63
+Description: High level operations for building systems with macaroons (library)
+ This library is a companion to http://github.com/go-macaroon/macaroon.
+ It holds higher level operations for building systems with macaroons.
+
+Package: golang-github-go-macaroon-bakery-macaroonpb-dev
+Source: golang-github-go-macaroon-bakery-macaroonpb
+Version: 1.0.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 31
+Depends: golang-google-protobuf-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-macaroon-bakery/macaroonpb
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-macaroon-bakery-macaroonpb/golang-github-go-macaroon-bakery-macaroonpb-dev_1.0.0-2_all.deb
+Size: 7776
+SHA256: 0ed4c2e7c54516f045bffb4bf340fec2540fe622a202c5ab8e704cc9a71a0f93
+SHA1: 184d61ab5f2bfa601af90cbd9c400a892005d312
+MD5sum: ca564bc796820292111ee8b46621bce4
+Description: Protobuf encoding used by macaroon-bakery (library)
+ This module defines the serialization format of macaroon identifiers
+ for macaroons created by the macaroon-bakery. For the most part this
+ encoding is considered an internal implementation detail of the
+ macaroon-bakery and external applications should not rely on any of the
+ details of this encoding being maintained between different bakery versions.
+ .
+ This is broken out into a separate module as the protobuf implementation
+ works in such a way that one cannot have multiple definitions of a
+ message in any particular application's dependency tree. This module
+ therefore provides a common definition for use by multiple versions of
+ the macaroon-bakery to facilitate easier migration in client applications.
+
+Package: golang-github-go-openapi-analysis-dev
+Source: golang-github-go-openapi-analysis
+Version: 0.21.2-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 1868
+Depends: golang-github-go-openapi-jsonpointer-dev, golang-github-go-openapi-loads-dev, golang-github-go-openapi-spec-dev (>= 1:0.15.0~), golang-github-go-openapi-strfmt-dev, golang-github-go-openapi-swag-dev, golang-github-stretchr-testify-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/analysis
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-analysis/golang-github-go-openapi-analysis-dev_0.21.2-1_all.deb
+Size: 168284
+SHA256: 00a8ef7105d14212a078d2d2fb2ebedebc984df4521ea00454128f1f6fc250e2
+SHA1: 6fc904ac20adcf4b722c50d8d22ddaaca18b2175
+MD5sum: da618dd756de0e53f3cd4407f5ae802e
+Description: OpenAPI Specification object model analyser
+ The OpenAPI analysis library implements analysts of an OpenAPI
+ specification document for easier reasoning about the content.
+ .
+ The OpenAPI Specification is a powerful definition format to describe
+ RESTful APIs and creates a RESTful interface for easily developing and
+ consuming an API.
+
+Package: golang-github-go-openapi-errors-dev
+Source: golang-github-go-openapi-errors
+Version: 0.20.2-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 81
+Depends: golang-github-stretchr-testify-dev
+Breaks: golang-github-go-openapi-runtime-dev (<< 0.19.6~), prometheus-alertmanager (<< 0.22.0~)
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/errors
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-errors/golang-github-go-openapi-errors-dev_0.20.2-1_all.deb
+Size: 12156
+SHA256: c4d24da497151f2d5bf64b47688842ab9edc4aa9f625ea96525ad5db7683242c
+SHA1: a1dcd45e30c06842d9baae7f4b1b686bd815e88a
+MD5sum: 18d2e172057405ef47bfa9528b2d1ea7
+Description: common error handling code for OpenAPI
+ This library implements shared error handling code used throughout the
+ various libraries for the OpenAPI Specification.
+ .
+ The OpenAPI Specification is a powerful definition format to describe
+ RESTful APIs and creates a RESTful interface for easily developing and
+ consuming an API.
+
+Package: golang-github-go-openapi-inflect-dev
+Source: golang-github-go-openapi-inflect
+Version: 0.19.0-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 51
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/inflect
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-inflect/golang-github-go-openapi-inflect-dev_0.19.0-3_all.deb
+Size: 9912
+SHA256: 03ec5e3eff0732679d05e3cf928c7aa15da43c186aa1b734d235f45a948d4edb
+SHA1: 9ba4d0bf8c76e59dbbb305076adbf8027d2605a2
+MD5sum: 059d767623238c0cfb6071efe718cb68
+Description: golang library providing functions applying grammar rules to English words
+ This golang library provides a basic set of functions applying
+ grammar rules to inflect English words, and to modify case style
+ (Capitalize, camelCase, snake_case, etc.). Acronyms are properly
+ managed. A common use case is word pluralization.
+
+Package: golang-github-go-openapi-jsonpointer-dev
+Source: golang-github-go-openapi-jsonpointer
+Version: 1:0.19.5-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 44
+Depends: golang-github-go-openapi-swag-dev (>= 1:0.19.5), golang-github-mailru-easyjson-dev, golang-github-stretchr-testify-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/jsonpointer
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-jsonpointer/golang-github-go-openapi-jsonpointer-dev_0.19.5-4_all.deb
+Size: 8976
+SHA256: 64c40ca7c421f297988aefccb219568043f74fe99af00314b45c45f78b96fea5
+SHA1: 535baa98b2a2c1b9294e8a2d75a68be3e0b7d763
+MD5sum: 32cbd40102617a89c56f3ca5206d537c
+Description: fork of gojsonpointer with support for structs (Go library)
+ This is a fork of gojsonpointer, an implementation of JSON Pointer
+ in Go language, with support for structs.
+
+Package: golang-github-go-openapi-jsonreference-dev
+Source: golang-github-go-openapi-jsonreference
+Version: 1:0.19.6-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 34
+Depends: golang-github-go-openapi-jsonpointer-dev, golang-github-puerkitobio-purell-dev, golang-github-stretchr-testify-dev, golang-go
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/jsonreference
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-jsonreference/golang-github-go-openapi-jsonreference-dev_0.19.6-2_all.deb
+Size: 7372
+SHA256: f3bd2e3ac32e7d48cd0fb90ecfc7bee5e1cd7671cfdc971236e5e498c4d57940
+SHA1: 494cb318d349c7902a806ff31c56797a9fd7fb40
+MD5sum: 350c473cff7cca38c11adf305f07d114
+Description: implementation of gojsonreference with struct support
+ This library implements an implementation of the JSON Reference
+ specification. It adds support for structs.
+
+Package: golang-github-go-openapi-loads-dev
+Source: golang-github-go-openapi-loads
+Version: 0.21.1-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 427
+Depends: golang-github-go-openapi-analysis-dev, golang-github-go-openapi-spec-dev (>= 1:0.15.0~), golang-github-go-openapi-swag-dev (>= 1:0.15.0~), golang-github-go-openapi-validate-dev (>= 0.20.3~), golang-github-stretchr-testify-dev, golang-gopkg-yaml.v2-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/loads
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-loads/golang-github-go-openapi-loads-dev_0.21.1-2_all.deb
+Size: 37520
+SHA256: 4f44dd60b8741add94b3d32486350d4cc8f56cec77deec8d093945da4c24f97f
+SHA1: 1ebd70edd640a3c569a64da07536afaacc70b20d
+MD5sum: 8ba0302cd4541ee6eba7ac6a953cfe0e
+Description: OpenAPI Specification object model
+ This library implements the loading of OpenAPI specification documents
+ from local or remote locations.
+ .
+ The OpenAPI Specification is a powerful definition format to describe
+ RESTful APIs and creates a RESTful interface for easily developing and
+ consuming an API.
+
+Package: golang-github-go-openapi-runtime-dev
+Source: golang-github-go-openapi-runtime
+Version: 0.23.3-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 622
+Depends: golang-github-docker-go-units-dev, golang-github-go-openapi-analysis-dev (>= 0.15.0~), golang-github-go-openapi-errors-dev, golang-github-go-openapi-loads-dev (>= 0.15.0~), golang-github-go-openapi-spec-dev (>= 0.15.0~), golang-github-go-openapi-strfmt-dev (>= 0.19.0~), golang-github-go-openapi-swag-dev (>= 1:0.21.0~), golang-github-go-openapi-validate-dev (>= 0.21.0~), golang-github-opentracing-opentracing-go-dev, golang-github-stretchr-testify-dev, golang-gopkg-yaml.v2-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/runtime
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-runtime/golang-github-go-openapi-runtime-dev_0.23.3-1_all.deb
+Size: 105168
+SHA256: 99239b0fca9d6974c031b03b454bdef1bcbb82b27602f497da012ca7798f320e
+SHA1: c065229b3e33f463c8c42bb0ea39c5f53e373f1d
+MD5sum: 9f63782a17ed8ceb5a7ae8f5a1399366
+Description: OpenAPI runtime interfaces
+ The runtime library is part of the OpenAPI Initiative and OpenAPI
+ Specification, and consists of classes and functions to be used in
+ code generation when creating client- and server-side implementations
+ of REST interfaces.
+ .
+ The OpenAPI Specification is a powerful definition format to describe
+ RESTful APIs and creates a RESTful interface for easily developing
+ and consuming an API.
+
+Package: golang-github-go-openapi-spec-dev
+Source: golang-github-go-openapi-spec
+Version: 1:0.20.4-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 3193
+Depends: golang-github-go-openapi-jsonpointer-dev, golang-github-go-openapi-jsonreference-dev, golang-github-go-openapi-swag-dev (>= 1:0.19.14~), golang-github-stretchr-testify-dev, golang-go, golang-gopkg-yaml.v2-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/spec
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-spec/golang-github-go-openapi-spec-dev_0.20.4-2_all.deb
+Size: 220072
+SHA256: b81fd4b0a8d88fef9e79e415518c8bca12c8acbae0652bb46b73b6134e8f2dfc
+SHA1: 8ef4a7e386bd55d225bbdb515d9d0c84b48f2c2e
+MD5sum: aebfebda758850e48a9a7772ec38b0ab
+Description: OpenAPI specification object model
+ The object model for OpenAPI specification documents.
+
+Package: golang-github-go-openapi-strfmt-dev
+Source: golang-github-go-openapi-strfmt
+Version: 0.21.2-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 185
+Depends: golang-github-asaskevich-govalidator-dev, golang-github-go-openapi-errors-dev, golang-github-google-uuid-dev, golang-github-mitchellh-mapstructure-dev, golang-github-oklog-ulid-dev, golang-github-stretchr-testify-dev, golang-mongodb-mongo-driver-dev (>= 1.7.5~)
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/strfmt
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-strfmt/golang-github-go-openapi-strfmt-dev_0.21.2-1_all.deb
+Size: 28404
+SHA256: 17436704c972a14f4c5abfc2fcda5c6cacbb24e5f23cffbbf1c2486885f6fcd5
+SHA1: 708f892eef75834fc9056ab12361f6a6f2e649d6
+MD5sum: e0bae6bb0649bdafedb9bc5fc27580a0
+Description: OpenAPI string formatting library
+ Strfmt implements formatting and validation of various well-known
+ string formats such as IP and email addresses for use in other
+ OpenAPI Specification libraries.
+ .
+ The OpenAPI Specification is a powerful definition format to describe
+ RESTful APIs and creates a RESTful interface for easily developing
+ and consuming an API.
+
+Package: golang-github-go-openapi-swag-dev
+Source: golang-github-go-openapi-swag
+Version: 1:0.21.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 160
+Depends: golang-any (>= 2:1.17~), golang-github-mailru-easyjson-dev, golang-github-stretchr-testify-dev, golang-gopkg-yaml.v2-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/swag
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-openapi-swag/golang-github-go-openapi-swag-dev_0.21.1-1_all.deb
+Size: 26820
+SHA256: 349fd98017372159cf1fc5f21914ed9e856c22ef5721fb472be76e326da269d3
+SHA1: e4c85089c25d1e72ecdfe7aa164fde47f985b03b
+MD5sum: a7a6d2f4767216f909f908044da08f53
+Description: goodie bag in use in the go-openapi projects
+ This package contains a bunch of helper functions for other
+ go-openapi projects.
+ .
+   * convert between value and pointers for builtin
+   * convert from string to builtin
+   * fast json concatenation
+   * search in path
+   * load from file or http
+   * name manglin
+
+Package: golang-github-go-openapi-validate-dev
+Source: golang-github-go-openapi-validate
+Version: 0.21.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 5678
+Depends: golang-github-go-openapi-analysis-dev, golang-github-go-openapi-errors-dev (>= 0.19.5~), golang-github-go-openapi-jsonpointer-dev, golang-github-go-openapi-loads-dev, golang-github-go-openapi-spec-dev, golang-github-go-openapi-strfmt-dev (>= 0.20.2~), golang-github-go-openapi-swag-dev (>= 1:0.21.0~), golang-github-stretchr-testify-dev, golang-gopkg-yaml.v2-dev
+Multi-Arch: foreign
+Homepage: https://github.com/go-openapi/validate
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-go-openapi-validate/golang-github-go-openapi-validate-dev_0.21.0-1_all.deb
+Size: 301904
+SHA256: 3a20f4ef611b9907dde799cacc96e48e5ef5565ac841e48d1d640b7c360c5b1d
+SHA1: 59fd69ddf2681fe662c687f9a459f8143f1171ee
+MD5sum: 60d6bc8b4a88b311bf8c3d5d5406a6b3
+Description: OpenAPI toolkit validation helpers
+ The validate library is part of the OpenAPI Initiative and OpenAPI
+ Specification, and consists of various helper and utility functions
+ used internally by other components of OpenAPI.
+ .
+ The OpenAPI Specification is a powerful definition format to describe
+ RESTful APIs and creates a RESTful interface for easily developing and
+ consuming an API.
+
+Package: golang-github-go-sourcemap-sourcemap-dev
+Source: golang-github-go-sourcemap-sourcemap
+Version: 2.1.3+git20201028.eed1c20-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 37
+Homepage: https://github.com/go-sourcemap/sourcemap
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-go-sourcemap-sourcemap/golang-github-go-sourcemap-sourcemap-dev_2.1.3+git20201028.eed1c20-4_all.deb
+Size: 7556
+SHA256: f41cc1dff656af6824eafae2831b35801d19e5465b2f4b560b28ef75683a3956
+SHA1: aa1e7203e19d92232fe6555d7383fa52bf303f5f
+MD5sum: c658b84eaae5f1ddce2988cf741c0d98
+Description: source maps consumer for Golang
+ This package contains source maps consumer for Golang.
+ .
+ A parsed source map can be queried for information about the original
+ file positions by giving it a file position in the generated source.
+
+Package: golang-github-go-sql-driver-mysql-dev
+Source: golang-github-go-sql-driver-mysql
+Version: 1.5.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 360
+Multi-Arch: foreign
+Homepage: https://github.com/go-sql-driver/mysql
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-go-sql-driver-mysql/golang-github-go-sql-driver-mysql-dev_1.5.0-2_all.deb
+Size: 70868
+SHA256: d818005ba8ed8d3b0335f9f247bb21ab2a85ec5fb3adf0d227381d9249218565
+SHA1: 0bbf38e2828de47cd061358c0110099faa017940
+MD5sum: 7b1aa491983987bef4e7e229665a500c
+Description: MySQL-Driver for Go's database/sql package
+ Features:
+  - Lightweight and fast
+  - Native Go implementation. No C-bindings, just pure Go
+  - Connections over TCP/IPv4, TCP/IPv6 or Unix domain sockets
+  - Automatic handling of broken connections
+  - Automatic Connection Pooling (by database/sql package)
+  - Supports queries larger than 16MB
+  - Full sql.RawBytes support.
+  - Intelligent LONG DATA handling in prepared statements
+  - Secure LOAD DATA LOCAL INFILE support with file Whitelisting and io.Reader
+    support
+  - Optional time.Time parsing
+  - Optional placeholder interpolation
+
+Package: golang-github-go-stack-stack-dev
+Source: golang-github-go-stack-stack
+Version: 1.8.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 43
+Homepage: https://github.com/go-stack/stack
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-go-stack-stack/golang-github-go-stack-stack-dev_1.8.0-1_all.deb
+Size: 8696
+SHA256: e17ab6455d75e74705c3c78b7b9fb45ab87a36d775a97abf9719c15eeb370fa2
+SHA1: 3befdbaf882e15f7949d008527d974dd9ef5e7fc
+MD5sum: 01574a5612b2ce8ae53be0f0d91738ab
+Description: capture, manipulate, and format call stacks
+ Package stack implements utilities to capture, manipulate,
+ and format call stacks. It provides a simpler API than
+ package runtime.
+ .
+ The implementation takes care of the minutia and special
+ cases of interpreting the program counter (pc) values
+ returned by runtime.Callers.
+
+Package: golang-github-go-test-deep-dev
+Source: golang-github-go-test-deep
+Version: 1.0.8-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 63
+Multi-Arch: foreign
+Homepage: https://github.com/go-test/deep
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-go-test-deep/golang-github-go-test-deep-dev_1.0.8-1_all.deb
+Size: 11696
+SHA256: 80158183104079eb0eb97d3e7fb3a8afce36ca7e06ae21ba6b0686ad28195904
+SHA1: 4fb717c895d06da8b9e38d83ac839379b25f5c54
+MD5sum: feb29cf6647560395ef1a98e967d9c49
+Description: Golang deep variable equality test that returns human-readable differences
+ Deep Variable Equality for Humans.
+ .
+ This package provides a single function: deep.Equal. It's like
+ reflect.DeepEqual (http://golang.org/pkg/reflect/#DeepEqual) but
+ much friendlier to humans (or any sentient being) for two reason:
+  • deep.Equal returns a list of differences
+  • deep.Equal does not compare unexported fields (by default)
+
+Package: golang-github-go-xorm-builder-dev
+Source: golang-github-go-xorm-builder
+Version: 0.3.3-3.1
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 165
+Multi-Arch: foreign
+Homepage: https://github.com/go-xorm/builder
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-go-xorm-builder/golang-github-go-xorm-builder-dev_0.3.3-3.1_all.deb
+Size: 22668
+SHA256: 35dee09c0c8e3246c8e81a4021dd93c39de6b8493e071b340760831caebcc43e
+SHA1: 4e4f0ae118123853e0858a1ffeec7961dc4ebd5a
+MD5sum: b2fd37eeb14bd2f3700d32c5b4e312e9
+Description: SQL builder for XORM written in Go
+ SQL Builder is Go library for XORM that can be used to generate SQL
+ queries for different database services. These DB services include
+ MySQL, postgres, tidb, sqlite3, mssql, and oracle.
+
+Package: golang-github-go-xorm-core-dev
+Source: golang-github-go-xorm-core
+Version: 0.6.3-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 101
+Depends: golang-github-go-sql-driver-mysql-dev, golang-github-mattn-go-sqlite3-dev
+Homepage: https://github.com/go-xorm/core
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-go-xorm-core/golang-github-go-xorm-core-dev_0.6.3-1_all.deb
+Size: 17980
+SHA256: 93dbf0f452e32e58d4bfab9e42ef8e408ab9407ee8016c2c0fd9d3a76ece37d6
+SHA1: 2bf8fd1837525ca0bbd44bad6ba715b6e93a84d6
+MD5sum: 416af4fb613e52a2a116fd827f5e2b7c
+Description: lightweight wrapper of database/sql
+ This package is a lightweight wrapper of sql.DB.
+ .
+ It is written in Go and up to now it supports Postgres, sqlite3,
+ MySQL, MsSQL and Oracle.
+
+Package: golang-github-gomagedon-expectate-dev
+Source: golang-github-gomagedon-expectate
+Version: 1.3.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 31
+Depends: golang-github-google-go-cmp-dev
+Homepage: https://github.com/gomagedon/expectate
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gomagedon-expectate/golang-github-gomagedon-expectate-dev_1.3.1-1_all.deb
+Size: 4368
+SHA256: 17436900d0702596eee861861084334c87d721d1b4e66b9db72feac636d2726c
+SHA1: adb8efcb0bee0982b17ff33abf7a4d7bdb4fa185
+MD5sum: a123a312db882879b76e6764a9795f41
+Description: lightweight testing utility for golang
+ This testing library's intended purpose is to provide 'expect'
+ syntax assertions to golang without using the heavy-handed ginkgo
+ toolset.
+
+Package: golang-github-gomarkdown-markdown-dev
+Source: golang-github-gomarkdown-markdown
+Version: 0.0~git20220731.dcdaee8-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 516
+Multi-Arch: foreign
+Homepage: https://github.com/gomarkdown/markdown
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gomarkdown-markdown/golang-github-gomarkdown-markdown-dev_0.0~git20220731.dcdaee8-2_all.deb
+Size: 91256
+SHA256: 7d359bc063edd87e058d8455aaeeb8960249e0b02a9ab7e3b2b83da35f7840a6
+SHA1: 0828e939a595cba13c050ad055eecd6e6557584d
+MD5sum: 2b67c8d824df539db0852131abead489
+Description: Markdown parser and HTML renderer for Go
+ Package github.com/gomarkdown/markdown is a Go library for parsing
+ Markdown text and rendering as HTML.
+ .
+ It's very fast and supports common extensions.
+ .
+ markdown is a fork of v2 of https://github.com/russross/blackfriday
+ that is:
+ .
+  * actively maintained (sadly in Feb 2018 blackfriday was inactive for 5
+    months with many bugs and pull requests accumulated)
+  * refactored API (split into ast/parser/html sub-packages)
+ .
+ Blackfriday itself was based on C implementation sundown
+ (https://github.com/vmg/sundown) which in turn was based on libsoldout
+ (http://fossil.instinctive.eu/libsoldout/home).
+
+Package: golang-github-gomodule-oauth1-dev
+Source: golang-github-gomodule-oauth1
+Version: 0.0~git20181215.9a59ed3-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 64
+Depends: golang-golang-x-net-dev, golang-google-appengine-dev
+Homepage: https://github.com/gomodule/oauth1
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-gomodule-oauth1/golang-github-gomodule-oauth1-dev_0.0~git20181215.9a59ed3-2_all.deb
+Size: 12568
+SHA256: c61bcfbe6ba363b7c0febd9c199544100a0d9a4b7c39364150ea40b76358d42b
+SHA1: 614a3bd3b5d1166334682f927c2f542b1d2a5ad9
+MD5sum: 85db6cfba3214a8613c57abf0e489be1
+Description: OAuth 1.0 client package for Go
+ OAuth1 is a Go client for the OAuth 1.0, OAuth 1.0a and RFC 5849
+ (https://tools.ietf.org/html/rfc5849), The package supports
+ HMAC-SHA1, RSA-SHA1 and PLAINTEXT signatures.
+
+Package: golang-github-gomodule-redigo-dev
+Source: golang-github-gomodule-redigo
+Version: 1:1.8.3-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 218
+Homepage: https://github.com/gomodule/redigo
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-gomodule-redigo/golang-github-gomodule-redigo-dev_1.8.3-1_all.deb
+Size: 41156
+SHA256: 0ad2749eebc85e3f4bfb45c00de13fa691b394bed680ebb0e209e698b1991037
+SHA1: a6202ae428e03fb3f6e6775f3f30898cf11067b8
+MD5sum: fb82894c1530836df676af44300a5df8
+Description: Go client for Redis
+ Go client for the Redis (http://redis.io/) database.
+ Features
+  • A Print-like API with support for all Redis commands.
+  • Pipelining including pipelined transactions.
+  • Publish/Subscribe
+  • Connection pooling
+  • Script helper type with optimistic use of EVALSHA.
+  • Helper functions for working with command replies.
+
+Package: golang-github-gonvenience-bunt-dev
+Source: golang-github-gonvenience-bunt
+Version: 1.3.4-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 129
+Depends: golang-github-gonvenience-term-dev, golang-github-lucasb-eyer-go-colorful-dev, golang-github-mattn-go-ciede2000-dev, golang-gomega-dev
+Multi-Arch: foreign
+Homepage: https://github.com/gonvenience/bunt
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gonvenience-bunt/golang-github-gonvenience-bunt-dev_1.3.4-3_all.deb
+Size: 22956
+SHA256: 315edfe3d2de7061d3eab9858bc8b17312ae0fc28f23f4eca7db2f5512b6bb1d
+SHA1: 7c16daf375ad89e3719db43ab1ba08ef8f11ce40
+MD5sum: 7c1784da09429126c1882204c65a2ff0
+Description: creating true color output in terminals
+ Golang package for creating true color output in terminals.
+
+Package: golang-github-gonvenience-neat-dev
+Source: golang-github-gonvenience-neat
+Version: 1.3.11-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 112
+Depends: golang-github-gonvenience-bunt-dev, golang-github-gonvenience-term-dev, golang-github-gonvenience-wrap-dev, golang-github-lucasb-eyer-go-colorful-dev, golang-github-onsi-ginkgo-dev, golang-github-pkg-errors-dev, golang-gomega-dev, golang-gopkg-yaml.v3-dev, golang-yaml.v2-dev
+Multi-Arch: foreign
+Homepage: https://github.com/gonvenience/neat
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gonvenience-neat/golang-github-gonvenience-neat-dev_1.3.11-3_all.deb
+Size: 21148
+SHA256: 6d3aeffe73b28ce510d6e1945a30ee35d5370825cfc975478be4df8442996370
+SHA1: 3e4f15d6956dfdd137358487daa144128cb9356d
+MD5sum: 4bdb2b125487cdd47cea48124992575d
+Description: create neat strings like colored YAML output (library)
+ Golang package for creating neat strings like colored YAML output.
+
+Package: golang-github-gonvenience-term-dev
+Source: golang-github-gonvenience-term
+Version: 1.0.2-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 38
+Depends: golang-github-mattn-go-isatty-dev, golang-github-mitchellh-go-ps-dev, golang-github-onsi-ginkgo-dev, golang-golang-x-term-dev, golang-gomega-dev
+Multi-Arch: foreign
+Homepage: https://github.com/gonvenience/term
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gonvenience-term/golang-github-gonvenience-term-dev_1.0.2-2_all.deb
+Size: 9700
+SHA256: 9fde0b2baa73da9951223c5a5c43da5a45c6a59e4bbafbf556b050ff9a9287e4
+SHA1: ac213f0963139165e5fc8718b3ad1e67d7e5daa1
+MD5sum: 5fb09ce01c4923dafd3c4fd1d2d3b6a4
+Description: golang package with convenience functions for terminal related tasks
+ Golang package with convenience functions for terminal related tasks.
+
+Package: golang-github-gonvenience-text-dev
+Source: golang-github-gonvenience-text
+Version: 1.0.7-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 39
+Depends: golang-github-gonvenience-bunt-dev, golang-github-onsi-ginkgo-dev, golang-gomega-dev
+Multi-Arch: foreign
+Homepage: https://github.com/gonvenience/text
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gonvenience-text/golang-github-gonvenience-text-dev_1.0.7-2_all.deb
+Size: 9840
+SHA256: 2c76f70062a7200c6a50dc0ba859221463e177b83703ed6b30e4dea2f12bdd00
+SHA1: 2f9f61fcbdb5bbee7cca09230b687a7863e5c9e8
+MD5sum: cc1da09324c4f5811d87f97259412253
+Description: convenience functions for strings
+ Golang package with convenience functions for strings.
+
+Package: golang-github-gonvenience-wrap-dev
+Source: golang-github-gonvenience-wrap
+Version: 1.1.2-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 39
+Depends: golang-github-onsi-ginkgo-dev, golang-gomega-dev
+Multi-Arch: foreign
+Homepage: https://github.com/gonvenience/wrap
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gonvenience-wrap/golang-github-gonvenience-wrap-dev_1.1.2-2_all.deb
+Size: 8600
+SHA256: 7bc5df3cf22370310aa5456e266c2d41a54e8cc7d9baed9c54b1b7e864d24ed0
+SHA1: 82b5a8ffbc9537b4fea65bd092085b796b21ddcd
+MD5sum: 6415a524dc1f9d185e92548c1d885690
+Description: golang package to wrap things into a bit of context
+ Golang package to wrap things into a bit of context.
+
+Package: golang-github-google-blueprint-dev
+Source: golang-github-google-blueprint
+Version: 0.0~git20201007.25128be-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 854
+Homepage: https://github.com/google/blueprint
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-google-blueprint/golang-github-google-blueprint-dev_0.0~git20201007.25128be-2_all.deb
+Size: 132752
+SHA256: 0674ea42cc2a8981f8c95bce9f4b6f937074fbd9511e4c583f05b000e92296ca
+SHA1: 677aed3ed28c6def9a96f1549b5d6527ae528c0d
+MD5sum: 516390c0833801568947bae260186db8
+Description: Blueprint meta build system (library)
+ Blueprint is a meta-build system that reads in Blueprints files that
+ describe modules that need to be built, and produces a Ninja manifest
+ describing the commands that need to be run and their dependencies.
+ Where most build systems use built-in rules or a domain-specific language
+ to describe the logic for converting module descriptions to build rules,
+ Blueprint delegates this to per-project build logic written in Go.
+ For large, heterogenous projects this allows the inherent complexity
+ of the build logic to be maintained in a high-level language, while
+ still allowing simple changes to individual modules by modifying easy
+ to understand Blueprints files.
+ .
+ This package contains the Go library for Blueprint.
+
+Package: golang-github-google-btree-dev
+Source: golang-github-google-btree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 61
+Homepage: https://github.com/google/btree
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-google-btree/golang-github-google-btree-dev_1.0.0-1_all.deb
+Size: 13248
+SHA256: 7a5fec774bb6e904c22436e1481aad7eb4c23d82ad3832d28ffc4e79379d9ce8
+SHA1: 0d88902af26d09b7abd3957e21f7b5f91fdb4281
+MD5sum: fa038e59fd5362d187f6bb40031a1081
+Description: BTree implementation for Go
+ This package provides an in-memory B-Tree implementation for Go, useful
+ as an ordered, mutable data structure.
+ .
+ The API is based off of the wonderful
+ http://godoc.org/github.com/petar/GoLLRB/llrb, and is meant to allow
+ btree to act as a drop-in replacement for gollrb trees.
+
+Package: golang-github-google-certificate-transparency-dev
+Source: golang-github-google-certificate-transparency
+Version: 0.0~git20160709.0.0f6e3d1~ds1-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 2460
+Depends: golang-github-juju-ratelimit-dev, golang-github-mattn-go-sqlite3-dev, golang-github-mreiferson-go-httpclient-dev, golang-github-stretchr-testify-dev, golang-golang-x-net-dev, golang-github-jmoiron-sqlx-dev
+Homepage: https://github.com/google/certificate-transparency
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-google-certificate-transparency/golang-github-google-certificate-transparency-dev_0.0~git20160709.0.0f6e3d1~ds1-3_all.deb
+Size: 455264
+SHA256: 1f9580500594cba0b5c8e9e260dca3dbe95716aba6aace7a43668b8fbebe9cf5
+SHA1: dd2df84f758f5eef37879abcbb109af8af24f7f4
+MD5sum: 1ed8c78e20ba5066ed7246ce5f4783aa
+Description: Framework for monitoring and auditing SSL certificates
+ The Certificate Transparency project provides a framework to explore
+ ideas to improve the security of HTTPS connections by adding new
+ functional components to the current SSL security system: logging,
+ monitoring and auditing.
+ .
+ Please see http://www.certificate-transparency.org for more details
+ about certificate transparency and how it works.
+
+Package: golang-github-google-go-cmp-dev
+Source: golang-github-google-go-cmp
+Version: 0.5.9-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 502
+Multi-Arch: foreign
+Homepage: https://github.com/google/go-cmp
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-go-cmp/golang-github-google-go-cmp-dev_0.5.9-1_all.deb
+Size: 86384
+SHA256: b68bd919daa7c1bdf02abfb68894e29e532f19b03b68c8615f50626c48f553b6
+SHA1: 44c98b5f5342ce497d6f8d651b0bb7e2a3706882
+MD5sum: a0951fb4a8dba12defde2571e4946863
+Description: Package for comparing Go values in tests
+ This package is intended to be a more powerful and safer alternative to
+ reflect.DeepEqual for comparing whether two values are semantically equal.
+ .
+ The primary features of cmp are:
+  * When the default behavior of equality does not suit the needs of the test,
+    custom equality functions can override the equality operation.  For
+    example, an equality function may report floats as equal so long as they
+    are within some tolerance of each other.
+  * Types that have an Equal method may use that method to determine equality.
+    This allows package authors to determine the equality operation for the
+    types that they define.
+  * If no custom equality functions are used and no Equal method is defined,
+    equality is determined by recursively comparing the primitive kinds on both
+    values, much like reflect.DeepEqual. Unlike reflect.DeepEqual, unexported
+    fields are not compared by default; they result in panics unless suppressed
+    by using an Ignore option (see cmpopts.IgnoreUnexported) or explicitly
+    compared using the AllowUnexported option.
+ .
+ See the GoDoc documentation (https://godoc.org/github.com/google/go-cmp/cmp)
+ for more information.
+
+Package: golang-github-google-go-dap-dev
+Source: golang-github-google-go-dap
+Version: 0.7.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 167
+Breaks: delve (<< 1.20.2~)
+Multi-Arch: foreign
+Homepage: https://github.com/google/go-dap
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-go-dap/golang-github-google-go-dap-dev_0.7.0-1_all.deb
+Size: 26872
+SHA256: 9cc6bb19935636770f3aac403d5b6f46344c4cff250a1761bef87d8ab35e640a
+SHA1: 19ea25c4499de753aac3294c88ad023b6198472c
+MD5sum: 053021126daa30fc142a8e3c0a8e705e
+Description: Go implementation of the Debug Adapter Protocol (library)
+ The Debug Adapter Protocol defines the protocol used between an editor
+ or IDE and a debugger or runtime.
+
+Package: golang-github-google-go-github-dev
+Source: golang-github-google-go-github
+Version: 48.1.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 1658
+Depends: golang-github-google-go-cmp-dev (>= 0.5.9~), golang-github-google-go-querystring-dev (>= 1.1.0~), golang-golang-x-crypto-dev, golang-golang-x-oauth2-google-dev, media-types
+Multi-Arch: foreign
+Homepage: https://github.com/google/go-github
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-go-github/golang-github-google-go-github-dev_48.1.0-2_all.deb
+Size: 188700
+SHA256: 0273b7b7589158fa40decbf2e2d4c1023060f9dc021d557eca5f4f7864451690
+SHA1: 6bff8ac3a6b24cee58f42ebe2cbb2fc7875836fc
+MD5sum: 8ff174bfe0af6352d67eb51c437c73f3
+Description: Go library for accessing the GitHub API
+ go-github is a Go client library for accessing the GitHub API v3
+ (https://developer.github.com/v3/).
+
+Package: golang-github-google-go-intervals-dev
+Source: golang-github-google-go-intervals
+Version: 0.0.2-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 69
+Homepage: https://github.com/google/go-intervals
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-go-intervals/golang-github-google-go-intervals-dev_0.0.2-2_all.deb
+Size: 11764
+SHA256: 0ec890b9d2c2c222affda008b98a9308c633407827ac4f049405cc52aaccadce
+SHA1: 47eeafb1af9cff27d1e9584daffeded312ec6a25
+MD5sum: ce61df4cc3ae5c4e742521f18319db38
+Description: Functions for set operations on intervals, like ranges (library)
+ This package provides a library for performing set operations on
+ 1-dimensional intervals, such as time ranges.
+
+Package: golang-github-google-go-querystring-dev
+Source: golang-github-google-go-querystring
+Version: 1.1.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 42
+Depends: golang-github-google-go-cmp-dev
+Multi-Arch: foreign
+Homepage: https://github.com/google/go-querystring
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-google-go-querystring/golang-github-google-go-querystring-dev_1.1.0-2_all.deb
+Size: 9264
+SHA256: c4c684f2be74715cec017c99e7ab1bf7c7cc897bdb99555f370df40565c20b11
+SHA1: f20cb01bd237400bef627a0b97b17563dbb1b9c8
+MD5sum: c0963a0ecdebfb544b87e8905765024a
+Description: library for encoding structs into URL query parameters
+ go-querystring is Go library for encoding structs into URL query
+ parameters. go-querystring is designed to assist in scenarios where
+ you want to construct a URL using a struct that represents the URL
+ query parameters.
+
+Package: golang-github-google-gofuzz-dev
+Source: golang-github-google-gofuzz
+Version: 1.2.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 60
+Multi-Arch: foreign
+Homepage: https://github.com/google/gofuzz
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-gofuzz/golang-github-google-gofuzz-dev_1.2.0-1_all.deb
+Size: 12924
+SHA256: fa0dadedc7de220cfede8954153643208e7a6d935562f9ed3e7d0d5aab00935a
+SHA1: 6a958ffdc0aa712115f06a0875a0af0b72c9ab84
+MD5sum: 7db5e1c7b9bd58583d54c70e81be1e38
+Description: Fuzz testing for Go
+ gofuzz is a library for populating go objects with random values.
+ .
+ This is useful for testing:
+ .
+  * Do your project's objects really serialize/unserialize correctly in all
+    cases?
+  * Is there an incorrectly formatted object that will cause your project to
+    panic?
+ .
+ Import with import "github.com/google/gofuzz"
+ .
+ This package contains the source.
+
+Package: golang-github-google-goterm-dev
+Source: golang-github-google-goterm
+Version: 0.0~git20200907.555d40f-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 80
+Multi-Arch: foreign
+Homepage: https://github.com/google/goterm
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-goterm/golang-github-google-goterm-dev_0.0~git20200907.555d40f-3_all.deb
+Size: 16948
+SHA256: 6deab7521c48dc20f6ab1b1f746af86a61d2f596be2168678341f2639bdcc5f1
+SHA1: 503ff61c49565da209a4e86c0a88533f937b4e9f
+MD5sum: d6fe228396de415d9a53aaa0174aa331
+Description: Go Terminal library with PTY support and colors
+ The term package implements PTY creation and termios get/set attributes.
+ It also contains some convenience functions for colors, SSH <> termios
+ translations, readCh, reading passwords etc.
+
+Package: golang-github-google-gousb-dev
+Source: golang-github-google-gousb
+Version: 1.1.1-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 175
+Depends: libusb-1.0-0-dev, pkg-config
+Multi-Arch: foreign
+Homepage: https://github.com/google/gousb
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-gousb/golang-github-google-gousb-dev_1.1.1-2_all.deb
+Size: 32732
+SHA256: dd6a5d11f46b960336d3fe688cc8073889af4c02bcac7cf5025cb293e32b407f
+SHA1: 5e66e9a184d1ecfedaa4a8387840e0e7431bbfa8
+MD5sum: dd5727e110eeffb1403e259f2ea3bcef
+Description: provides low-level interface for accessing USB devices (library)
+ gousb is an attempt at wrapping the libusb library into a Go-like binding.
+ .
+ gousb provides low-level interface for accessing USB devices.
+
+Package: golang-github-google-jsonapi-dev
+Source: golang-github-google-jsonapi
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 143
+Multi-Arch: foreign
+Homepage: https://github.com/google/jsonapi
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-google-jsonapi/golang-github-google-jsonapi-dev_1.0.0-1_all.deb
+Size: 24900
+SHA256: 6033afc2df9855d38ef2f7aae913dce7315963f136b69587456626d2e82066ec
+SHA1: 97c5a10b3958ba759a0648713b97b49e8813d0a5
+MD5sum: 3204ef9c0bcb70423cb5fb4d2169b2b1
+Description: jsonapi.org style payload serializer and deserializer
+ Serializer/deserializer for JSON payloads that comply to the JSON API
+ spec in Go. Struct tags are used to annotate the struct fields in an
+ application and then this library reads and writes JSON API output based
+ on the tagged fields.
+
+Package: golang-github-google-martian-dev
+Source: golang-github-google-martian
+Version: 3.3.2-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 909
+Depends: golang-golang-x-net-dev, media-types
+Multi-Arch: foreign
+Homepage: https://github.com/google/martian
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-martian/golang-github-google-martian-dev_3.3.2-2_all.deb
+Size: 109524
+SHA256: a92685c34b67e7a4efc026edcec189cdbcb0f03742f939214f47d761c0ddc905
+SHA1: 9c4d94af91f4507fd465f01b6736247b62d71939
+MD5sum: 7a0a2904799cb618d8787a5e7e3304a4
+Description: Martian is a library for building custom HTTP/S proxies
+ Martian Proxy is a programmable HTTP proxy designed to be used for testing.
+ .
+ Martian is a great tool to use if you want to:
+  * Verify that all (or some subset) of requests are secure
+  * Mock external services at the network layer
+  * Inject headers, modify cookies or perform other mutations of HTTP requests
+    and responses
+  * Verify that pingbacks happen when you think they should
+  * Unwrap encrypted traffic (requires install of CA certificate in browser)
+
+Package: golang-github-google-nftables-dev
+Source: golang-github-google-nftables
+Version: 0.1.0-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 506
+Depends: golang-github-mdlayher-netlink-dev, golang-github-vishvananda-netns-dev, golang-golang-x-sys-dev
+Multi-Arch: foreign
+Homepage: https://github.com/google/nftables
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-nftables/golang-github-google-nftables-dev_0.1.0-3_all.deb
+Size: 59248
+SHA256: 32767a88de195ed7b6f326812282ba68aba82ffaca60aceae974da4f9b3de8e2
+SHA1: 173f2a820f4bec5c1326d20cc0c55513f63b2a94
+MD5sum: e3a54c3e6f698016c287283a8e049e48
+Description: Go library to interact with Linux nftables
+ This package is a third-party Go package to interact with nftables
+ programmatically. It is implemented in pure Go, meaning it does not
+ wrap the libnftnl library.
+ .
+ It is neither an official netfilter project nor an official Google
+ product.
+
+Package: golang-github-google-pprof-dev
+Source: golang-github-google-pprof
+Version: 0.0~git20211008.947d60d-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 3960
+Depends: golang-github-chzyer-readline-dev, golang-github-ianlancetaylor-demangle-dev
+Multi-Arch: foreign
+Homepage: https://github.com/google/pprof
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-pprof/golang-github-google-pprof-dev_0.0~git20211008.947d60d-1_all.deb
+Size: 977388
+SHA256: 84984fc28dcd4310f060513225f297444dfca2f91ea8527f823eeed147a12059
+SHA1: 6ccec23e0f70b1bc88a69924fb42adda63618a22
+MD5sum: 122d2c294f5da1c97ddee284953982e8
+Description: pprof is a tool for visualization and analysis of profiling data
+ pprof reads a collection of profiling samples in profile.proto format
+ and generates reports to visualize and help analyze the data. It can
+ generate both text and graphical reports (through the use of the dot
+ visualization package).
+ .
+ profile.proto is a protocol buffer that describes a set of callstacks
+ and symbolization information. A common usage is to represent a set of
+ sampled callstacks from statistical profiling. The format is described
+ on the proto/profile.proto (./proto/profile.proto) file. For details on
+ protocol buffers, see https://developers.google.com/protocol-buffers
+ .
+ Profiles can be read from a local file, or over http. Multiple profiles
+ of the same type can be aggregated or compared.
+ .
+ If the profile samples contain machine addresses, pprof can symbolize
+ them through the use of the native binutils tools (addr2line and nm).
+ .
+ This is not an official Google product.
+
+Package: golang-github-google-renameio-dev
+Source: golang-github-google-renameio
+Version: 2.0.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 55
+Multi-Arch: foreign
+Homepage: https://github.com/google/renameio
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-google-renameio/golang-github-google-renameio-dev_2.0.0-2_all.deb
+Size: 10256
+SHA256: c57b53f9e1fc3c208fed3876c0db1be8e6d3d3938d13c437de34321981b1fa84
+SHA1: b22a611046637381bd351945f6736e9712ac5e92
+MD5sum: 0b96ba006584582ae738643cf9707387
+Description: provides a way to atomically create or replace a file or symbolic link
+ The renameio Go package provides a way to atomically create or replace a
+ file or symbolic link.
+ .
+ Atomicity vs durability: renameio concerns itself only with atomicity,
+ i.e. making sure applications never see unexpected file content
+ (a half-written file, or a 0-byte file).
+ .
+ As a practical example, consider https://manpages.debian.org/: if there
+ is a power outage while the site is updating, we are okay with losing the
+ manpages which were being rendered at the time of the power outage. They
+ will be added in a later run of the software. We are not okay with having
+ a manpage replaced by a 0-byte file under any circumstances, though.
+
+Package: golang-github-google-shlex-dev
+Source: golang-github-google-shlex
+Version: 0.0~git20191202.e7afc7f-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 28
+Multi-Arch: foreign
+Homepage: https://github.com/google/shlex
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-shlex/golang-github-google-shlex-dev_0.0~git20191202.e7afc7f-1_all.deb
+Size: 5592
+SHA256: 4d19ec1772354568a058fb5b131e91a04919e6c89aec041d34e682709ecc878e
+SHA1: bb3649464e1ca26819f2b8fcdbcac2fd10fdaf3f
+MD5sum: 3495485c1b31ebb93e7587514519117a
+Description: Simple lexer for Go that supports shell-style rules
+ go-shlex is a simple lexer for Go.  It splits input into tokens using
+ shell-style rules for quoting, commenting, and escaping.
+
+Package: golang-github-google-subcommands-dev
+Source: golang-github-google-subcommands
+Version: 1.2.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 32
+Multi-Arch: foreign
+Homepage: https://github.com/google/subcommands
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-google-subcommands/golang-github-google-subcommands-dev_1.2.0-2_all.deb
+Size: 7160
+SHA256: aac7cb1f92edd1ee441ae53d15c1aea168fa66e4efce4f3ac03f28292a17a899
+SHA1: e582e66495682c1084fb8ca5b658b98af8266a72
+MD5sum: c2e5fda2e738b54a12537a2b1ed91819
+Description: go package for add some subcommands to single command
+ Subcommands is a Go package that implements a simple way for a single command
+ to have many subcommands, each of which takes arguments and so forth.
+
+Package: golang-github-google-uuid-dev
+Source: golang-github-google-uuid
+Version: 1.3.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 82
+Multi-Arch: foreign
+Homepage: https://github.com/google/uuid
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-uuid/golang-github-google-uuid-dev_1.3.0-1_all.deb
+Size: 16992
+SHA256: f79ead959ee04842fcb410347e7023a3c4c357c17f77b9bb13cff30ef4353351
+SHA1: fefc5f6e6cef9b4b74e7ef65239378f058c9da61
+MD5sum: 5a743991c8e22a5e2fe5976dea79c343
+Description: generates and inspects UUIDs based on RFC 4122
+ This package generates and inspects UUIDs based on RFC 4122
+ (http://tools.ietf.org/html/rfc4122) and DCE 1.1: Authentication and
+ Security Services.
+ .
+ This package is based on the "github.com/pborman/uuid" package. It differs
+ from these earlier packages in that a UUID is a 16 byte array rather than
+ a byte slice. One loss due to this change is the ability to represent an
+ invalid UUID (vs a NIL UUID).
+
+Package: golang-github-google-wire-dev
+Source: golang-github-google-wire
+Version: 0.5.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 756
+Depends: golang-github-google-go-cmp-dev (>= 0.2.0), golang-github-google-subcommands-dev (>= 1.0.1), golang-github-pmezard-go-difflib-dev (>= 1.0.0), golang-golang-x-tools-dev (>= 1:0.0~git20190422.fe54fb3)
+Multi-Arch: foreign
+Homepage: https://github.com/google/wire
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-google-wire/golang-github-google-wire-dev_0.5.0-2_all.deb
+Size: 60056
+SHA256: d7908418f3c8cb556a811ed502f9572d44a7cc2b43185c06323d480d4e36c87a
+SHA1: be566310374202022db5118ce83f668e21bea67e
+MD5sum: f3232d79bd7e59099a4665c517ac7d12
+Description: Compile-time Dependency Injection for Go (library)
+ Wire: Automated Initialization in Go
+ .
+ Wire is a code generation tool that automates connecting components
+ using dependency injection.  Dependencies between components are
+ represented in Wire as function parameters, encouraging explicit
+ initialization instead of global variables.  Because Wire operates
+ without runtime state or reflection, code written to be used with
+ Wire is useful even for hand-written initialization.
+ .
+ For an overview, see the introductory blog post
+ https://blog.golang.org/wire
+ .
+ This package contains the github.com/google/wire Go library.
+
+Package: golang-github-googleapis-gax-go-dev
+Source: golang-github-googleapis-gax-go
+Version: 2.0.5-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 66
+Depends: golang-golang-x-net-dev, golang-google-grpc-dev
+Multi-Arch: foreign
+Homepage: https://github.com/googleapis/gax-go
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-googleapis-gax-go/golang-github-googleapis-gax-go-dev_2.0.5-4_all.deb
+Size: 11976
+SHA256: dc1266d5eafd3eb5d6984fc2f814fb6a7842bff48bba33d6075c53102332a3ee
+SHA1: c704529c0d52aa7fc5c3f1f8d24575ef260303b1
+MD5sum: e018a37a93813e698a2e39d7af42ab2c
+Description: Google API Extensions for Go
+ Google API Extensions for Go (gax-go) is a set of modules which aids
+ the development of APIs for clients and servers based on gRPC and Google
+ API conventions.
+
+Package: golang-github-googleapis-gnostic-dev
+Source: golang-github-googleapis-gnostic
+Version: 0.2.0-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 1063
+Depends: golang-github-docopt-docopt-go-dev, golang-golang-x-net-dev, golang-golang-x-oauth2-google-dev, golang-goprotobuf-dev, golang-yaml.v2-dev
+Homepage: https://github.com/googleapis/gnostic
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-googleapis-gnostic/golang-github-googleapis-gnostic-dev_0.2.0-4_all.deb
+Size: 83912
+SHA256: 4783ddcbb157a77924ce9bb89b1c438293ea7971d2d928ca1531703d1eea438a
+SHA1: 9d70ed94b1d63b2b3863ef0f348c8094a1f10160
+MD5sum: 11d1bddf5f90cf78b9f67c8e14f3c70d
+Description: compiler for OpenAPI specification - library
+ Protocol Buffers (https://developers.google.com/protocol-buffers/)
+ provide a language-neutral, platform-neutral, extensible mechanism
+ for serializing structured data. gnostic's Protocol Buffer models for
+ the OpenAPI Specification can be used to generate code that includes
+ data structures with explicit fields for the elements of an OpenAPI
+ description. This makes it possible for developers to work with
+ OpenAPI descriptions in type-safe ways, which is particularly useful in
+ strongly-typed languages like Go and Swift.
+ .
+ gnostic reads OpenAPI descriptions into these generated data structures,
+ reports errors, resolves internal dependencies, and writes the results in
+ a binary form that can be used in any language that is supported by the
+ Protocol Buffer tools.  A plugin interface simplifies integration with
+ API tools written in a variety of different languages, and when necessary,
+ Protocol Buffer OpenAPI descriptions can be reexported as JSON or YAML.
+ .
+ This package provides the development files.
+
+Package: golang-github-googlecloudplatform-guest-logging-go-dev
+Source: golang-github-googlecloudplatform-guest-logging-go
+Version: 0.0~git20210621.facc9c0-1.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 52
+Depends: golang-google-api-dev, golang-google-cloud-dev, golang-google-genproto-dev
+Multi-Arch: foreign
+Homepage: https://github.com/GoogleCloudPlatform/guest-logging-go
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-googlecloudplatform-guest-logging-go/golang-github-googlecloudplatform-guest-logging-go-dev_0.0~git20210621.facc9c0-1.1_all.deb
+Size: 13384
+SHA256: f85ffa2c203b3d80c71b11f9b43549213833d9f4e8c9cb35dd24021b6605f5db
+SHA1: 27ab5cf7cdb8c1899173f222349ad4f175a0a90c
+MD5sum: 847e574b9585b184cf079b3e1b3b94b9
+Description: Go logging package with Google Cloud Platform interface (library)
+ The Go logger package logs messages either locally to syslog or via the Google
+ Cloud logging API.
+
+Package: golang-github-goombaio-namegenerator-dev
+Source: golang-github-goombaio-namegenerator
+Version: 0.0.2-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 26
+Multi-Arch: foreign
+Homepage: https://github.com/goombaio/namegenerator
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-goombaio-namegenerator/golang-github-goombaio-namegenerator-dev_0.0.2-3_all.deb
+Size: 3788
+SHA256: 6509894d9f59bdcf34598223cc834192db45e852ea96da1ca8b7983439b94d13
+SHA1: 1f854a9f9422f54bd598ac0e126ff22a541eb07e
+MD5sum: 7be0b35998a8692853dc31fcd59dd743
+Description: random name generator implementation in Golang
+ This random name generator can be used for projects, servers, cluster
+ nodes, etc.
+
+Package: golang-github-gosnmp-gosnmp-dev
+Source: golang-github-gosnmp-gosnmp
+Version: 1.35.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 407
+Replaces: golang-github-soniah-gosnmp-dev (<< 1.29.0)
+Multi-Arch: foreign
+Homepage: https://github.com/gosnmp/gosnmp
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gosnmp-gosnmp/golang-github-gosnmp-gosnmp-dev_1.35.0-1_all.deb
+Size: 70704
+SHA256: 042c563798f76726a291c7a0a9b4bc1cd4f44650c6e3c13cde60b18a6636be91
+SHA1: f81b4c232711ab24c03a537c4296aa1fbfa21900
+MD5sum: 533484cef5c274c44cef4fbb9e30d072
+Description: SNMP library written in Go
+ GoSNMP is a Simple Network Management Protocol (SNMP) client library fully
+ written in Go. It provides Get, GetNext, GetBulk, Walk, BulkWalk, Set and
+ Traps. It supports IPv4 and IPv6, using SNMPv2c or SNMPv3.
+
+Package: golang-github-gosuri-uilive-dev
+Source: golang-github-gosuri-uilive
+Version: 0.0.4-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 26
+Multi-Arch: foreign
+Homepage: https://github.com/gosuri/uilive
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gosuri-uilive/golang-github-gosuri-uilive-dev_0.0.4-1_all.deb
+Size: 5720
+SHA256: f1555034ba4ac9f41d855b476c22aa830653c9a99b28239f146fcb5dea48f9e9
+SHA1: aba017d1757053325c25bb85dff45001b8dfc62b
+MD5sum: 61ebd894a91d4a3d349445ae6d165253
+Description: Go library for updating terminal output in realtime
+ It provides a buffered io.Writer that is flushed at a timed interval.
+
+Package: golang-github-gosuri-uiprogress-dev
+Source: golang-github-gosuri-uiprogress
+Version: 0.0~git20170224.d0567a9-1.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 45
+Homepage: https://github.com/gosuri/uiprogress
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-gosuri-uiprogress/golang-github-gosuri-uiprogress-dev_0.0~git20170224.d0567a9-1.1_all.deb
+Size: 7668
+SHA256: a0112f14b11f6c423b61ff8ddcd1b17f38c03cc00e90b127681f1ffa476f1de8
+SHA1: 363390ad82dd526bd7991d26bf854ef05e8e24f0
+MD5sum: bf9a02edb4bc4a2bde6d556707061b54
+Description: Go library to render progress bars in terminal applications
+ Progress bars improve readability for terminal applications with long
+ outputs by providing a concise feedback loop.
+ .
+ Features:
+ * Multiple Bars: uiprogress can render multiple progress bars that
+   can be tracked concurrently
+ * Dynamic Addition: Add additional progress bars any time, even after
+   the progress tracking has started
+ * Prepend and Append Functions: Append or prepend completion percent
+   and time elapsed to the progress bars
+ * Custom Decorator Functions: Add custom functions around the bar
+   along with helper functions
+
+Package: golang-github-gosuri-uitable-dev
+Source: golang-github-gosuri-uitable
+Version: 0.0~git20170830.36ee7e94-2.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: dpkg-dev, golang-github-mattn-go-runewidth-dev
+Homepage: https://github.com/gosuri/uitable
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-gosuri-uitable/golang-github-gosuri-uitable-dev_0.0~git20170830.36ee7e94-2.1_all.deb
+Size: 7688
+SHA256: 70d29e27324ee91f96d87fb3eb5b9db7997dbfa036e900d526f98af905b9862d
+SHA1: c1e2423baac17ddfea426bf30c929475575ed780
+MD5sum: 713212eed24b469935c7de1725c1d133
+Description: go library to improve readability in terminal apps using tabular data
+ uitable is a go library for representing data as tables for terminal
+ applications. It provides primitives for sizing and wrapping columns to
+ improve readability.
+
+Package: golang-github-gotk3-gotk3-dev
+Source: golang-github-gotk3-gotk3
+Version: 0.6.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 1707
+Depends: golang-go, libglib2.0-dev, libcairo2-dev, libpango1.0-dev, libgtk-3-dev, libgio-cil
+Homepage: https://github.com/gotk3/gotk3
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-gotk3-gotk3/golang-github-gotk3-gotk3-dev_0.6.1-1_all.deb
+Size: 204968
+SHA256: 965b540a803f933850bb8058cfaf89e8850d7d0473e3b5f56062cc1cd7921768
+SHA1: 57fadb8413c39c59c8be7cef017f993d117cb3d5
+MD5sum: 932f13bcef05dd584ead4b5a8a7b775a
+Description: Go bindings for GTK3
+ The gotk3 project provides Go bindings for GTK+3 and dependent projects.
+ Each component is given its own subdirectory, which is used as the
+ import path for the package.
+ .
+ Partial binding support for the following libraries is currently implemented:
+ .
+   - GTK+3 (3.12 and later)
+   - GDK 3 (3.12 and later)
+   - GLib 2 (2.36 and later)
+   - Cairo (1.10 and later)
+ .
+ Care has been taken for memory management to work seamlessly with Go's
+ garbage collector without the need to use or understand GObject's floating
+ references.
+
+Package: golang-github-grafana-grafana-plugin-model-dev
+Source: golang-github-grafana-grafana-plugin-model
+Version: 0.0~git20200514.df1eb6b-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 71
+Depends: golang-github-hashicorp-go-plugin-dev, golang-golang-x-net-dev, golang-google-grpc-dev, golang-goprotobuf-dev
+Homepage: https://github.com/grafana/grafana-plugin-model
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-grafana-grafana-plugin-model/golang-github-grafana-grafana-plugin-model-dev_0.0~git20200514.df1eb6b-2_all.deb
+Size: 12204
+SHA256: 92a14330e95180c1de71c41098cc93d4c11753e96742f74aaf4adff10f0604b4
+SHA1: 4c95a221fdf368422265accaded72b7f87ddff62
+MD5sum: bf4b1dbfb47e8adfc8b182b226296936
+Description: models for Grafana backend plugins
+ This package provides models for Grafana backend plugins.
+ .
+ It is needed for Grafana.
+
+Package: golang-github-grafana-regexp-dev
+Source: golang-github-grafana-regexp
+Version: 0.0~git20221122.6b5c0a4-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 820
+Multi-Arch: foreign
+Homepage: https://github.com/grafana/regexp
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-grafana-regexp/golang-github-grafana-regexp-dev_0.0~git20221122.6b5c0a4-2_all.deb
+Size: 450088
+SHA256: d7af23fa435693b50d3743b0853c8b7053cc37990bfa0065ae6df683dde8bd36
+SHA1: dbe9261c063e21ddde436967bb24967017076c35
+MD5sum: 39eeeb874f0f49b5dad10a826f4cad35
+Description: Faster version of the Go regexp package (library)
+ Fork of the upstream Go regexp package, with some code optimisations to
+ make it run faster.
+ .
+ All semantics are the same, and the optimised code passes all tests from
+ upstream.
+
+Package: golang-github-graph-gophers-graphql-go-dev
+Source: golang-github-graph-gophers-graphql-go
+Version: 1.5.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 826
+Depends: golang-github-opentracing-opentracing-go-dev, golang-opentelemetry-otel-dev
+Multi-Arch: foreign
+Homepage: https://github.com/graph-gophers/graphql-go
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-graph-gophers-graphql-go/golang-github-graph-gophers-graphql-go-dev_1.5.0-1_all.deb
+Size: 102316
+SHA256: ef79586f049d80e7a4536b659c91170dc514bad3e4a8abad2f6b60582bc7f5de
+SHA1: 21f4b0587c8c2802285055584fbdce6b976d5c78
+MD5sum: 9b37b49b2a3cd169fb1638227c34ef28
+Description: GraphQL server with a focus on ease of use
+ graphql-go is a GraphQL server library with the goal to provide full
+ support of the GraphQL draft specification (
+ https://facebook.github.io/graphql/draft) with a set of idiomatic, easy
+ to use Go packages.
+ .
+ Features:
+ .
+  - minimal API
+  - support for context.Context
+  - support for the OpenTracing standard
+  - schema type-checking against resolvers
+  - resolvers are matched to the schema based on method sets
+  - handles panics in resolvers
+  - parallel execution of resolvers
+
+Package: golang-github-gravitational-trace-dev
+Source: golang-github-gravitational-trace
+Version: 1.1.15-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 94
+Depends: golang-github-jonboulle-clockwork-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-google-grpc-dev, golang-logrus-dev
+Homepage: https://github.com/gravitational/trace
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-gravitational-trace/golang-github-gravitational-trace-dev_1.1.15-2_all.deb
+Size: 18164
+SHA256: aa71fea21d0ef1f973f1cd22b2e1c6e93c75baae02b6bdf672c0f275c1ede0d7
+SHA1: c4631440fef1804aa1f89a2bff3ee7f6403c0fc0
+MD5sum: 5d8a1f74df395cdcbc052209419c9a94
+Description: Package for error handling and error reporting
+ This package offers improved error handling for Go software.
+ It preserve the original error and its origin while avoiding
+ excessive logging.
+
+Package: golang-github-graylog2-go-gelf-dev
+Source: golang-github-graylog2-go-gelf
+Version: 0.0+git20191017.1550ee6-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 62
+Homepage: https://github.com/Graylog2/go-gelf
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-graylog2-go-gelf/golang-github-graylog2-go-gelf-dev_0.0+git20191017.1550ee6-1_all.deb
+Size: 12680
+SHA256: 270c5c8340614765f3b09ce3c68895fa352346dbafcb1a835e9ee3f0049affa2
+SHA1: 25007dd51030bb826c31616a920e5f5176e60ea1
+MD5sum: 459e0008b936e4d82884c0562bb02891
+Description: GELF library and writer for Go
+ GELF is graylog2's UDP logging format. This library provides an API that
+ applications can use to log messages directly to a graylog2 server, along with
+ an io.Writer that can be use to redirect the standard library's log messages
+ (or os.Stdout), to a graylog2 server.
+ .
+ This package contains the source.
+
+Package: golang-github-greatroar-blobloom-dev
+Source: golang-github-greatroar-blobloom
+Version: 0.7.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 96
+Depends: golang-github-stretchr-testify-dev
+Multi-Arch: foreign
+Homepage: https://github.com/greatroar/blobloom
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-greatroar-blobloom/golang-github-greatroar-blobloom-dev_0.7.1-1_all.deb
+Size: 17716
+SHA256: 3b87ed246a0ae7e30d11d9190c4cde1bead5f144b6253a1edb632e43976ecc89
+SHA1: 5fed521d3858e1e0e94355825a8964fafe9fdc84
+MD5sum: 0b4086f2e672e1b3f3c74715b2bae7c8
+Description: Blocked Bloom filters for Go
+ Blocked Bloom filter package for Go (golang) with no runtime
+ dependencies.
+ .
+ Blocked Bloom filters are a cache-efficient variant of Bloom
+ filters, the well-known approximate set data structure. To quote
+ Daniel Lemire they have unbeatable speed.
+
+Package: golang-github-gregjones-httpcache-dev
+Source: golang-github-gregjones-httpcache
+Version: 0.0~git20180305.9cad4c3-1.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 84
+Depends: golang-github-bradfitz-gomemcache-dev, golang-github-garyburd-redigo-dev, golang-github-peterbourgon-diskv-dev, golang-github-syndtr-goleveldb-dev
+Homepage: https://github.com/gregjones/httpcache
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-gregjones-httpcache/golang-github-gregjones-httpcache-dev_0.0~git20180305.9cad4c3-1.1_all.deb
+Size: 13704
+SHA256: 5f52e0ee9ab5d14c0d26028a4c5683890a67ba390ef72b38764a6ad11154e8c1
+SHA1: e603cb06e3e6bf9c5ab9c3f0540c179dd3663c18
+MD5sum: 4476874fa054e10574a15f7cf2b5ea93
+Description: Transport for http.Client that will cache responses
+ The package httpcache provides a http.RoundTripper implementation that
+ works as a mostly RFC 7234 compliant cache for http responses.
+ .
+ It is only suitable for use as a 'private' cache (i.e. for
+ a web-browser or an API-client and not for a shared proxy).
+
+Package: golang-github-grokify-html-strip-tags-go-dev
+Source: golang-github-grokify-html-strip-tags-go
+Version: 0.0~git20180907.e9e4496-1.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 127
+Homepage: https://github.com/grokify/html-strip-tags-go
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-grokify-html-strip-tags-go/golang-github-grokify-html-strip-tags-go-dev_0.0~git20180907.e9e4496-1.1_all.deb
+Size: 33004
+SHA256: 2382d36a770b6a24277ab3536d414b50d0ba9e48f2d705c9004d0f2f752cf66e
+SHA1: da7d59675f2d76681c8d7b2523a7fae369561aa0
+MD5sum: 48b093bc57f2ea15012a443174e8a2ef
+Description: Golang library to HTML StripTags
+ golang-github-grokify-html-strip-tags-go-dev is a Go package containing an
+ extracted version of the unexported stripTags function in
+ html/template/html.go.
+
+Package: golang-github-grpc-ecosystem-go-grpc-middleware-dev
+Source: golang-github-grpc-ecosystem-go-grpc-middleware
+Version: 1.3.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 505
+Depends: golang-github-go-kit-kit-dev, golang-github-golang-protobuf-1-3-dev (>= 1.3.3~), golang-github-opentracing-opentracing-go-dev, golang-github-sirupsen-logrus-dev (>= 1.4.2~), golang-go.uber-zap-dev, golang-golang-x-net-dev, golang-google-grpc-dev (>= 1.27.1~)
+Multi-Arch: foreign
+Homepage: https://github.com/grpc-ecosystem/go-grpc-middleware
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-grpc-ecosystem-go-grpc-middleware/golang-github-grpc-ecosystem-go-grpc-middleware-dev_1.3.0-1_all.deb
+Size: 66944
+SHA256: 10784f9b809578e6a18239d719794bbf026477cf393ccd18e9d68f4b3054f8af
+SHA1: 732c2c71854602ea12c84051a4f7b55a32deeabc
+MD5sum: b4c4118e060946cd6bfc0819b5fcd83b
+Description: Go gRPC Middlewares: interceptor chaining, auth, logging, retries and more
+ gRPC Go recently acquired support for Interceptors, i.e. middleware
+ that is executed either on the gRPC Server before the request is passed
+ onto the user's application logic, or on the gRPC client either around
+ the user call. It is a perfect way to implement common patterns: auth,
+ logging, message, validation, retries or monitoring.
+ .
+ These are generic building blocks that make it easy to build multiple
+ microservices easily. The purpose of this repository is to act as a
+ go-to point for such reusable functionality. It contains some of them
+ itself, but also will link to useful external repos.
+ .
+ grpc_middleware itself provides support for chaining interceptors.
+
+Package: golang-github-grpc-ecosystem-go-grpc-prometheus-dev
+Source: golang-github-grpc-ecosystem-go-grpc-prometheus
+Version: 1.2.0+git20191002.6af20e3-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 157
+Depends: golang-github-prometheus-client-golang-dev, golang-golang-x-net-dev, golang-google-grpc-dev (>= 1.3.2~)
+Homepage: https://github.com/grpc-ecosystem/go-grpc-prometheus
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-grpc-ecosystem-go-grpc-prometheus/golang-github-grpc-ecosystem-go-grpc-prometheus-dev_1.2.0+git20191002.6af20e3-3_all.deb
+Size: 25584
+SHA256: 13fbcd5e2a1c4d725ec01842f86a9204841470ad9ccac68e931eac5b39dd7269
+SHA1: 7b5363de19754fa874a895330fbbe127bc161fdc
+MD5sum: 4982f095e0823fdaabb7a5ff4e8af0ba
+Description: Prometheus monitoring for gRPC Go servers
+ This library uses gRPC Go interceptors (middleware) to implement both
+ server- and client-side metrics and monitoring using Prometheus for a
+ gRPC interface.
+ .
+ Using Prometheus for API monitoring allows querying and visualization
+ of latency, request rates and other useful metrics that can be
+ obtained from collecting time-series data.
+
+Package: golang-github-grpc-ecosystem-grpc-gateway-dev
+Source: golang-github-grpc-ecosystem-grpc-gateway
+Version: 1.6.4-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 1687
+Depends: golang-github-dghubble-sling-dev, golang-github-ghodss-yaml-dev, golang-github-rogpeppe-fastuuid-dev, golang-glog-dev, golang-golang-x-net-dev, golang-google-genproto-dev (>= 0.0~git20190111~), golang-google-grpc-dev (>= 1.6.0), golang-goprotobuf-dev (>= 1.2.0)
+Homepage: https://github.com/grpc-ecosystem/grpc-gateway
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-grpc-ecosystem-grpc-gateway/golang-github-grpc-ecosystem-grpc-gateway-dev_1.6.4-2_all.deb
+Size: 281284
+SHA256: 1bf8fae2fd4df6e172894f784f62110d42e27b79f761d7902ce2719c11bc5cab
+SHA1: ba4d398263d8427c5b79e3d1a7f33b8e8d01fc08
+MD5sum: 1217dca6c19f865962574a09fff1952c
+Description: gRPC to JSON proxy generator for Golang -- sources
+ Grpc-gateway is a protoc plugin that reads gRPC service definitions
+ and generates a reverse-proxy server which translates a RESTful JSON
+ API into gRPC. The server is generated according to custom options in
+ your gRPC definition and helps you to provide your APIs in both gRPC
+ and RESTful style at the same time.
+ .
+ This package contains the development files.
+
+Package: golang-github-grpc-ecosystem-grpc-opentracing-dev
+Source: golang-github-grpc-ecosystem-grpc-opentracing
+Version: 0.0~git20180507.8e809c8-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 66
+Depends: golang-github-opentracing-opentracing-go-dev, golang-github-stretchr-testify-dev, golang-golang-x-net-dev, golang-google-grpc-dev, golang-goprotobuf-dev
+Homepage: https://github.com/grpc-ecosystem/grpc-opentracing
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-grpc-ecosystem-grpc-opentracing/golang-github-grpc-ecosystem-grpc-opentracing-dev_0.0~git20180507.8e809c8-2_all.deb
+Size: 11524
+SHA256: 496a55a3b5afa94120acf2f73b09e9cd2a784a09090121fc859434cc31b71619
+SHA1: 2fba52534c507ca7b2de9316d83f55b1a9d646c0
+MD5sum: e9553916cd3562d726f9239b60811eb1
+Description: expressive vendor-neutral APIs for distributed tracing and context propagation
+ This package enables distributed tracing in GRPC clients and servers via
+ `The OpenTracing Project`_: a set of consistent, expressive, vendor-neutral
+ APIs for distributed tracing and context propagation.
+ .
+ OpenTracing implementations exist for major distributed tracing systems and
+ can be bound or swapped with a one-line configuration change.
+
+Package: golang-github-gtank-cryptopasta-dev
+Source: golang-github-gtank-cryptopasta
+Version: 0.0~git20170601.1f550f6-1.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 705
+Depends: golang-golang-x-crypto-dev
+Homepage: https://github.com/gtank/cryptopasta
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-gtank-cryptopasta/golang-github-gtank-cryptopasta-dev_0.0~git20170601.1f550f6-1.1_all.deb
+Size: 684268
+SHA256: 4d6554993e27fed133bc0059c38b9e9d67c50f5a7fbbc9ec27e8b4c948329ef3
+SHA1: aedd78dcb9baaf29bd84a22fe04a7cc026a3c8b6
+MD5sum: 1e2d58953ae7f8b9b0cd4982f6cc4372
+Description: copy & paste-friendly golang crypto
+ This library demonstrates a suite of basic cryptography from the Go standard
+ library. To the extent possible, it tries to hide complexity and help one
+ avoid common mistakes. The recommendations were chosen as a compromise between
+ cryptographic qualities, the Go standard lib, and the author's existing use
+ cases.
+
+Package: golang-github-gucumber-gucumber-dev
+Source: golang-github-gucumber-gucumber
+Version: 0.0~git20160715.0.71608e2-1.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 78
+Depends: golang-github-shiena-ansicolor-dev, golang-github-stretchr-testify-dev
+Breaks: golang-github-lsegal-gucumber-dev (<< 0.0~git20160715.0.71608e2-1~)
+Replaces: golang-github-lsegal-gucumber-dev (<< 0.0~git20160715.0.71608e2-1~)
+Provides: golang-github-lsegal-gucumber-dev
+Homepage: https://github.com/gucumber/gucumber
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-gucumber-gucumber/golang-github-gucumber-gucumber-dev_0.0~git20160715.0.71608e2-1.1_all.deb
+Size: 16192
+SHA256: 7bdf7ba3fa175fc0edb2ed120155747765bee1c785412f22715407da034fb47a
+SHA1: 52aaef65448720d19ce34806f7fade8868abd872
+MD5sum: d78088c0c7097a4c10566026294605d8
+Description: Cucumber BDD-style testing for Go -- source
+ An implementation of Cucumber (http://cukes.info) BDD-style testing
+ for Go.
+ .
+ This package provides the source files.
+
+Package: golang-github-guptarohit-asciigraph-dev
+Source: golang-github-guptarohit-asciigraph
+Version: 0.4.1-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 36
+Multi-Arch: foreign
+Homepage: https://github.com/guptarohit/asciigraph
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-guptarohit-asciigraph/golang-github-guptarohit-asciigraph-dev_0.4.1-4_all.deb
+Size: 7632
+SHA256: 22c7f5388e6a85cd9edbb95bb81a3269d52942412eb892dfaaf3a6fa3345f056
+SHA1: 07c7cfd05dd2df1357f97a9aaab3c389712105e0
+MD5sum: e0269c4ab33682cd913db6f5052c3042
+Description: Make lightweight ASCII line graph in CLI apps with no other dependencies
+ This package is a Golang port of library asciichart
+ written by @kroitor (https://github.com/kroitor).
+ .
+ Console ASCII line charts in pure Golang with no dependencies.
+
+Package: golang-github-h2non-parth-dev
+Source: golang-github-h2non-parth
+Version: 2.0.1-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 57
+Multi-Arch: foreign
+Homepage: https://github.com/h2non/parth
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-h2non-parth/golang-github-h2non-parth-dev_2.0.1-3_all.deb
+Size: 9252
+SHA256: 349a00592ffea8a7a2e96d0a4c8fbe52531fc0d3e0144fa722b18254cf842351
+SHA1: a6d71ff184d1b26be63c707ef7148f075e94cab1
+MD5sum: 902f8eb9345f3b65ca26f2065453a562
+Description: Path parsing for segment unmarshaling and slicing
+ Provides path parsing for segment unmarshaling and slicing. In other words,
+ parth provides simple and flexible access to (URL) path parameters.
+
+Package: golang-github-hailocab-go-hostpool-dev
+Source: golang-github-hailocab-go-hostpool
+Version: 0.0~git20160125.0.e80d13c-1.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 34
+Depends: golang-go, golang-github-bmizerany-assert-dev
+Homepage: https://github.com/hailocab/go-hostpool
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-hailocab-go-hostpool/golang-github-hailocab-go-hostpool-dev_0.0~git20160125.0.e80d13c-1.1_all.deb
+Size: 7896
+SHA256: 3d5e286f9c251d349604cc7f121327df7c149698cdc2cbbaa88ccc764df3f4ea
+SHA1: 723a377a6c8c72f9c4ff1e14805e482201fba3b0
+MD5sum: bd2cc22a7b2f894a92ce4c0f0caab7b0
+Description: flexibly pool among multiple hosts from Go application
+ go-hostpool is a Go package to intelligently and flexibly pool among
+ multiple hosts from your Go application. Host selection can operate in
+ round robin or epsilon greedy mode, and unresponsive hosts are avoided.
+
+Package: golang-github-hairyhenderson-go-codeowners-dev
+Source: golang-github-hairyhenderson-go-codeowners
+Version: 0.2.2+git20201026.cdc7c07-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 31
+Depends: golang-github-spf13-afero-dev, golang-github-stretchr-testify-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hairyhenderson/go-codeowners
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hairyhenderson-go-codeowners/golang-github-hairyhenderson-go-codeowners-dev_0.2.2+git20201026.cdc7c07-2_all.deb
+Size: 7644
+SHA256: 20c19045f208f7afd0f65dad3f063bd260f7827200238745e335e4cc8eeb834b
+SHA1: a1e98ef0458dd507004170c3d0a77946fc8ea274
+MD5sum: 1e6f3b7e0f4edbe755f39f59b05ae9c0
+Description: Go package that finds and parses GitHub CODEOWNERS files
+ go-codeowners is a Go package that finds and parses CODEOWNERS files;
+ see https://help.github.com/articles/about-codeowners/
+ .
+ Features:
+ .
+  * operates on local repos
+  * doesn't require a cloned repo (i.e. doesn't need a .git directory to
+    be present at the repo's root)
+  * can be called from within a repo (doesn't have to be at the root)
+  * will find CODEOWNERS files in all documented locations: the repo's
+    root, docs/, and .github/ (or .gitlab/ for GitLab repos)
+
+Package: golang-github-hansrodtang-randomcolor-dev
+Source: golang-github-hansrodtang-randomcolor
+Version: 0.0~git20160512.d27108b-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 21
+Multi-Arch: foreign
+Homepage: https://github.com/hansrodtang/randomcolor
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hansrodtang-randomcolor/golang-github-hansrodtang-randomcolor-dev_0.0~git20160512.d27108b-3_all.deb
+Size: 4652
+SHA256: 7cf7501a2b8060f0d094387afa0ee4a17bdd3b03bc61950bd675ec7d50c4459d
+SHA1: 7b523fd5c213eb547778ad24698f1addeeb6f2d3
+MD5sum: d7bb8d78ead0def7f36651bb690c95db
+Description: random color generator
+ This package contains a random color generator. It is based on
+ David Merfields randomColor.js but written in Go.
+ .
+ You can pass an options object to influence the type of color
+ it produces.
+
+Package: golang-github-hanwen-go-fuse-dev
+Source: golang-github-hanwen-go-fuse
+Version: 2.1.0+git20220822.58a7e14-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 537
+Depends: golang-golang-x-sys-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hanwen/go-fuse
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hanwen-go-fuse/golang-github-hanwen-go-fuse-dev_2.1.0+git20220822.58a7e14-1_all.deb
+Size: 101280
+SHA256: 48f04365034e816189f3f260422218cb46687c6fa8f921d5de7f2abad3ef59d6
+SHA1: 72213ef957ef28aa4aa97a64f1f90a2a54fe2911
+MD5sum: 5797155c1985d0adfbb001de9a343d8f
+Description: Native Go bindings for the FUSE kernel module
+ This package offers native Go bindings for FUSE, and has several features:
+ .
+  * High speed: as fast as libfuse using the gc compiler for single
+    threaded loads.
+ .
+  * Supports in-process mounting of different FileSystems onto
+    subdirectories of the FUSE mount.
+ .
+  * Supports 3 interfaces for writing filesystems:
+    - PathFileSystem: define filesystems in terms path names.
+    - NodeFileSystem: define filesystems in terms of inodes.
+    - RawFileSystem: define filesystems in terms of FUSE's raw
+      wire protocol.
+ .
+  * Both NodeFileSystem and PathFileSystem support manipulation of true
+    hardlinks.
+ .
+ The package also includes two fleshed out examples, zipfs and unionfs.
+
+Package: golang-github-hanwen-usb-dev
+Source: golang-github-hanwen-usb
+Version: 0.0~git20141217.69aee45-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 39
+Multi-Arch: foreign
+Homepage: https://github.com/hanwen/usb
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hanwen-usb/golang-github-hanwen-usb-dev_0.0~git20141217.69aee45-3_all.deb
+Size: 9556
+SHA256: 20852ee2db39f626d548db2497cda694572dbafd8a0618552539d1ce0477e400
+SHA1: 0b02cc4a77c6b3584b52fd91f78a83c945d7749e
+MD5sum: 4819f18f85704b8a43bcfb2cad7307e5
+Description: CGO bindings for libusb
+ These are CGO bindings for libusb, created and tested on Linux.
+ .
+ They used to be part of go-mtpfs, a FUSE filesystem for mounting MTP
+ devices on Linux.
+
+Package: golang-github-hashicorp-atlas-go-dev
+Source: golang-github-hashicorp-atlas-go
+Version: 0.0~git20230125.46e9b3e-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 237
+Depends: golang-github-hashicorp-go-cleanhttp-dev, golang-github-hashicorp-go-rootcerts-dev, golang-github-hashicorp-go-version-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/atlas-go
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-atlas-go/golang-github-hashicorp-atlas-go-dev_0.0~git20230125.46e9b3e-1_all.deb
+Size: 33148
+SHA256: 09bcfdffd898463a753da3052a836c9c364111ae8450258a90cb9c13f4fd8484
+SHA1: d0ff41c88cb16d978284912a256675daaa672127
+MD5sum: 49b2de53b2eba276342ebac9318dd99b
+Description: official Go client for HashiCorp's Atlas
+ Atlas is an integrated toolset which wraps up individual tools from
+ HashiCorp (Vagrant, Packer, Terraform, and others). It spans a whole
+ devops line from development to production as a commercial service.
+ Atlas-go is a library for the Go programming language which provides
+ access to the API of Atlas.
+
+Package: golang-github-hashicorp-errwrap-dev
+Source: golang-github-hashicorp-errwrap
+Version: 1.1.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 24
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/errwrap
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-errwrap/golang-github-hashicorp-errwrap-dev_1.1.0-1_all.deb
+Size: 6168
+SHA256: 243b0a789f85b199f899e4fc71fcb77d47d4ae24cc64a284c30e3d8f8416aa6e
+SHA1: 5a49e6290ce1a2ca9a9d7547341dad585e4d8f8d
+MD5sum: b17e4cc5c0e10436d4c5ca78064989e4
+Description: Errwrap is a Go (golang) library for wrapping and querying errors
+ errwrap is a package for Go that formalizes the pattern of wrapping errors and
+ checking if an error contains another error.
+ .
+ There is a common pattern in Go of taking a returned error value and then
+ wrapping it (such as with fmt.Errorf) before returning it. The problem with
+ this pattern is that you completely lose the original error structure.
+ .
+ Arguably the correct approach is that you should make a custom structure
+ implementing the error interface, and have the original error as a field on
+ that structure, such as this example. This is a good approach, but you have to
+ know the entire chain of possible rewrapping that happens, when you might just
+ care about one.
+ .
+ errwrap formalizes this pattern (it doesn't matter what approach you use above)
+ by giving a single interface for wrapping errors, checking if a specific error
+ is wrapped, and extracting that error.
+ .
+ This package contains the source.
+
+Package: golang-github-hashicorp-go-azure-helpers-dev
+Source: golang-github-hashicorp-go-azure-helpers
+Version: 0.13.1-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 169
+Depends: golang-github-azure-azure-sdk-for-go-dev, golang-github-azure-go-autorest-dev, golang-github-hashicorp-go-multierror-dev, golang-github-hashicorp-go-version-dev, golang-golang-x-crypto-dev
+Homepage: https://github.com/hashicorp/go-azure-helpers
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-azure-helpers/golang-github-hashicorp-go-azure-helpers-dev_0.13.1-3_all.deb
+Size: 33376
+SHA256: 2ec870aea9f83a99d22c52acc82a0b1e7ea9465e694f20d8c6cc1e0cc47c9dc5
+SHA1: 83c2d62b7bf7bef5c2a6990239b04a311f801c84
+MD5sum: 6413f57d4a07ae0bec40765a01b50f31
+Description: various helpers and wrappers for working with Azure
+ This package contains various helpers and wrappers for working with
+ Azure and the Azure SDK for Go.
+
+Package: golang-github-hashicorp-go-bexpr-dev
+Source: golang-github-hashicorp-go-bexpr
+Version: 0.1.2-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 236
+Depends: golang-github-stretchr-testify-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-bexpr
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-bexpr/golang-github-hashicorp-go-bexpr-dev_0.1.2-3_all.deb
+Size: 34032
+SHA256: ebd47aa57f66bc3dcb731eff40875f022d7958651e1f5cc7e10ac1e4c6772c21
+SHA1: aa9384459fc332960058bea62e2acdfb7b0e0e52
+MD5sum: 4a668dec7dadf7c2a97941dc6a21222c
+Description: generic boolean expression evaluation in Golang
+ Bexpr is a Golang library to provide generic boolean expression evaluation
+ and filtering for Go data structures.
+
+Package: golang-github-hashicorp-go-checkpoint-dev
+Source: golang-github-hashicorp-go-checkpoint
+Version: 0.5.0-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 41
+Depends: ca-certificates, golang-github-hashicorp-go-cleanhttp-dev, golang-github-hashicorp-go-uuid-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-checkpoint
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-checkpoint/golang-github-hashicorp-go-checkpoint-dev_0.5.0-3_all.deb
+Size: 9200
+SHA256: 631bcde0e30e978c8229da5afe93b0208adc107a87230b7306fc2472cfc0b190
+SHA1: fe00de572a10f51eb1fb10aa2d9f88c70d8ca98d
+MD5sum: c89df12c1e779d78c9dc8d40141003d5
+Description: Go Checkpoint Client
+ Checkpoint is an internal service at Hashicorp that is used to check version
+ information, broadcoast security bulletins, etc.
+ .
+ Since software making remote calls over the internet without being expressly
+ bidden is not in line with the DFSG, this package has been patched to be
+ disabled by default and is explicit opt-in instead ("CHECKPOINT_ENABLE=1
+ some-software", ie "CHECKPOINT_ENABLE=1 packer build").
+ .
+ This package contains the source.
+
+Package: golang-github-hashicorp-go-cleanhttp-dev
+Source: golang-github-hashicorp-go-cleanhttp
+Version: 0.5.2-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 40
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-cleanhttp
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-cleanhttp/golang-github-hashicorp-go-cleanhttp-dev_0.5.2-1_all.deb
+Size: 10820
+SHA256: 7dc1868f058e1fa3ea218afb942f3b2b56dc2cc92c3b195e63b8533f1bc7c9d6
+SHA1: d82c5645b3acf8496da4253779641da78e7f58af
+MD5sum: 747a485e341399927e7c4882f8242e5e
+Description: Functions for accessing "clean" Go http.Client values
+ The Go standard library contains a default http.Client called
+ http.DefaultClient. It is a common idiom in Go code to start with
+ http.DefaultClient and tweak it as necessary, and in fact, this is encouraged;
+ from the http package documentation:
+ .
+   The Client's Transport typically has internal state (cached TCP connections),
+   so Clients should be reused instead of created as needed. Clients are safe
+   for concurrent use by multiple goroutines.
+ .
+ Unfortunately, this is a shared value, and it is not uncommon for libraries to
+ assume that they are free to modify it at will. With enough dependencies, it
+ can be very easy to encounter strange problems and race conditions due to
+ manipulation of this shared value across libraries and goroutines (clients are
+ safe for concurrent use, but writing values to the client struct itself is not
+ protected).
+ .
+ Making things worse is the fact that a bare http.Client will use a default
+ http.Transport called http.DefaultTransport, which is another global value that
+ behaves the same way. So it is not simply enough to replace http.DefaultClient
+ with &http.Client{}.
+ .
+ This repository provides some simple functions to get a "clean" http.Client --
+ one that uses the same default values as the Go standard library, but returns a
+ client that does not share any state with other clients.
+ .
+ This package contains the source.
+
+Package: golang-github-hashicorp-go-discover-dev
+Source: golang-github-hashicorp-go-discover
+Version: 0.0+git20190905.34a6505-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 106
+Depends: golang-github-aws-aws-sdk-go-dev, golang-github-azure-go-autorest-dev, golang-github-denverdino-aliyungo-dev, golang-github-digitalocean-godo-dev, golang-github-gophercloud-gophercloud-dev, golang-github-hashicorp-go-multierror-dev, golang-github-hashicorp-mdns-dev, golang-github-mitchellh-go-homedir-dev, golang-github-packethost-packngo-dev, golang-github-vmware-govmomi-dev, golang-golang-x-oauth2-google-dev, golang-google-api-dev
+Homepage: https://github.com/hashicorp/go-discover
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-discover/golang-github-hashicorp-go-discover-dev_0.0+git20190905.34a6505-2_all.deb
+Size: 26684
+SHA256: 76c64a4370d0c41ab784458311bf36f1a196b3d1d6480175b2b44d8c213b5eea
+SHA1: 67064096cc60f25c874f2a3cb7c3aa5d1f168ee4
+MD5sum: 6f8f457798c882d803703bd14ae61e66
+Description: discover nodes in cloud environments
+ Go-discover is a Golang library and command line tool to discover ip
+ addresses of nodes in cloud environments based on meta information like
+ tags provided by the environment.
+
+Package: golang-github-hashicorp-go-envparse-dev
+Source: golang-github-hashicorp-go-envparse
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 29
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-envparse
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-envparse/golang-github-hashicorp-go-envparse-dev_0.1.0-1_all.deb
+Size: 6772
+SHA256: 78ad31309bcc934e03b36949fe68fc38fcb964a9041f9a8ee22fe778de5573e3
+SHA1: 40217b13f1080e33f46326547d38f2a635b0e4b6
+MD5sum: 1d60795ad7afcf68ca183979a491b611
+Description: Minimal environment variable parser for Go (library)
+ go-envparse is a minimal Go environment variable parser. It's intended to be
+ used to parse .env style files similar to godotenv or rubydotenv, but perform
+ minimal allocations, handle more complex quoting, and be better tested.
+ .
+ Parsing a line does 2 allocations regardless of line length or complexity.
+ The parser supports JSON strings which allows for cross-language/platform
+ encoding of arbitrarily complex data.
+
+Package: golang-github-hashicorp-go-gcp-common-dev
+Source: golang-github-hashicorp-go-gcp-common
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 104
+Depends: golang-github-hashicorp-go-cleanhttp-dev, golang-github-mitchellh-go-homedir-dev, golang-golang-x-oauth2-google-dev, golang-google-api-dev
+Homepage: https://github.com/hashicorp/go-gcp-common
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-gcp-common/golang-github-hashicorp-go-gcp-common-dev_0.8.0-1_all.deb
+Size: 27376
+SHA256: da3bbdd328e07b9740a710d1f2237a81afade2f85c831d7020d63b6adee86cb0
+SHA1: 473381b5b8e75e6971c5c3780e31849f9787670e
+MD5sum: 3ed86fbf43b615470f060e5cadc69d02
+Description: common code shared by GCP-maintained plugins
+ Vault-Google Cloud Platform Common Library Utils for Vault/GCP
+ integrations. This package includes helpers for:
+  - Parsing GCP credential JSON or finding default credentials
+  - Various helpers for some GCP APIs
+ .
+ This library was created to be shared by Vault-GCP integrations
+ for example the: - GCP Auth Plugin
+
+Package: golang-github-hashicorp-go-getter-dev
+Source: golang-github-hashicorp-go-getter
+Version: 1.4.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 429
+Depends: golang-github-aws-aws-sdk-go-dev, golang-github-bgentry-go-netrc-dev, golang-github-hashicorp-go-cleanhttp-dev, golang-github-hashicorp-go-safetemp-dev, golang-github-hashicorp-go-version-dev, golang-github-mitchellh-go-homedir-dev, golang-github-mitchellh-go-testing-interface-dev, golang-github-ulikunitz-xz-dev, golang-google-api-dev, golang-google-cloud-dev
+Homepage: https://github.com/hashicorp/go-getter
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-getter/golang-github-hashicorp-go-getter-dev_1.4.1-1_all.deb
+Size: 62368
+SHA256: dcf1bbb58fd3950b98ccc8a0cfb8e6334845ee05afb619da927e20cdcc544fe8
+SHA1: 0a580c2b03d4d35a5dfd554a64a44936874c29e3
+MD5sum: 6f830af883264bee409f0d2495c2efe1
+Description: download from a URL using a variety of protocols
+ Go-getter is a library for Golang to download files or directories from
+ various sources using a URL as the primary form of input.
+ .
+ The power of this library is being flexible in being able to download from
+ a number of different sources (file paths, Git, HTTP, Mercurial, etc.)
+ using a single string as input. This removes the burden of knowing how
+ to download from a variety of sources from the implementer.
+
+Package: golang-github-hashicorp-go-hclog-dev
+Source: golang-github-hashicorp-go-hclog
+Version: 0.11.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 91
+Depends: golang-github-fatih-color-dev, golang-github-mattn-go-isatty-dev, golang-github-stretchr-testify-dev
+Homepage: https://github.com/hashicorp/go-hclog
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-hclog/golang-github-hashicorp-go-hclog-dev_0.11.0-1_all.deb
+Size: 17928
+SHA256: 961f14b0235dcedf6d7ca21548b535b129a435ec0ed9dabd55c7c8cc9d970b09
+SHA1: 8b3f8dd809135517326f8b2812f7809c0110255b
+MD5sum: 1836ff900621719b6e30e0972b844bc6
+Description: common logging package for HashiCorp tools
+ go-hclog is a package for Go that provides a simple key/value logging
+ interface for use in development and production environments.
+ .
+ It provides logging levels that provide decreased output based upon the
+ desired amount of output, unlike the standard library log package.
+ .
+ It provides Printf style logging of values via hclog.Fmt().
+ .
+ It provides a human readable output mode for use in development as well
+ as JSON output mode for production.
+
+Package: golang-github-hashicorp-go-immutable-radix-dev
+Source: golang-github-hashicorp-go-immutable-radix
+Version: 1.3.1-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 125
+Depends: golang-github-hashicorp-go-uuid-dev, golang-github-hashicorp-golang-lru-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-immutable-radix
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-immutable-radix/golang-github-hashicorp-go-immutable-radix-dev_1.3.1-3_all.deb
+Size: 26240
+SHA256: fadcbf20321dc2f70279736e32c5fc4ed14f189d3780e0f2888acb90fa723f8a
+SHA1: dde2c3448eab967f10222c640565b320ec950939
+MD5sum: 894cb6a2075f504254cc55129175987a
+Description: immutable radix tree implementation in Golang
+ Golang implementation of an immutable radix tree
+ (http://en.wikipedia.org/wiki/Radix_tree).
+ The package only provides a single Tree implementation, optimized for
+ sparse nodes.
+
+Package: golang-github-hashicorp-go-memdb-dev
+Source: golang-github-hashicorp-go-memdb
+Version: 1.2.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 192
+Depends: golang-github-hashicorp-go-immutable-radix-dev (>= 1.3.0~)
+Homepage: https://github.com/hashicorp/go-memdb
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-memdb/golang-github-hashicorp-go-memdb-dev_1.2.1-1_all.deb
+Size: 34568
+SHA256: 23e1ee910d6ea04ae36be4699f483c1bd14bd265ebfe10907e87a8f2cba73fe7
+SHA1: 753cf3f4c0a7b2418c3e5788186bd234d0482d8d
+MD5sum: 89c7fa89f97102218ca284b9d84b127d
+Description: in-memory database built on immutable radix trees
+ Implementation of a simple in-memory database built on immutable radix
+ trees. The database provides Atomicity, Consistency and Isolation from
+ ACID. Being that it is in-memory, it does not provide durability. The
+ database is instantiated with a schema that specifies the tables and
+ indicies that exist and allows transactions to be executed.
+
+Package: golang-github-hashicorp-go-msgpack-dev
+Source: golang-github-hashicorp-go-msgpack
+Version: 0.5.5-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 197
+Depends: golang-gopkg-vmihailenco-msgpack.v2-dev, golang-gopkg-mgo.v2-dev
+Homepage: https://github.com/hashicorp/go-msgpack
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-msgpack/golang-github-hashicorp-go-msgpack-dev_0.5.5-1_all.deb
+Size: 43252
+SHA256: c06387efffd4a6a4ffb74047c769669f17c2f3e6e1a3f3c6bce2a6ccaab5151d
+SHA1: 0038977df8ee0d8d2febd610dd5a57bac8f2dba2
+MD5sum: ad99dac127f92e6fd8763394e2c711f5
+Description: encode/decode and rpc library for msgpack and Binc
+ High Performance, Feature-Rich Idiomatic Go codec/encoding library
+ for binc, msgpack, cbor, json. The idiomatic Go support is as seen
+ in other encoding packages in the standard library (ie json, xml, gob, etc).
+
+Package: golang-github-hashicorp-go-multierror-dev
+Source: golang-github-hashicorp-go-multierror
+Version: 1.1.1-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 37
+Depends: golang-github-hashicorp-errwrap-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-multierror
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-multierror/golang-github-hashicorp-go-multierror-dev_1.1.1-2_all.deb
+Size: 7804
+SHA256: d6a26e7b21e7547f664548a4f4dc357e71873a9b08a0d83afe051ae1ecfc35f6
+SHA1: fdde7b333ebd33163e295eb8e6702fadbf9aec57
+MD5sum: 668cfdedb48e1b48bb79ae9cd25f1d77
+Description: Go package for representing a list of errors as a single error
+ go-multierror is a package for Go that provides a mechanism for representing a
+ list of error values as a single error.
+ .
+ This allows a function in Go to return an error that might actually be a list
+ of errors. If the caller knows this, they can unwrap the list and access the
+ errors. If the caller doesn't know, the error formats to a nice human-readable
+ format.
+ .
+ go-multierror implements the errwrap interface so that it can be used with that
+ library, as well.
+ .
+ This package contains the source.
+
+Package: golang-github-hashicorp-go-plugin-dev
+Source: golang-github-hashicorp-go-plugin
+Version: 1.0.1-4
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 236
+Depends: golang-go, golang-github-hashicorp-go-hclog-dev, golang-github-hashicorp-yamux-dev, golang-github-mitchellh-go-testing-interface-dev, golang-github-oklog-run-dev
+Homepage: https://github.com/hashicorp/go-plugin
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-plugin/golang-github-hashicorp-go-plugin-dev_1.0.1-4_all.deb
+Size: 48360
+SHA256: 6e6aabe6dcd8ed719cfe1b87d07218ff94946f660e1563d759ebad24c22e48ee
+SHA1: d860a20bf80adfbeb32da46251e446e3c02ae99a
+MD5sum: 25ae6a602b4449f581f8a5001936840d
+Description: Golang plugin system over RPC
+ Plugin System over RPC.
+
+Package: golang-github-hashicorp-go-raftchunking-dev
+Source: golang-github-hashicorp-go-raftchunking
+Version: 0.6.2-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 49
+Depends: golang-github-go-test-deep-dev, golang-github-hashicorp-errwrap-dev, golang-github-hashicorp-raft-dev (>= 1.1.1~), golang-github-mitchellh-copystructure-dev, golang-goprotobuf-dev (>= 1.3.2~)
+Homepage: https://github.com/hashicorp/go-raftchunking
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-raftchunking/golang-github-hashicorp-go-raftchunking-dev_0.6.2-3_all.deb
+Size: 12476
+SHA256: 1e992b6eab128f38b21540e0d48cd999b89798ca8c5b291b1ae3e64ec708ba59
+SHA1: a778242fd8123898ae90639c808cc3c99bb7c92c
+MD5sum: e13283c91257d853904cf82b3d1f7582
+Description: chunking middleware for use by Raft clients
+ Chunking middleware library for use by Raft clients.
+
+Package: golang-github-hashicorp-go-reap-dev
+Source: golang-github-hashicorp-go-reap
+Version: 0.0~git20160113.0.2d85522-3.1
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: golang-golang-x-sys-dev
+Homepage: https://github.com/hashicorp/go-reap
+Priority: extra
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-reap/golang-github-hashicorp-go-reap-dev_0.0~git20160113.0.2d85522-3.1_all.deb
+Size: 9536
+SHA256: b38d98e5529780752d7f4b36fabcfc708669bdec327fea6005637aaffb6032bf
+SHA1: 02e70c3bf89c060309e5ca3a9c2127325fb9af52
+MD5sum: 2def890410d079bef1d79d685eb735f3
+Description: child process reaping utilities for Go
+ go-reap provides a simple set of functions for reaping child processes.
+ This is useful for running applications as PID 1 in a Docker container.
+
+Package: golang-github-hashicorp-go-retryablehttp-dev
+Source: golang-github-hashicorp-go-retryablehttp
+Version: 0.7.1-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 88
+Depends: golang-github-hashicorp-go-cleanhttp-dev (>= 0.5.1), golang-github-hashicorp-go-hclog-dev (>= 0.9.2)
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-retryablehttp
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-retryablehttp/golang-github-hashicorp-go-retryablehttp-dev_0.7.1-1_all.deb
+Size: 21292
+SHA256: a43d1a49100851f4a3ddf1130949b282bf6c0feb66e66ea24416bf584fe4e795
+SHA1: a1612eaf65d892972ee5fc6cd0931d8f559c9264
+MD5sum: ae1b1ab0fd6c19f57bae53fede3c9f27
+Description: retryable HTTP client in Go
+ This package provides a familiar HTTP client interface with
+ automatic retries and exponential backoff. It is a thin wrapper over
+ the standard net/http client library and exposes nearly the same public
+ API. This makes retryablehttp very easy to drop into existing programs.
+
+Package: golang-github-hashicorp-go-rootcerts-dev
+Source: golang-github-hashicorp-go-rootcerts
+Version: 1.0.2-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Installed-Size: 37
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-rootcerts
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-rootcerts/golang-github-hashicorp-go-rootcerts-dev_1.0.2-2_all.deb
+Size: 8356
+SHA256: bfe7ec7defe8f167f45e895cdbcccccd18a1c3684fa171a6339834793e20207b
+SHA1: e5f1c24110a430b95c6123c8698589d36b03fc30
+MD5sum: 0cea57ebee4347861f43bf12593469f6
+Description: functions for loading root certificates for TLS connections
+ Go's standard library crypto/tls provides a common mechanism for
+ configuring TLS connections in tls.Config. The RootCAs field on this
+ struct is a pool of certificates for the client to use as a trust store
+ when verifying server certificates.
+ .
+ This library contains utility functions for loading certificates destined
+ for that field, as well as one other important thing:
+ .
+ When the RootCAs field is nil, the standard library attempts to load the
+ host's root CA set.  This behavior is OS-specific, and the Darwin
+ implementation contains a bug that prevents trusted certificates from the
+ System and Login keychains from being loaded. This library contains
+ Darwin-specific behavior that works around that bug.
+
+Package: golang-github-hashicorp-go-safetemp-dev
+Source: golang-github-hashicorp-go-safetemp
+Version: 1.0.0-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 19
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-safetemp
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-safetemp/golang-github-hashicorp-go-safetemp-dev_1.0.0-3_all.deb
+Size: 3860
+SHA256: 24724573299a0ce17cc17ad2e64e2ab03c2cea82ce839588ea69e28f98686f46
+SHA1: b9c515034b50a13d78136d280f2dd56e50006556
+MD5sum: 08c208fa993942d50364250cef967751
+Description: Functions for working safely with temporary files and directories
+ go-safetemp are functions for safely working with temporary directories
+ and files.
+ .
+ The Go standard library provides the excellent ioutil package for working with
+ temporary directories and files. This library builds on top of that to provide
+ safe abstractions above that.
+
+Package: golang-github-hashicorp-go-slug-dev
+Source: golang-github-hashicorp-go-slug
+Version: 0.9.1-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 51
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-slug
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-slug/golang-github-hashicorp-go-slug-dev_0.9.1-2_all.deb
+Size: 11228
+SHA256: 90f4dcd81642782f82248becac55a765c217dd523a9bc7b80be0eb0f312d6ae5
+SHA1: 417c567e1503922005a5849036cb1597e2b8e6f0
+MD5sum: bf0f87cc4ecb27b3f2fe4539bd01bf4f
+Description: functions to create slug archives
+ This package offers functions for packing and unpacking Terraform
+ Enterprise compatible slugs. Slugs are gzip compressed tar files
+ containing Terraform configuration files.
+
+Package: golang-github-hashicorp-go-sockaddr-dev
+Source: golang-github-hashicorp-go-sockaddr
+Version: 1.0.2-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 376
+Depends: golang-github-hashicorp-errwrap-dev
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-sockaddr
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-sockaddr/golang-github-hashicorp-go-sockaddr-dev_1.0.2-2_all.deb
+Size: 54392
+SHA256: dc4c9805ac3c6d8aa0f39b7fd72d7683e4cdc29225470a746687e0a84772cb24
+SHA1: 70eb7683ee74cc64632bea269417b24f4312ac96
+MD5sum: 0dd98c4abd01d3f550d8b3b6db25335f
+Description: IP address/UNIX socket convenience functions for Go
+ go-sockaddr is a convenience library that makes doing the right thing with IP
+ addresses easy.  go-sockaddr is loosely modeled after the UNIX sockaddr_t and
+ creates a union of the family of sockaddr_t types.
+ .
+ The primary intent of the library was to make it possible
+ to define heuristics for selecting the correct IP addresses
+ when a configuration is evaluated at runtime.
+
+Package: golang-github-hashicorp-go-syslog-dev
+Source: golang-github-hashicorp-go-syslog
+Version: 1.0.0-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 27
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-syslog
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-syslog/golang-github-hashicorp-go-syslog-dev_1.0.0-2_all.deb
+Size: 6136
+SHA256: c4ac21de0577269d66be5418277d500ce1f7c5d884c6d1a66e829bdf566ceda1
+SHA1: 08fc19b488897b2aaf8e39ba9188b3a70a809f84
+MD5sum: aba1244699c525021c134e8a9abdff9c
+Description: Golang syslog wrapper, cross-compile friendly
+ This package provides a very simple gsyslog package. The point of this package
+ is to allow safe importing of syslog without introducing cross-compilation
+ issues. The stdlib log/syslog cannot be imported on Windows systems, and
+ without conditional compilation this adds complications.
+ .
+ Instead, gsyslog provides a very simple wrapper around log/syslog but returns a
+ runtime error if attempting to initialize on a non Linux or OSX system.
+ .
+ This package contains the source.
+
+Package: golang-github-hashicorp-go-tfe-dev
+Source: golang-github-hashicorp-go-tfe
+Version: 0.11.1+git20201207.19dc0b8-3
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 542
+Depends: golang-github-google-go-querystring-dev, golang-github-hashicorp-go-cleanhttp-dev, golang-github-hashicorp-go-retryablehttp-dev, golang-github-hashicorp-go-slug-dev, golang-github-hashicorp-go-uuid-dev, golang-github-stretchr-testify-dev, golang-github-svanharmelen-jsonapi-dev, golang-golang-x-time-dev
+Homepage: https://github.com/hashicorp/go-tfe
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-tfe/golang-github-hashicorp-go-tfe-dev_0.11.1+git20201207.19dc0b8-3_all.deb
+Size: 61340
+SHA256: c7ea8dab399008eb6e19603d997a017aa8ac52eb77c30f0362d7195720e74c54
+SHA1: d2ba1db2664995734f54809a9d8b644481c0aad5
+MD5sum: a262e9ac9009c2b29cb5b1aeccd6188f
+Description: Terraform Cloud/Enterprise API Client/SDK in Golang
+ This package contains the official Go API client for
+ Terraform Cloud/Enterprise.
+ .
+ This client supports the Terraform Cloud V2 API.  As Terraform
+ Enterprise is a self-hosted distribution of Terraform Cloud, this client
+ supports both Cloud and Enterprise use cases. In all package documentation
+ and API, the platform will always be stated as 'Terraform Enterprise' -
+ but a feature will be explicitly noted as only supported in one or the
+ other, if applicable (rare).
+
+Package: golang-github-hashicorp-go-uuid-dev
+Source: golang-github-hashicorp-go-uuid
+Version: 1.0.2-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 35
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-uuid
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-go-uuid/golang-github-hashicorp-go-uuid-dev_1.0.2-2_all.deb
+Size: 8480
+SHA256: 8b908b37120a6208f886f8aed6e6375f9ec8c02e2b14bacb0fee6df1d5e41b3d
+SHA1: 50345241cbf8eacd7721fee22bc627bce48b1355
+MD5sum: f09a6e01c3bbf858bd5fa5d5729b86fe
+Description: generate UUID-format strings using high quality random bytes
+ Generates UUID-format strings using high quality, purely random bytes.
+ It can also parse UUID-format strings into their component bytes.
+
+Package: golang-github-hashicorp-go-version-dev
+Source: golang-github-hashicorp-go-version
+Version: 1.3.0-1
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 69
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/go-version
+Priority: optional
+Section: golang
+Filename: pool/main/g/golang-github-hashicorp-go-version/golang-github-hashicorp-go-version-dev_1.3.0-1_all.deb
+Size: 14940
+SHA256: 8455f2814a5105245132a25ee8519781a59bdddcce27698e03c584f66160120f
+SHA1: 32b1b117f2cb05d602aed5195abef5ec4bafa9bb
+MD5sum: ca6b32b29f0e425379af6d1466e2cde5
+Description: library for parsing and verifying versions and version constraints
+ go-version is a library for parsing versions and version constraints, and
+ verifying versions against a set of constraints. go-version can sort a
+ collection of versions properly, handles prerelease/beta versions, can
+ increment versions, etc. Versions used with go-version must follow SemVer.
+
+Package: golang-github-hashicorp-golang-lru-dev
+Source: golang-github-hashicorp-golang-lru
+Version: 0.5.4-2
+Architecture: all
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Installed-Size: 79
+Multi-Arch: foreign
+Homepage: https://github.com/hashicorp/golang-lru
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-github-hashicorp-golang-lru/golang-github-hashicorp-golang-lru-dev_0.5.4-2_all.deb
+Size: 14708
+SHA256: 060ce36c6213ec4084c0604440ba0a62ebd66a64902dbb71d3422f5eb5719141
+SHA1: 6cda586e8eee26a7a9d87f2f5a0824af8c1229e5
+MD5sum: 3c8097ef769a7afe388e20d5e0a6a1c1
+Description: Golang LRU cache
+ This provides the lru package which implements a fixed-size thread safe LRU
+ cache. It is based on the cache in Groupcache.
  .
  This package contains the source.
 
